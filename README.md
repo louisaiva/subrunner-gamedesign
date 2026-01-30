@@ -2,7 +2,7 @@
 # SUBRUNNER GAME DESIGN README
 
 
-Welcome to the subrunner game design repo. If you are seeing this document on github, feel free to fork the repo and open it with [Obsidian](https://obsidian.md/) which is a free and open-source project for writing and organizing things.
+Welcome to the subrunner game design repo. If you are seeing this document on github, feel free to fork the repo and open it with [Obsidian](https://obsidian.md/) which is a free software for writing and organizing things.
 
 Also this document is mainly written in french, sorry for that but it won't change i think ://// i have a better workflow designing in french oopsie sorry guys, it looks like learning french is the next step for you then, come back when you've mastered it !
 
