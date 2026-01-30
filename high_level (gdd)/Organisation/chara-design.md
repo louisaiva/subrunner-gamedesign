@@ -1,0 +1,25 @@
+-
+- # [[bob]]
+	- perso principal, qu'on incarne
+	- portée du sprite d'attaque LR : **27 pixels**
+		- *calculée en x à l'horizontale en partant (sans le compter) du torse*
+-
+- # [[nobody]]
+	- 1e boss du jeu
+	- nom alternatif : nobdy ? noby ?
+	- portée attaque LR : **45 px**
+		- *omg c bcp c cool*
+-
+-
+-
+- # [[janin]]
+	-
+-
+-
+- # [[qwin]]
+-
+- # [[moustik]]
+	- a un "dard" comme epee
+	- habite avec des mini moustiques qui servent de drones
+	- portée attaque LR : **53 px**
+		- *plus grande portée du jeu*

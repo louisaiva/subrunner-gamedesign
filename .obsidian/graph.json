@@ -1,0 +1,37 @@
+{
+  "collapse-filter": false,
+  "search": "design",
+  "showTags": true,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": true,
+  "colorGroups": [
+    {
+      "query": "tag:#art  ",
+      "color": {
+        "a": 1,
+        "rgb": 4987585
+      }
+    },
+    {
+      "query": "",
+      "color": {
+        "a": 1,
+        "rgb": 14725458
+      }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": false,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1.30717255717256,
+  "lineSizeMultiplier": 1.75540540540541,
+  "collapse-forces": false,
+  "centerStrength": 0,
+  "repelStrength": 20,
+  "linkStrength": 0.695426195426195,
+  "linkDistance": 500,
+  "scale": 0.20548467516086638,
+  "close": false
+}

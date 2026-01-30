@@ -1,0 +1,18 @@
+-  version actuelle : **1.4.6**
+- tags : #ux #ui #done
+
+- ## **objectifs**
+	- Améliorer les transitions & régler les problèmes visuels en utilisant des **Tween**
+	- Préparer au rework du **UI_XboxNavigator** en [[UI_Navigator]]
+	- Pouvoir stack des pools sur des autres
+- ## **TODO**
+	- ### Inputs
+		- [x] enlever les inputs du manager et les mettre sur le #[[UIC (UI_InputsController)]]
+	- ### Layers
+		- [x] on souhaiterait afficher plusieurs layers d'**UI_Pool** les uns au dessus des autres
+		- [x] -> afin d'afficher les différents menus de l'**UI_Laptop** (**UI_Explorateur**, **UI_Terminal**) et même peut-etre des popups ?
+		- [x] pour ça on garde une **PoolPile** qui permet d'entasser les différents **ui_pool** les uns sur les autres. Un call à **ui.cancel** cache la pool au top de la pile et revient à celle d'avant. Quand on veut rajouter un **pool** au top de la pile, on cache aucun element du dessous et on affiche juste ceux en plus (souvent qui ont le bg intégré ? comment on gère les inputs feedback ?)
+	- ### Tween
+		- [x] on veut pouvoir mettre des [[Transitioner]] sur les **ui_elements** comme ça la transition est niquel
+		- [x] on veut aussi pouvoir détransitionner quand on hide pool -> pour le moment ça se fait de manière brutale
+		- [x] décorreler la transition effect de la transition alpha bg

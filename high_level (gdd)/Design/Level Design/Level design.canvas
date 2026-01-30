@@ -1,0 +1,16 @@
+{
+	"nodes":[
+		{"id":"650b7584b176f798","type":"file","file":"resources/Pasted image 20260125203433.png","x":-1920,"y":40,"width":880,"height":868},
+		{"id":"22216bef2365f27f","type":"text","text":"# **Schémas**","x":-460,"y":-420,"width":160,"height":50},
+		{"id":"a19022cdf2edd0bc","type":"file","file":"resources/qg.jpg","x":-1920,"y":-1280,"width":1013,"height":760},
+		{"id":"56ebce2811714c61","type":"file","file":"resources/Pasted image 20260125202903.png","x":-1613,"y":-420,"width":400,"height":330},
+		{"id":"6613cc148f546c4d","type":"file","file":"resources/Pasted image 20260125203507.png","x":-907,"y":-90,"width":680,"height":611},
+		{"id":"80f28e9f1e7ec0aa","type":"file","file":"high_level (gdd)/Design/Level Design/Level Design.excalidraw.md","x":160,"y":-1080,"width":1680,"height":1560}
+	],
+	"edges":[
+		{"id":"f57a7d09fa83c399","fromNode":"22216bef2365f27f","fromSide":"bottom","toNode":"650b7584b176f798","toSide":"right"},
+		{"id":"4b38651ea4ed6015","fromNode":"22216bef2365f27f","fromSide":"bottom","toNode":"6613cc148f546c4d","toSide":"top"},
+		{"id":"f0407f87aa6a96c1","fromNode":"22216bef2365f27f","fromSide":"left","toNode":"a19022cdf2edd0bc","toSide":"right"},
+		{"id":"8def031a4e110c46","fromNode":"22216bef2365f27f","fromSide":"bottom","toNode":"56ebce2811714c61","toSide":"right"}
+	]
+}

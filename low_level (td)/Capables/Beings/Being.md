@@ -1,0 +1,4 @@
+-
+- TODO : faire de **Being** une [[Capacity]] au lieu que ça soit une sous classe de [[Capable]] & de [[Movable]]
+-
+-

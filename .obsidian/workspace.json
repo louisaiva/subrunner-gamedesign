@@ -1,0 +1,251 @@
+{
+  "main": {
+    "id": "d57b11faac261d76",
+    "type": "split",
+    "children": [
+      {
+        "id": "bfc15744c8f8271b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2afa4923222193d2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "high_level (gdd)/Planning/todo_art.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "todo_art"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8fe6c6beb96ea627",
+    "type": "split",
+    "children": [
+      {
+        "id": "fa1dba2a99f39103",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4bff452b54204b8f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "f669f6fe882f558e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "9d3087320b05ac3d",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 316.5
+  },
+  "right": {
+    "id": "07c140a3edb7f18b",
+    "type": "split",
+    "children": [
+      {
+        "id": "8c5e4e3287928d41",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "972db21fb9c5010b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "low_level (td)/UI_InventoryMenu.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for UI_InventoryMenu"
+            }
+          },
+          {
+            "id": "ac2b0526c7d84b08",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "low_level (td)/UI_InventoryMenu.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from UI_InventoryMenu"
+            }
+          },
+          {
+            "id": "ad0ff827abfb4566",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "71a501dc3a2c8378",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "54941374c6c2bc46",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "low_level (td)/UI_InventoryMenu.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of UI_InventoryMenu"
+            }
+          },
+          {
+            "id": "cd01673f93ac8c65",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 438.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "obsidian-excalidraw-plugin:New drawing": false
+    }
+  },
+  "active": "2afa4923222193d2",
+  "lastOpenFiles": [
+    "high_level (gdd)/GDD.md",
+    "low_level (td)/UI_InventoryMenu.md",
+    "low_level (td)/UI/UI_Manager/UI_Manager_Rework_2.md",
+    "high_level (gdd)/Planning/todo_high_level.md",
+    "high_level (gdd)/Cinematics.md",
+    "journals/2026_01_27.md",
+    "high_level (gdd)/Planning/WallSystem.md",
+    "high_level (gdd)/Design/Ecosystem.md",
+    "journals/2026_01_25.md",
+    "journals/2026_01_26.md",
+    "journals/2026_01_29.md",
+    "journals/2026_01_24.md",
+    "journals/2025_10_18.md",
+    "journals/2025_10_02.md",
+    "journals/2025_10_07.md",
+    "journals/2025_11_12.md",
+    "journals/2025_12_25.md",
+    "journals/2026_01_18.md",
+    "journals/2026_01_17.md",
+    "journals/2025_10_04.md",
+    "low_level (td)/Engines/EcosystemEngine.md",
+    "low_level (td)/Capacities/SpawnCapacity.md",
+    "low_level (td)/Capables/Objects/Spawner.md",
+    "high_level (gdd)/Organisation/Potential Publishers.md",
+    "high_level (gdd)/Planning/ROADMAP.md",
+    "high_level (gdd)/Planning/todo_art.md",
+    "low_level (td)/Engines",
+    "high_level (gdd)/Design/EcoSystem",
+    "low_level (td)/UI/UI_Manager",
+    "high_level (gdd)/Design/UI/UI.canvas",
+    "high_level (gdd)/Design/UI",
+    "high_level (gdd)/Design/Level Design/Level design.canvas",
+    "resources/Pasted image 20260125225033.png",
+    "resources/Pasted image 20260125224020.png",
+    "resources/Pasted image 20260125223908.png",
+    "resources/Pasted image 20260125215609.png",
+    "resources/Pasted image 20260125215453.png",
+    "resources/Pasted Image 20260125213738_748.png",
+    "resources/Pasted Image 20260125204713_802.png",
+    "high_level (gdd)/Design/Level Design",
+    "resources/Pasted Image 20260125203914_367.png",
+    "Excalidraw",
+    "resources/qg.jpg",
+    "resources/level_design_demo_1.jpg",
+    "resources/IMG_20260125_201559.jpg.~tmp",
+    "resources/IMG_20260125_201710.jpg.~tmp",
+    "resources/IMG_20260125_201729.jpg.~tmp",
+    "resources",
+    "Untitled 3.canvas",
+    "Untitled 2.canvas",
+    "Untitled 1.canvas"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+	"nodes":[
+		{"id":"122bab2d2848a7fc","type":"file","file":"resources/Pasted image 20260125203148.png","x":-428,"y":-80,"width":778,"height":260},
+		{"id":"3420c35ec1bdd492","type":"file","file":"resources/Pasted image 20260125203325.png","x":660,"y":-80,"width":400,"height":330},
+		{"id":"0e86b7c5ba1f1170","type":"text","text":"## **HOTBAR**","x":-122,"y":-160,"width":165,"height":60},
+		{"id":"4e3bea1943f7bc26","type":"file","file":"resources/Pasted image 20260125215609.png","x":562,"y":300,"width":596,"height":340},
+		{"id":"d28e047d113d59c7","type":"file","file":"resources/Pasted image 20260125223908.png","x":1383,"y":108,"width":675,"height":385},
+		{"id":"67fe0279590f373b","type":"file","file":"resources/Pasted image 20260125225033.png","x":2058,"y":108,"width":672,"height":385},
+		{"id":"8897941328a69372","type":"text","text":"## **[[UI_Device]] **","x":1977,"y":0,"width":161,"height":60},
+		{"id":"5d4c60bf7141911f","type":"text","text":"## **new [[UI_InventoryMenu]] **","x":699,"y":-190,"width":322,"height":60},
+		{"id":"22ffec45ac99bcba","type":"text","text":"## **new [[UI_PauseMenu]] **","x":-248,"y":410,"width":291,"height":60},
+		{"id":"69240c3b1c46c983","type":"text","text":"## **[[UI_Elevator]] **","x":1807,"y":-540,"width":200,"height":60},
+		{"id":"383c7c7e13c31c75","type":"file","file":"high_level (gdd)/Design/UI/ui_elevator.excalidraw.md","x":1226,"y":-450,"width":990,"height":370}
+	],
+	"edges":[]
+}
