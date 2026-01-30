@@ -1,9 +1,19 @@
+
+# SUBRUNNER GAME DESIGN README
+
+
+
+
+
+
+# DOCUMENT ORGANISATION
+
 ### **début du dev de subrunner : 19/11/2023**
 
 
-Ce document a pour but d'aider le développement du jeu **subrunner**
-Ce document est séparé en plusieurs sous parties, chacune ayant un role défini. On retrouve notamment :
+Ce document a pour but d'aider le développement du jeu [**subrunner**](https://github.com/louisaiva/subrunner)
 
+Ce document est séparé en plusieurs sous parties, chacune ayant un role défini. On retrouve notamment :
 
 # [[GDD]]
 - (**game design document**)

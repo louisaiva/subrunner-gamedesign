@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "high_level (gdd)/Planning/todo_art.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "todo_art"
+              "title": "README"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 316.5
+    "width": 316.5,
+    "collapsed": true
   },
   "right": {
     "id": "07c140a3edb7f18b",
@@ -174,13 +175,23 @@
               "icon": "calendar-with-checkmark",
               "title": "Calendar"
             }
+          },
+          {
+            "id": "61fb6dcaa6c8d46f",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 438.5,
-    "collapsed": true
+    "width": 438.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -191,11 +202,13 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "obsidian-excalidraw-plugin:New drawing": false
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "2afa4923222193d2",
   "lastOpenFiles": [
+    "high_level (gdd)/Planning/todo_art.md",
     "high_level (gdd)/GDD.md",
     "low_level (td)/UI_InventoryMenu.md",
     "low_level (td)/UI/UI_Manager/UI_Manager_Rework_2.md",
@@ -221,7 +234,6 @@
     "low_level (td)/Capables/Objects/Spawner.md",
     "high_level (gdd)/Organisation/Potential Publishers.md",
     "high_level (gdd)/Planning/ROADMAP.md",
-    "high_level (gdd)/Planning/todo_art.md",
     "low_level (td)/Engines",
     "high_level (gdd)/Design/EcoSystem",
     "low_level (td)/UI/UI_Manager",
