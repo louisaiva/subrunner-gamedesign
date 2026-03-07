@@ -17,7 +17,7 @@ cette **roadmap** sert à accompagner le développement, et, par conséquent, es
 - **NE PAS OVER SCOPE**
 - faire une animation tous les 2j minimum
 - faire les différents artworks pour steam
-- coder les différents [[Useful Extensions]] pour aseprite etc pour faciliter ma vieee
+- coder les différentes [[Useful Extensions]] pour aseprite etc pour faciliter ma vieee
 
 ## développement systèmes
 - deadline : **1er juin 2026**

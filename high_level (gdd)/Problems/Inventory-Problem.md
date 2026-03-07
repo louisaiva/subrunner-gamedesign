@@ -23,7 +23,7 @@
 		- #### inconvenients
 			- on peut pas récup des items pendant qu'on court (à la volée)
 	
-	- ### Unified Controls
+	- ## Unified Controls
 		- on unifie les controls pour que le joueur appuie tout le temps sur les mêmes controls pour la même action
 		- 
 		- plan de rebind :
@@ -32,7 +32,7 @@
 			- (B) -> dodge / cancel menu
 			- (Y) -> attack / drop?
 		- 
-		- #### avantages
+		- ### avantages
 			- (A) pour interagir avec tout
 			- (B) est le bouton par défaut pour quitter mdr (dodge ça quitte le combat)
 			- (Y) bouton 

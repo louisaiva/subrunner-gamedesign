@@ -1,5 +1,6 @@
--  version actuelle : **1.5.0b**
-- tags : #ux #ui #todo
+#ux #ui #todo
+
+- version actuelle : **1.5.0b**
 
 - ## **objectifs**
 	- régler les problèmes de stack de même niveau d'[[UI_Pool]] qui font des bugs chelous
@@ -7,14 +8,17 @@
 	- globaliser l'utilisation d'[[UI_Window]]
 
 - ## **TODO**
-	- [ ] créer un [[UI_Chest]], [[UI_Device]] qui sont des [[UI_Pool]]
+	- [ ] créer/rework des [[UI_Pool]]
+		- [ ] un [[UI_ChestPool]]
+		- [ ] de même [[UI_Device]]
+		- [ ] revoir le [[UI_HUD]]
+		- [ ] rework le [[UI_InventoryMenu]]
 	- [ ] organiser & réunifier les différentes classes d'ui :
 		- [ ] [[UI_Pool]]
 		- [ ] [[UI_Window]]
 		- [ ] [[UI_Slot]]
 	- [ ] transformer [[UI_ItemPool]] en [[UI_Window]]
-	- [ ] globaliser le système d'[[UI_Window]] partout :
-		- [ ] supprimer les [[UI_Inventory]] ? le remplacer par de la glue ? inventory_linker ?
-		- [ ] séparer [[UI_ItemPool]] en [[ItemPool]] + [[UI_ItemPool]]
-	- [ ] revoir le [[UI_HUD]]
-	- [ ] rework le [[UI_InventoryMenu]]
+
+	- [ ] [[ItemManager]] relink to [[ItemPool]] ? on a vraiment besoin d'ItemManager ?
+		- [x] la récupération des bons items se fait désormais directement depuis l'**Inventory** dcp PIC récupère les usables directement là
+		- [ ] supprimer ItemManager et le remplacer par un **UI_ItemBarHUD** ??

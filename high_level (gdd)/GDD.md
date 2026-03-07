@@ -3,24 +3,36 @@ Le **Game Design Document** présent dans cette sous partie a pour vocation d'ai
 
 Il doit servir à guider le développement dans les différents choix passés et futurs et garder un oeil sur le planning. C'est ici qu'on va donc retrouver aussi tout ce qui touche à l'organisation IRL des bails.
 
-Comme le game-design comporte aussi le design des systèmes, notamment pas encore implémentés, ce document devra détailler précisément le fonctionnement interne des systèmes pour aider l'implémentation. Il y aura donc quand même des détails techniques assez pointus.
+---
 
 Le développement haut niveau de **subrunner** est lui-même séparé en plusieurs sous catégories :
 
+## Game Design
+- [[Scenario]] | [[Lore]]
+- [[chara-design]]
+
 ## System Design
 - [[todo_high_level]]
+- [[BSOD Pattern Design]]
+- [[systems_execution_order]]
 
 ## Planning
 - [[ROADMAP]]
 - [[LONG-TERM]]
 
-## Organisation
-- [[chara-design]]
-- [[Scenario]]
-- [[Potential Publishers & Audiencer]]
-- [[External Assets]]
+## Marketing etc
+- [[Potential Publishers]]
+- [[External Assets & Plugins]]
 - [[Playtesters & Sound Designers]]
 - [[Useful Extensions]]
+- [[Inspirations]]
+
+
+> n'hésitez pas à consulter la [[Légende]] aussi !! (c la légende du wiki genre comme sur les cartes, pas légende en mode légendaire mê^m si ca l'est evidment)
+
+---
+
+Voici aussi les autres différentes pages qui aident à garder une vision long terme + haut niveau du developpement en cours
 
 ## Problemes actuels
 - [[equilibrage]]
@@ -28,13 +40,6 @@ Le développement haut niveau de **subrunner** est lui-même séparé en plusieu
 - [[Over-Complicated-Hacking]]
 - [[3D-Problem]]
 - [[Optimisation]]
-
-
-
-
-
-
-
 
 ## Logs
 

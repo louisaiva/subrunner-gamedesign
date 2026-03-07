@@ -1,4 +1,4 @@
-#todo #long-term
+#long-term
 
 
 #### title screen

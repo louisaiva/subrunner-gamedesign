@@ -1,9 +1,11 @@
-#todo 
+
 
 contrairement au [[todo_high_level]], ce document a pour but de détailler le plus possible les différentes étapes dans un futur proche et ou lointain. les briques détaillées peuvent être à la fois sous forme de **Reworks**, mais aussi des random bidules oklm. chaque brique doit être la plus petite possible comme ça ça a pas l'air super dur à faire mdr
 
 # 1.5.1
 
+- ### Inventory rework
+	- [x] [[Inventory_Rework_1]]
 - ### UI system rework
 	- [ ] [[UI_Manager_Rework_2]]
 - ### File
