@@ -13,11 +13,18 @@ ce todo est différent du [[todo_low_level]] parce qu'il sert à détailler les 
 		- faire une [[MoveCapacity]] (au lieu d'un [[Movable]])
 		- une [[HealthCapacity]] (au lieu de [[Being]])
 		- faire une interface pour les capacities necessitant un *cooldown*
+	- [[InventorySystem]]
+		- rework en mettant des [[ItemPool]]
 
 - #### systèmes encore inexistants
 	- [[SaveSystem]]
 	- [[Ecosystem]]
 		- **EnemyWaveSystem** meilleur nom ?
 	- [[RoomSystem]] / [[WallSystem]]
-	- [[Cinematics]]
+	- [[CinematicsSystem]]
 	- [[AudioSystem]]
+	- [[TalkSystem]]
+	- [[ElevatorSystem]]
+		- **Level system** plutot ?
+
+

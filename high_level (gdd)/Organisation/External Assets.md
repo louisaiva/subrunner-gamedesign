@@ -1,5 +1,9 @@
 #qol
 
+
+
+# **Systems Assets**
+
 - ## GOAP system
 	- [goap github](https://github.com/crashkonijn/GOAP/tree/master)
 	- The **GOAT** of the **GOAP**
@@ -32,3 +36,10 @@
 
 
 
+
+
+# **Artistic Assets**
+
+- FREE Pixel Art Neon Sign Pack - Animated :
+  https://www.youtube.com/watch?v=AX02v4Dpbsc
+  (by karsiori)

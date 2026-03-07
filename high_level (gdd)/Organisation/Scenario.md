@@ -1,9 +1,9 @@
--
--
+
+
 - le scénario est divisé en plusieurs Actes ? par [[Level]] ?
--
+
 - ## Acte 1 (movement, lore & interactions)
-	- le premier acte prend place du tout début du jeu jusqu'à l'ascenceur
+	- le premier acte prend place du tout début du jeu jusqu'à l'ascenceur (level **-5**)
 	-
 	- #### cinématique 1 - **wake_up_cinematic** (mandatory)
 		- bob dort sur le canap *- perso.sleep*
@@ -30,8 +30,7 @@
 		- on revient vers la casserole on a le seum on fout tout dans l'evier *- perso.rage - sink.flow_away*
 		-
 	- ensuite le gameplay réel se lance mdr qu'a rien a voir avec les pates
--
--
+
 - ## Acte 2 (combat & dodge)
 	- #### gameplay tuto dodge
 		- on a déjà nos shoes !!!
@@ -44,12 +43,12 @@
 		- plus loin y'a un zomborg avec une boite tuto qui le suit, *Y to attack* qui disparait si on le tue
 		- prendre le **katana** n'est PAS obligatoire
 	-
-	- #### gameplay -4
-		- on a finit tous les tutos du -4, maintenant on arrive dans la pièce principale et on doit trouver la clé qui ouvre la porte.
+	- #### gameplay -5
+		- on a finit tous les tutos du -5, maintenant on arrive dans la pièce principale et on doit trouver la clé qui ouvre la porte.
 		- elle est dans une salle des serveurs, au milieu de plusieurs zomborgs & rorgs (rat orgs) & lasers
 		- une fois la porte ouverte on arrive dans une nouvelle grande pièce qui donne sur l'ascenceur principal (aussi le metro mais wip)
 		- l'ascenceur marche pour le moment et on peut aller au **-3**
--
+
 - ## Acte 3 (hacking / running)
 	- quand on arrive au **-3**, on rencontre qwin direct
 	-
@@ -59,7 +58,7 @@
 		- qwin : "... okeeey"
 		- bob : "do you have any ?"
 		- qwin : "nope, good luck going up to the store aha, it blew up yesterday, u gotta go to the surface Ludl" (mdrr elle se moque de nous) *- qwin.laugh*
-		- plan sur le [[deadmarket]] à côté *- deadmarket.die*
+		- plan sur le [[deadstore]] à côté *- deadstore.die*
 		- bob devient fou, prend feu, puis se calme et dit : "ok no problem" *- perso.rage*
 		- qwin : "come take a thé !"
 		- bob : "okey !"

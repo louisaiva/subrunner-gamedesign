@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "bfc15744c8f8271b",
+        "id": "190a34e49e71827e",
         "type": "tabs",
         "children": [
           {
-            "id": "2afa4923222193d2",
+            "id": "4b75648211729248",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "high_level (gdd)/Planning/todo_art.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "todo_art"
             }
           }
         ]
@@ -44,7 +44,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "Explorateur de fichiers"
             }
           },
           {
@@ -194,51 +194,51 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "bases:Create new base": false,
+      "switcher:Ouvrir le sélecteur rapide": false,
+      "graph:Ouvrir la vue graphique": false,
+      "canvas:Créer une nouvelle toile": false,
+      "daily-notes:Ouvrir la note quotidienne": false,
+      "templates:Insérer le modèle": false,
+      "command-palette:Ouvrir la palette de commandes": false,
+      "bases:Créer une nouvelle base": false,
       "obsidian-excalidraw-plugin:New drawing": false,
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4bff452b54204b8f",
+  "active": "4b75648211729248",
   "lastOpenFiles": [
-    "high_level (gdd)/Planning/todo_art.md",
+    "high_level (gdd)/Organisation/Scenario.md",
     "high_level (gdd)/GDD.md",
-    "low_level (td)/UI_InventoryMenu.md",
-    "low_level (td)/UI/UI_Manager/UI_Manager_Rework_2.md",
     "high_level (gdd)/Planning/todo_high_level.md",
-    "high_level (gdd)/Cinematics.md",
-    "journals/2026_01_27.md",
-    "high_level (gdd)/Planning/WallSystem.md",
     "high_level (gdd)/Design/Ecosystem.md",
-    "journals/2026_01_25.md",
-    "journals/2026_01_26.md",
-    "journals/2026_01_29.md",
-    "journals/2026_01_24.md",
-    "journals/2025_10_18.md",
-    "journals/2025_10_02.md",
-    "journals/2025_10_07.md",
-    "journals/2025_11_12.md",
-    "journals/2025_12_25.md",
-    "journals/2026_01_18.md",
-    "journals/2026_01_17.md",
-    "journals/2025_10_04.md",
-    "low_level (td)/Engines/EcosystemEngine.md",
-    "low_level (td)/Capacities/SpawnCapacity.md",
+    "README.md",
+    "high_level (gdd)/Organisation/Useful Extensions.md",
+    "high_level (gdd)/Organisation/External Assets.md",
+    "high_level (gdd)/Planning/todo_art.md",
+    "low_level (td)/Capables/Objects/Switch.md",
+    "low_level (td)/Capables/Objects/Oven.md",
     "low_level (td)/Capables/Objects/Spawner.md",
-    "high_level (gdd)/Organisation/Potential Publishers.md",
-    "high_level (gdd)/Planning/ROADMAP.md",
+    "journals/2026_02_02.md",
+    "high_level (gdd)/Design/Level Design/Level Design.excalidraw.md",
+    "high_level (gdd)/Problems/Over-Complicated-Hacking.md",
+    "high_level (gdd)/Design/Level Design/Level_-4.md",
+    "high_level (gdd)/Problems/Keyboard + Mouse problem.md",
+    "high_level (gdd)/Problems/equilibrage.md",
+    "high_level (gdd)/Problems/Inventory-Problem.md",
+    "low_level (td)/Capacities/AttackCapacity.md",
+    "high_level (gdd)/Design/InventorySystem.md",
+    "high_level (gdd)/Design/CinematicsSystem.md",
+    "low_level (td)/UI/UI_Manager/UI_Manager_Rework_2.md",
+    "high_level (gdd)/Design/CapableSystem.md",
+    "low_level (td)/ItemPool.md",
+    "high_level (gdd)/Organisation/Potential Publishers & Audiencer.md",
+    "high_level (gdd)/Organisation/deadstore.md",
+    "high_level (gdd)/Design/Level Design/Level design.canvas",
     "low_level (td)/Engines",
     "high_level (gdd)/Design/EcoSystem",
     "low_level (td)/UI/UI_Manager",
     "high_level (gdd)/Design/UI/UI.canvas",
     "high_level (gdd)/Design/UI",
-    "high_level (gdd)/Design/Level Design/Level design.canvas",
     "resources/Pasted image 20260125225033.png",
     "resources/Pasted image 20260125224020.png",
     "resources/Pasted image 20260125223908.png",

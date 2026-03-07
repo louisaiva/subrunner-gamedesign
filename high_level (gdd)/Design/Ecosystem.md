@@ -42,6 +42,7 @@ le but de ce système est de gérer la **DIFFICULTE** du jeu, ainsi que simuler 
 - comment on gère la temporalité ? est-ce que c'est [[EcosystemEngine]] qui gère vraiment tout l'aspect temporel ? on veut pas avoir des [[SpawnCapacity]] qui spawn plus souvent que d'autres ?
 
 - comment on gère la position de spawn ?
+	- ça c'est le spawner qui doit avoir des paramètres de position de spawn, donc c'est la SpawnCapacity qui le gère
 
 - des fois on veut spawn des entités via un event -> il manque des modes ?
 		- *exemple* je hack un parefeu. on veut qu'un developper arrive après ? en fait y'a pas de problème mdr le hack déclenche une alarme au -1 où y'a déjà une brigade de flics qui envoient des devs et une équipe enquêter. pas besoin de spawn ici
