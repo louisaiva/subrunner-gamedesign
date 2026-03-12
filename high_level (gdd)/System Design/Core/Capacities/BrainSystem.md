@@ -2,11 +2,10 @@
 
 
 
-
 ---
 # description
 
-Le systeme 
+**system** est le système qui 
 
 
 
@@ -31,4 +30,4 @@ Le systeme
 
 ---
 # todo
-- [ ] 
+- 

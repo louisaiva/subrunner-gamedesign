@@ -21,6 +21,9 @@ ce todo est différent du [[todo_low_level]] parce qu'il sert à détailler les 
 	- [[Item]] & [[Item_Rework_1]]
 	- [[Hacking]] & [[File]]
 	- [[InputSystem]]
+	- Capacities :
+		- [[AnimPlayer]]
+		- [[BrainSystem]]
 
 
 - #### systèmes encore inexistants (en cours de design)

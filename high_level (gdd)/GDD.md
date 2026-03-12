@@ -10,6 +10,7 @@ Le développement haut niveau de **subrunner** est lui-même séparé en plusieu
 ## Game Design
 - [[Scenario]] | [[Lore]]
 - [[chara-design]]
+- [[Tutorials]]
 
 ## System Design
 - [[todo_high_level]]

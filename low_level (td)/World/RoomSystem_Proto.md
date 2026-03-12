@@ -1,6 +1,6 @@
 #rework #todo
 
--  version actuelle : **1.5.0**
+-  version actuelle : **1.5.0c**
 
 ---
 
@@ -14,12 +14,11 @@
 
 - ## **TODO**
 
-	- [ ] intégrer hide/show avec le [[DoorSystem]]
-		- [ ] les doors, comme n'importe quel capable, sont pop par le [[CapableSystem]] ?
-		- [ ] elles retiennent par contre dans leur [DoorData] 2 **room_ids** et elles trigger un event quand elles sont toggled
-		- [ ] ou alors [RoomData] stocke directement, à coté de la liste de voisins, la liste des doors et on register cet event
-			- -> je crois c mieux ça, la door n'a pas à savoir quoi que ce soit des rooms
-		- [ ] [RoomSystem] register cet event et quand la porte s'ouvre ou se ferme, on regarde 
-			- si les rooms sont loaded
-			- laquelle est la room principale
-			- ensuite on applle Room.Hide / Show
+
+	- [ ] doit pouvoir gérer les movables loaded qui sortent des **Room** loaded
+		- pcq sinon les movables qui sortent n'ont pas d'obstacles et donc peuvent circuler à l'infini, ce qui fait que quand on reload les rooms dans lesquels ils marchent sans savoir, bah ça peut les faire apparaitre dans un mur
+		- voir avec le pathfinding comment ça marche, si ça se trouve y'a pas de souc (on a quand même besoin de fix ça pcq sinon ça fait qu'un movable peut jamais quitter la room)
+		- [ ] mettre un [EdgeCollider2D] qui s'update et fait le tour de la zone des **Room** loadée ?
+
+
+	- [x] régler le problème de [logique] dans la methode Tick() de [[RoomSystem]] qui fait qu'on compare qu'un movable IN et OUT par room ce qui n'a pas de sens vu que 2 movables peuvent sortir en même temps d'une room...

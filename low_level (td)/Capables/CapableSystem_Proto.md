@@ -44,3 +44,5 @@
 		- [x] remplacer **body** par **carpet** pour les objects ?
 			- -> c que du naming donc pas nécessaire pour l'instant
 		- [x] on peut avoir deux **body_prefab** différents dans [CapableBank], un pour les objects (donc direct layer objects + navigation modifier) et un pour les beings
+
+	- [ ] 

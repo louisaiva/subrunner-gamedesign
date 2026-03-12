@@ -1,7 +1,8 @@
 {
   "promptDelete": false,
   "spellcheck": false,
-  "newFileLocation": "current",
+  "newFileLocation": "folder",
   "attachmentFolderPath": "resources",
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "newFileFolderPath": "a_trier"
 }

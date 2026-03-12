@@ -1,37 +1,28 @@
 - [x] DONE Mettre des **KeyFeedback** sur les [[Interactable]]
-- DONE *bug* **ui_endless_drop** sur le [[UI_Navigator]]
-  :LOGBOOK:
-  CLOCK: [2025-10-05 Sun 22:12:27]--[2025-10-05 Sun 22:36:03] =>  00:23:36
-  CLOCK: [2025-10-05 Sun 22:36:04]--[2025-10-05 Sun 22:36:05] =>  00:00:01
-  :END:
-- DONE *bug* les [[UI_ItemPool]] scalable ne s'agrandissent plus quand on veut mettre un item dedans et que c deja plein ://
-  :LOGBOOK:
-  CLOCK: [2025-10-06 Mon 16:54:06]--[2025-10-06 Mon 16:54:06] =>  00:00:00
-  :END:
-- DONE faire spawn notre xp quand on meurt !!
+- [x] *bug* **ui_endless_drop** sur le [[UI_Navigator]]
+- [x] *bug* les [[UI_ItemPool]] scalable ne s'agrandissent plus quand on veut mettre un item dedans et que c deja plein ://
+- [x] faire spawn notre xp quand on meurt !!
 -
 -
-- DONE mettre l'exploit selection mode sur automatique par défaut (mettre dans le start)
-- DONE déplacer le KF de **RT** en haut à droite à côté du [[UI_ExploitSelectionInfo]]
-- DONE faire que les éléments d' [[ui_hacking]] ne s'affichent que quand on a un [[Device]] !!
-- DONE quand on recup un item ça le met direct dans les shorcuts si on en a de la même ref
+- [x] mettre l'exploit selection mode sur automatique par défaut (mettre dans le start)
+- [x] déplacer le KF de **RT** en haut à droite à côté du [[UI_ExploitSelectionInfo]]
+- [x] faire que les éléments d' [[ui_hacking]] ne s'affichent que quand on a un [[Device]] !!
+- [x] quand on recup un item ça le met direct dans les shorcuts si on en a de la même ref
 -
-- DONE rework le [[UI_RunningHacksViewer]] pour combiner les hacks en cours du même exploit & même statut !
-  :LOGBOOK:
-  CLOCK: [2025-10-17 Fri 23:50:16]--[2025-10-17 Fri 23:50:17] =>  00:00:01
-  :END:
+- [x] rework le [[UI_RunningHacksViewer]] pour combiner les hacks en cours du même exploit & même statut !
 -
 -
 -
-- DONE faire une release github avec version **1.4.10b**
-  :LOGBOOK:
-  CLOCK: [2025-10-06 Mon 15:07:16]--[2025-10-06 Mon 15:41:01] =>  00:33:45
-  :END:
-- DONE changer les sprites du fantom en plus petit :3
-  :LOGBOOK:
-  CLOCK: [2025-10-07 Tue 14:06:15]
-  CLOCK: [2025-10-07 Tue 14:06:18]--[2025-10-07 Tue 18:14:40] =>  04:08:22
-  :END:
+- [x] faire une release github avec version **1.4.10b**
+- [x] changer les sprites du fantom en plus petit :3
 -
 -
-- DONE mettre à jour les hud_shortcuts en fonction du [[Capable]] du [[Controller]] (les cacher si c un device)
+- [x] mettre à jour les hud_shortcuts en fonction du [[Capable]] du [[Controller]] (les cacher si c un device)
+
+- [x] [[UI_Device]] buggé avec le new [[UI_Manager]]
+- [x] pareil pour les [[UI_RunningHacksViewer]]
+- [x] et aussi quand on ouvre des coffres avec un device des fois c bzar
+-
+- [x] items ne s'enlèvent pas dans le [[DebugManager]]
+- [x] [[UI_ExploitSelector]] les boutons cancel hack & automatic grandissent trop quand on show la pool
+

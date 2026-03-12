@@ -15,7 +15,7 @@
 ---
 # problèmes actuels
 
-- problème de [feature manquante]:
+- [ ] problème de [feature manquante] :
 	- faut faire un moyen de gérer des [[EventFeedback]] pour le clavier qui serait donc construits dynamiquement !
 
 ---

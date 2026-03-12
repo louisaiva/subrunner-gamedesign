@@ -1,7 +1,8 @@
 #system #designing
 
+- [ ] [[RoomSystem_Proto]]
 
-
+---
 # description
 
 **RoomSystem** est le système qui gère les rooms et donc les entités qui y sont situés actuellement
@@ -57,15 +58,7 @@ dans l'update :
 # problèmes actuels
 
 
-- comment on gère la création de Data / Update d'une bonne manière ? idéalement faudrait un [[Useful Extensions]] qui nous aide à visualiser / modifier facilement les trucs pcq ça nous a déjà posé problème
-	- le réel problème c'est que vu qu'on fonctionne qu'avec des .json, on a plus de prefab qu'on peut facilement modifier...
-	- peut-etre faire un gros prefab avec toutes les [[Room]] et un [[RoomDataSaver]] histoire de facilement update / save toute la data des rooms ?
-		- -> +1
-
-
-
----
-
-
-# reworks
-- [[RoomSystem_Proto]]
+- problème de [logique] :
+	- dans la méthode **Tick()** on récupère seulement 1 movable IN et 1 movable OUT par RoomData. Ce qui signifie que si 2 movables sortent en même temps d'une room, ça peut créer des bugs et faire qu'aucun des deux ne sorte réellement de la room, ce qui fait qu'on peut sortir de la map mdr
+	- faire que ça prenne la liste directement
+	- faudrait d'ailleurs faire ça dans un **Job** parce que va y avoir BEAUCOUP de rooms (+2)

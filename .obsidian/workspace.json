@@ -4,24 +4,53 @@
     "type": "split",
     "children": [
       {
-        "id": "190a34e49e71827e",
+        "id": "476290ea61d4271e",
         "type": "tabs",
         "children": [
           {
-            "id": "4b75648211729248",
+            "id": "91c3d17a7b1b5b25",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "high_level (gdd)/Planning/todo_art.md",
+                "file": "low_level (td)/Capables/CapableSystem_Proto.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "todo_art"
+              "title": "CapableSystem_Proto"
+            }
+          },
+          {
+            "id": "653f2de00444db19",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "low_level (td)/Capacities/CapacitySystem_Proto.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "CapacitySystem_Proto"
+            }
+          },
+          {
+            "id": "f1fdc1d79bd43eaf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "high_level (gdd)/System Design/Core/Capacities/AnimPlayer.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "AnimPlayer"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -71,14 +100,63 @@
               "type": "bookmarks",
               "state": {},
               "icon": "lucide-bookmark",
-              "title": "Bookmarks"
+              "title": "Signets"
+            }
+          },
+          {
+            "id": "5e37594a615c8309",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "high_level (gdd)/Planning/ROADMAP.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "ROADMAP"
+            }
+          },
+          {
+            "id": "f12b54b1efec4b51",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "high_level (gdd)/Planning/todo_high_level.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "todo_high_level"
+            }
+          },
+          {
+            "id": "5d670565947abbe2",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "low_level (td)/todo_low_level.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "todo_low_level"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 316.5
+    "width": 429.5
   },
   "right": {
     "id": "07c140a3edb7f18b",
@@ -171,8 +249,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
+              "icon": "lucide-ghost",
+              "title": "calendar"
             }
           },
           {
@@ -190,7 +268,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 438.5
+    "width": 585.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -205,40 +283,46 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4b75648211729248",
+  "active": "61fb6dcaa6c8d46f",
   "lastOpenFiles": [
-    "high_level (gdd)/Organisation/Scenario.md",
-    "high_level (gdd)/GDD.md",
     "high_level (gdd)/Planning/todo_high_level.md",
-    "high_level (gdd)/Design/Ecosystem.md",
+    "low_level (td)/Capacities/CapacitySystem_Proto.md",
+    "low_level (td)/Capables/CapableSystem_Proto.md",
+    "low_level (td)/World/RoomSystem_Proto.md",
+    "journals/2026_03_12.md",
+    "logs/Logs.md",
+    "low_level (td)/todo_low_level.md",
+    "templates/System_template.md",
     "README.md",
-    "high_level (gdd)/Organisation/Useful Extensions.md",
-    "high_level (gdd)/Organisation/External Assets.md",
-    "high_level (gdd)/Planning/todo_art.md",
-    "low_level (td)/Capables/Objects/Switch.md",
-    "low_level (td)/Capables/Objects/Oven.md",
-    "low_level (td)/Capables/Objects/Spawner.md",
-    "journals/2026_02_02.md",
-    "high_level (gdd)/Design/Level Design/Level Design.excalidraw.md",
-    "high_level (gdd)/Problems/Over-Complicated-Hacking.md",
-    "high_level (gdd)/Design/Level Design/Level_-4.md",
-    "high_level (gdd)/Problems/Keyboard + Mouse problem.md",
-    "high_level (gdd)/Problems/equilibrage.md",
+    "high_level (gdd)/Planning/ROADMAP.md",
+    "high_level (gdd)/GDD.md",
+    "high_level (gdd)/System Design/Core/Capacities/AnimPlayer.md",
+    "high_level (gdd)/Marketing, Com & others/Useful Extensions.md",
+    "logs/todo_done.md",
+    "low_level (td)/TD.md",
+    "logs/todo 1.4.9.md",
+    "logs/todo 1.4.10.md",
+    "high_level (gdd)/System Design/Core/Capacities/BrainSystem.md",
+    "high_level (gdd)/System Design/Core/World",
+    "high_level (gdd)/System Design/Core/Capacities",
+    "a_trier",
+    "high_level (gdd)/System Design/Core/CapacitySystem.md",
+    "high_level (gdd)/System Design/Core/World/DoorSystem.md",
+    "high_level (gdd)/System Design/Core/World/RoomSystem.md",
     "high_level (gdd)/Problems/Inventory-Problem.md",
-    "low_level (td)/Capacities/AttackCapacity.md",
-    "high_level (gdd)/Design/InventorySystem.md",
-    "high_level (gdd)/Design/CinematicsSystem.md",
-    "low_level (td)/UI/UI_Manager/UI_Manager_Rework_2.md",
-    "high_level (gdd)/Design/CapableSystem.md",
-    "low_level (td)/ItemPool.md",
-    "high_level (gdd)/Organisation/Potential Publishers & Audiencer.md",
-    "high_level (gdd)/Organisation/deadstore.md",
+    "high_level (gdd)/Game design/Tutorials.md",
+    "high_level (gdd)/System Design/InputSystem.md",
+    "a_trier/systems_execution_order.md",
+    "high_level (gdd)/Planning/todo_art.md",
+    "high_level (gdd)/Marketing, Com & others/ressources demarchage/Visuels pour Steam.pdf",
+    "high_level (gdd)/Marketing, Com & others/ressources demarchage",
+    "~WRD0339.tmp",
+    "~WRD0335.tmp",
+    "Visuels pour Steam.docx",
+    "~WRL3052.tmp",
+    "~WRD3013.tmp",
     "high_level (gdd)/Design/Level Design/Level design.canvas",
-    "low_level (td)/Engines",
-    "high_level (gdd)/Design/EcoSystem",
-    "low_level (td)/UI/UI_Manager",
     "high_level (gdd)/Design/UI/UI.canvas",
-    "high_level (gdd)/Design/UI",
     "resources/Pasted image 20260125225033.png",
     "resources/Pasted image 20260125224020.png",
     "resources/Pasted image 20260125223908.png",
@@ -246,15 +330,9 @@
     "resources/Pasted image 20260125215453.png",
     "resources/Pasted Image 20260125213738_748.png",
     "resources/Pasted Image 20260125204713_802.png",
-    "high_level (gdd)/Design/Level Design",
     "resources/Pasted Image 20260125203914_367.png",
-    "resources/excalidraw",
     "resources/qg.jpg",
     "resources/level_design_demo_1.jpg",
-    "resources/IMG_20260125_201559.jpg.~tmp",
-    "resources/IMG_20260125_201710.jpg.~tmp",
-    "resources/IMG_20260125_201729.jpg.~tmp",
-    "resources",
     "Untitled 3.canvas",
     "Untitled 2.canvas",
     "Untitled 1.canvas"

@@ -4,4 +4,6 @@ Certains systèmes / scripts dans ces systems doivent être awaken dans l'ordre 
 
 Pour que ça soit pas le bordel (ça l'est déjà), faut pas hésiter à noter les règles et raisons en dessous :
 
+
+- le script [[AppManager]] doit être awaken **AVANT** n'importe quel [[Capable]] **CAR** les capables appellent AppManager.Instance dans leur **OnEnable** (qui est parfois fait en meme temps qu'awake, donc probleme)
 - le script [[CapacitySystem]] doit être awaken **APRES** [GameManager] **CAR** il utilise la methode **IsKind()** qui donc nécessite que GameManager.Instance soit != null
