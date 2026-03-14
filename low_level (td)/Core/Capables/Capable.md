@@ -1,6 +1,5 @@
--
+
 - Classe mère du système de [[Capacity]]
-- Chaque entité possédant des **Animations** dans **subrunner** est un **Capable** qui est donc relié à un [[AnimPlayer]]
--
+- Chaque entité possédant des **Animations** dans **subrunner** est un **Capable** qui est donc relié à un [[AnimSystem]]
+
 - Peut aussi avoir un [[Inventory]], ce qui lui permet de récupérer, de stocker & d'utiliser des [[Item]]
--

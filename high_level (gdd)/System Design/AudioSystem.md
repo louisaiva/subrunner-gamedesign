@@ -22,7 +22,7 @@ Ce système est composé de 2 composants principaux, tous deux **singleton**:
 	- la [Bank] qui stocke toutes les [EventReference]
 	- peut être appelée par n'importe quel script mais en vrai surtout par [Engine] comme ça ça simplifie pas mal de choses
 
-la plupart des calls à **AudioEngine.Instance.PlaySound()** doivent se faire directement depuis les [[AnimPlayer]] pour faciliter l'intégration du son avec les visuels
+la plupart des calls à **AudioEngine.Instance.PlaySound()** doivent se faire directement depuis les [[AnimSystem]] pour faciliter l'intégration du son avec les visuels
 
 
 

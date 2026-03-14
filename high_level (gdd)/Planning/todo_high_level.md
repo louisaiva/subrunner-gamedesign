@@ -22,7 +22,7 @@ ce todo est différent du [[todo_low_level]] parce qu'il sert à détailler les 
 	- [[Hacking]] & [[File]]
 	- [[InputSystem]]
 	- Capacities :
-		- [[AnimPlayer]]
+		- [[AnimSystem]]
 		- [[BrainSystem]]
 
 

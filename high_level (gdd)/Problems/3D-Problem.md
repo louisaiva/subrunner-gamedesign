@@ -27,7 +27,7 @@
 	- ## 3-Main-Layers
 		-
 		- mettre 3 main différents, bas, mid & haut qui sont des hauteurs spécifiques.
-		- séparer tous les sprites en 3 parties et faire 3 [[AnimPlayer]] différents pour chaque [[Capable]] qui est dans les 3 (MDR)
+		- séparer tous les sprites en 3 parties et faire 3 [[AnimSystem]] différents pour chaque [[Capable]] qui est dans les 3 (MDR)
 		  -> on est pas forcément obligé on peut aussi juste mettre le sprite de la table seulement sur le **down**
 		  -> ouai mais pareil pour les collisions si la table est dans **mid**  alors le chat peut pas sauter dessus hunhun
 		  -> table dans **down** mais dcp les rats peuvent pas passer en dessous mdr le bordel

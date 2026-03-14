@@ -1,6 +1,9 @@
 #system #designing
 
+- [ ] [[CapableSystem_Proto]]
 
+
+---
 # description
 
 le **capable system** est le système qui se charge de gérer toutes les entités et les capabilités.
@@ -59,5 +62,4 @@ les [[Capacity]] gèrent leur propre **data** ET leur propre **logique** au sein
 
 
 ---
-# reworks
-- [ ] [[CapableSystem_Proto]]
+# todo

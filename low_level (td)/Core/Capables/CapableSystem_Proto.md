@@ -33,16 +33,14 @@
 			- [x] le SortingLayer
 			- [x] le sorting order
 
-	- [ ] si jamais on a des problèmes d'animations ça peut etre dû à l'assignation des [AnimCapacityPrio] list dans [[AnimPlayer]] qui se fait dans l'Awake et donc pas dynamiquement dans le load player data...
+	- [ ] si jamais on a des problèmes d'animations ça peut etre dû à l'assignation des [AnimCapacityPrio] list dans [[AnimSystem]] qui se fait dans l'Awake et donc pas dynamiquement dans le load player data...
 		- [ ] faire comme pour [[AnimLayer]] && 
 	
-	- [ ] [CapableData] doit aussi gérer le
-		- [ ] Layer
-		- [ ] Tag
+	- [x] [CapableData] doit aussi gérer le
+		- [x] Layer
+		- [x] Tag
 
 	- [x] [CapableBank] doit aussi pool les différents colliders utilisés de part et d'autres, que ce soit par les Capacity ou par les Capables en eux mêmes. Pour ça [Bank] a deux pools de colliders : box & circle
 		- [x] remplacer **body** par **carpet** pour les objects ?
 			- -> c que du naming donc pas nécessaire pour l'instant
 		- [x] on peut avoir deux **body_prefab** différents dans [CapableBank], un pour les objects (donc direct layer objects + navigation modifier) et un pour les beings
-
-	- [ ] 

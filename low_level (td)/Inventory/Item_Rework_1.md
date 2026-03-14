@@ -23,7 +23,7 @@
 
 		- [[WorldItem]] est un container, est un monobehaviour [[Capable]] et reçoit donc des [[Capacity]]. Peut être poolé pour soulager le trash recuperer. contient aussi un rigidbody ainsi qu'une [[MoveCapacity]] dans le futur (pour le moment on a encore des [[Movable]] donc c movable mais bref).
 			- --> si on drop un item de l'inventaire vers le sol ça le transforme en world item
-		- [[PlacedItem]], pareil container, monobehaviour pas forcément capable mais a un [[AnimPlayer]]. pas de rigidbody ni rien
+		- [[PlacedItem]], pareil container, monobehaviour pas forcément capable mais a un [[AnimSystem]]. pas de rigidbody ni rien
 			- --> si on met un item dans un InventoryPlacer ça créé un
 			  placed item ? en plus que l'inventory gère son item de base
 		- [[CapacityHolder]] ????
