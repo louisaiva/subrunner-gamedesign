@@ -8,10 +8,11 @@ contrairement au [[todo_high_level]], ce document a pour but de détailler le pl
 
 - ## Core
 	- [ ] [[RoomSystem_Proto]]
-	- [ ] [[CapableSystem_Proto]]
-		- [ ] plus de body colliders ???
+	- [x] [[CapableSystem_Proto]]
+		- [x] plus de body colliders ???
 	- [x] [[CapacitySystem_Proto]]
 	- [ ] [[CapacitySystem_Rework_1]]
+	- [ ] [[CapableSystem_Rework_1]]
 - 
 - ## Capacities to rework in Data
 	- [ ] transformer Being en HealthCapacity
@@ -19,7 +20,7 @@ contrairement au [[todo_high_level]], ce document a pour but de détailler le pl
 
 - ## Autres
 	- [x] faire que ça build mdr -> on lance tous les logs et on build puis on inspecte
-	- [ ] [[MovableEngine]] HalfMatrix stills some bugs when resizing the matrix oh no
+	- [x] [[MovableEngine]] HalfMatrix stills some bugs when resizing the matrix oh no
 # 1.5.2
 
 - ### Inventory rework

@@ -1,4 +1,4 @@
-#rework #todo
+#rework #done 
 
 -  version actuelle : **1.5.0**
 
@@ -22,6 +22,10 @@
 - ## **TODO**
 
 
+
+	- [x] update [CapableSystem] pour pouvoir switch un Capable into a [[Corpse]]
+
+
 	- [x] ecrire **[[Item]].LoadData(CapableData data)** pour remettre à jour la data des items type reference, description, color etc etc
 
 
@@ -33,8 +37,7 @@
 			- [x] le SortingLayer
 			- [x] le sorting order
 
-	- [ ] si jamais on a des problèmes d'animations ça peut etre dû à l'assignation des [AnimCapacityPrio] list dans [[AnimSystem]] qui se fait dans l'Awake et donc pas dynamiquement dans le load player data...
-		- [ ] faire comme pour [[AnimLayer]] && 
+	- [x] si jamais on a des problèmes d'animations ça peut etre dû à l'assignation des [AnimCapacityPrio] list dans [[AnimSystem]] qui se fait dans l'Awake et donc pas dynamiquement dans le load player data...
 	
 	- [x] [CapableData] doit aussi gérer le
 		- [x] Layer

@@ -1,6 +1,7 @@
 #system #designing
 
-- [ ] [[CapableSystem_Proto]]
+- [x] [[CapableSystem_Proto]]
+- [ ] [[CapableSystem_Rework_1]]
 
 
 ---

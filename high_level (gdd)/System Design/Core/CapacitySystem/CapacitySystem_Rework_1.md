@@ -1,10 +1,11 @@
-#rework #todo
+#rework #doing
 
 -  version actuelle : **1.5.0c**
 
 ---
 - ## **objectifs**
 	- adapter les [[Capacity]] pour les intégrer dans le système actuel de pooling dynamique
+	- mettre en place des [DataTemplates] qui nous permettent de dupliquer la data depuis une data stable plutôt que depuis une [Data] potentiellement changée
 
 
 
@@ -12,8 +13,19 @@
 ---
 - ## **TODO**
 
-	
-	- [ ] une [[HealthCapacity]] (au lieu de [[Being]])
+
+	- [ ] implémenter un [TemplateData] system qui permet de dupliquer les data des templates au lieu de les dupliquer depuis des capacités loaded
+		- [ ] renommer [capacities_datas] to [world_capacities_data]
+		- [ ] créer un dict [template_capacities_data]
+		- [ ] gérer le spawn de nouvelles capacities based on templates
+
+
+	- [ ] faire une [[HealthCapacity]] (au lieu de [[Being]])
+
+
+
+
+
 	- [ ] adapter [[Brain]] en un [[BrainSystem]]
 
 	- [ ] adapter [[SpawnCapacity]]

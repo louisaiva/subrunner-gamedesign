@@ -19,20 +19,20 @@ project: subrunner
 
 ### Mob Capacities
 
-|Capacity|Utility|Save Data?|Keep As Capacity?|Recommendation|
-|---|---|---|---|---|
-|HealthCapacity|High|Yes|Yes|Keep. Save current health and any mutable runtime health state.|
-|WalkCapacity|High|No|Yes|Runtime movement controller only.|
-|RunCapacity|Medium|No|Maybe|Could merge into Walk as sprint mode to reduce component count.|
-|InteractCapacity|High|No|Yes|Runtime proximity/hover selection state should not persist.|
-|GrabCapacity|Low|No|No|Remove capacity and route directly to Inventory.Grab in interaction flow.|
-|DropCapacity|Medium-High|No|Yes (for now)|Keep for now due current UI/gameplay coupling; runtime-only.|
-|EatCapacity|High for AI|Conditional Yes|Yes|Save hunger only if unloaded AI continuity matters.|
-|SleepCapacity|Medium-High for SleepingCat|Conditional Yes|Maybe|Save asleep/timer only if unloaded AI continuity matters. Could move to SleepingCat-specific logic.|
-|TalkCapacity|Medium|No|Maybe|Runtime flavor behavior; can stay or move to Dialogue/Bark component.|
-|AttackCapacity|High|No|Yes|Runtime combat action and cooldown state only.|
-|DodgeCapacity|Medium|No|Yes|Runtime-only.|
-|DieCapacity|High but overstuffed|No|Yes (split)|Keep death trigger ability, but split XP/drop/corpse pipeline into dedicated services.|
+| Capacity         | Utility                     | Save Data?      | Keep As Capacity? | Recommendation                                                                                      |
+| ---------------- | --------------------------- | --------------- | ----------------- | --------------------------------------------------------------------------------------------------- |
+| HealthCapacity   | High                        | Yes             | Yes               | Keep. Save current health and any mutable runtime health state.                                     |
+| WalkCapacity     | High                        | No              | Yes               | Runtime movement controller only.                                                                   |
+| RunCapacity      | Medium                      | No              | Maybe             | Could merge into Walk as sprint mode to reduce component count.                                     |
+| InteractCapacity | High                        | No              | Yes               | Runtime proximity/hover selection state should not persist.                                         |
+| GrabCapacity     | Low                         | No              | No                | Remove capacity and route directly to Inventory.Grab in interaction flow.                           |
+| DropCapacity     | Medium-High                 | No              | Yes (for now)     | Keep for now due current UI/gameplay coupling; runtime-only.                                        |
+| EatCapacity      | High for AI                 | Conditional Yes | Yes               | Save hunger only if unloaded AI continuity matters.                                                 |
+| SleepCapacity    | Medium-High for SleepingCat | Conditional Yes | Maybe             | Save asleep/timer only if unloaded AI continuity matters. Could move to SleepingCat-specific logic. |
+| TalkCapacity     | Medium                      | No              | Maybe             | Runtime flavor behavior; can stay or move to Dialogue/Bark component.                               |
+| AttackCapacity   | High                        | No              | Yes               | Runtime combat action and cooldown state only.                                                      |
+| DodgeCapacity    | Medium                      | No              | Yes               | Runtime-only.                                                                                       |
+| DieCapacity      | High but overstuffed        | No              | Yes (split)       | Keep death trigger ability, but split XP/drop/corpse pipeline into dedicated services.              |
 
 ### Object And Interaction Capacities
 

@@ -57,8 +57,3 @@ dans l'update :
 
 # problèmes actuels
 
-
-- problème de [logique] :
-	- dans la méthode **Tick()** on récupère seulement 1 movable IN et 1 movable OUT par RoomData. Ce qui signifie que si 2 movables sortent en même temps d'une room, ça peut créer des bugs et faire qu'aucun des deux ne sorte réellement de la room, ce qui fait qu'on peut sortir de la map mdr
-	- faire que ça prenne la liste directement
-	- faudrait d'ailleurs faire ça dans un **Job** parce que va y avoir BEAUCOUP de rooms (+2)

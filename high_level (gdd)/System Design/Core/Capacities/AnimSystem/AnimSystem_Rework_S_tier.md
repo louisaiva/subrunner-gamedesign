@@ -38,7 +38,7 @@
         - [ ]  valider qu’aucune NullReference n’apparaît en logs
 
     - [ ] **ST-003 Recalculer les priorités après chargement de data**
-        - [ ]  reindexer automatiquement les priorités après remplacement de la liste chargée
+        - [x]  reindexer automatiquement les priorités après remplacement de la liste chargée
         - [ ]  garantir la stabilité du tri des priorités
         - [ ]  tester avant/après save-load avec pile identique
 
