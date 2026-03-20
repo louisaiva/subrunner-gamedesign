@@ -14,15 +14,16 @@
 - ## **TODO**
 
 
-	- [ ] implémenter un [TemplateData] system qui permet de dupliquer les data des templates au lieu de les dupliquer depuis des capacités loaded
-		- [ ] renommer [capacities_datas] to [world_capacities_data]
-		- [ ] créer un dict [template_capacities_data]
-		- [ ] gérer le spawn de nouvelles capacities based on templates
+	- [x] implémenter un [TemplateData] system qui permet de dupliquer les data des templates au lieu de les dupliquer depuis des capacités loaded
+		- [x] renommer [capacities_datas] to [world_capacities_data]
+		- [x] créer un dict [template_capacities_data]
+		- [x] gérer le spawn de nouvelles capacities based on templates
 
 
-	- [ ] faire une [[HealthCapacity]] (au lieu de [[Being]])
+	- [x] faire une [[HealthCapacity]] (au lieu de [[Being]])
 
 
+	- [ ] implémenter un virtual void SaveDynamicData() qui est appelé dans UnloadData() et qui fait rien mais toutes les capacités qui en découlent peuvent donc l'implémenter !
 
 
 

@@ -12,6 +12,6 @@
 ---
 - ## **TODO**
 
-	- [ ] créer un nouveau Dict<string,CapableData> qui stocke des [Templates]
-		- [ ] faire que ces templates n'aient pas de "-1" à la fin de l'id
-		- [ ] faire que lorsqu'on spawn un [[Capable]] bah ça créé une [Data] à partir d'un [Template] plutôt que depuis une data existante
+	- [x] créer un nouveau Dict<string,CapableData> qui stocke des [Templates]
+		- [x] faire que ces templates n'aient pas de "-1" à la fin de l'id
+		- [x] faire que lorsqu'on spawn un [[Capable]] bah ça créé une [Data] à partir d'un [Template] plutôt que depuis une data existante

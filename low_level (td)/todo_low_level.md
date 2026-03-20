@@ -21,6 +21,8 @@ contrairement au [[todo_high_level]], ce document a pour but de détailler le pl
 - ## Autres
 	- [x] faire que ça build mdr -> on lance tous les logs et on build puis on inspecte
 	- [x] [[MovableEngine]] HalfMatrix stills some bugs when resizing the matrix oh no
+	- [ ] supprimer [[ItemManager]] et le remplacer par un nouveau script qui est mieux et surtout ENTIEREMENT VISUEL et sur le hud
+	- [ ] Supprimer les appels vers AddCapacity() / RemoveCapacity() mais pour ça on doit avoir un moyen d'ajouter dynamiquement des capacités ?
 # 1.5.2
 
 - ### Inventory rework
