@@ -1,24 +1,25 @@
 #system #designing
 
-- [ ] [[prototype]]
+- [ ] [[MotorSystem_Proto]]
 
 
 ---
 # description
 
-Le systeme **BrainSystem** s'occupe de gérer tous les cerveaux des entités, loadées ou non.
-Il fait le lien avec le **GOAP** system asset.
+**MotorSystem** s'occupe de gérer la réalisation (musculaire un peu) du plan d'actions des entités, loadées ou non. Il s'occupe aussi de pooler correctement les components **GOAP** des entités loadées, et gère les entités unloadées en batch.
 
-Il ne gère PAS le planning/switching des goals qui lui est réalisé dans [SoulSystem ?].
+Il fait donc le lien avec le **GOAP** system asset. ([[External Assets & Plugins]])
+
+Il ne gère PAS le planning/switching des goals qui lui est réalisé dans [[BrainSystem]]
 
 ---
 # fonctionnement du système
 
 
-[BrainEngine] garde en tête les data qui sont loadées ou non, et décide le mode de **sensorisation / déplacement / réalisation des actions**.
+[MotorEngine] garde en tête les data qui sont loadées ou non, et décide le mode de **sensorisation / déplacement / réalisation des actions**.
 Il a 2 sous systèmes qui sont des Monobehaviours :
-- **UnloadedPlannerBatchService** : équivalent GoapActionProvider mais batch (résout des paquets d'entités)
-- **UnloadedExecutionBatchService** : équivalent AgentBehaviour mais batch (fait tourner les actions/timers)
+- **BatchActionProvider** : équivalent GoapActionProvider mais batch (résout des paquets d'entités)
+- **BatchActionAchiever** : équivalent AgentBehaviour mais batch (fait tourner les actions/timers)
 
 Les **Actions** du goap system transmettent leurs callbacks vers une interface **Actionnable** (ou backend) récupérée selon mode loadé/unloadé :
 - si loadé : comportement Mono normal
@@ -35,7 +36,7 @@ Le **Déplacement** est splitté en 2 :
 
 
 
-[BrainData] gère toute la data d'un seul agent, nécessaire au bon déroulement de ces actions/sensors. inhérite de [CapacityData] et stocke toute la data nécessaire :
+[MotorData] gère toute la data d'un seul agent, nécessaire au bon déroulement de ces actions/sensors. inhérite de [CapacityData] et stocke toute la data nécessaire :
 - goal request / goal courant
 - plan courant / action courante
 - runtime action (timers, progression, cooldowns)
@@ -45,15 +46,15 @@ Le **Déplacement** est splitté en 2 :
 
 
 
-Ensuite pour chaque entité **LOADEE** on a une [BrainCapacity] qui remplace le [[Brain]] actuel et qui sert d'[Object]. [BrainCapacity] connecte AgentBehaviour + GoapActionProvider + GoToBehaviour, etc
+Ensuite pour chaque entité **LOADEE** on a une [MotorCapacity] qui remplace le [[Brain]] actuel et qui sert d'[Object]. [MotorCapacity] connecte AgentBehaviour + GoapActionProvider + GoToBehaviour, etc
 
 On a donc deux routes de GOAP distinctes en fonction de si l'entité est loadée ou non. **Règle critique** : 1 seule ownership à la fois (jamais double simulation loaded+unloaded en même temps).
 
 **Transition loaded <-> unloaded** :
-- loaded -> unloaded : stop action sans resolve, sync BrainData, convertir targets scene -> target_id/position, désactiver adapter, enqueue resolve unloaded
-- unloaded -> loaded : spawn/pool GO, bind BrainCapacity, reset dur Agent/Provider, rehydrate BrainData, request resolve
+- loaded -> unloaded : stop action sans resolve, sync MotorData, convertir targets scene -> target_id/position, désactiver adapter, enqueue resolve unloaded
+- unloaded -> loaded : spawn/pool GO, bind MotorCapacity, reset dur Agent/Provider, rehydrate MotorData, request resolve
 
-**Hard Reset conseillé quand [BrainCapacity] se load (ou s'unload)** :
+**Hard Reset conseillé quand [MotorCapacity] se load (ou s'unload)** :
 - StopAction(false)
 - ActionState.Reset()
 - Initialize() agent
@@ -64,7 +65,7 @@ On a donc deux routes de GOAP distinctes en fonction de si l'entité est loadée
 
 
 
-pas besoin de [BrainBank / BrainPooler] si [BrainCapacity] est une capacity et gérée par [[CapacitySystem]].
+pas besoin de [MotorBank / MotorPooler] si [MotorCapacity] est une capacity et gérée par [[CapacitySystem]].
 
 
 ---

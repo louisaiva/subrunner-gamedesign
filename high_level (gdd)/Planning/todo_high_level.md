@@ -14,6 +14,7 @@ ce todo est différent du [[todo_low_level]] parce qu'il sert à détailler les 
 	- [[RoomSystem]] && [[RoomSystem_Proto]]
 	- [[CapableSystem]] && [[CapableSystem_Proto]]
 	- [[CapacitySystem]] && [[CapacitySystem_Proto]]
+	- [[MotorSystem]] && [[MotorSystem_Proto]]
 
 
 - #### systèmes à rework

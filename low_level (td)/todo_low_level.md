@@ -16,7 +16,7 @@ contrairement au [[todo_high_level]], ce document a pour but de détailler le pl
 - 
 - ## Capacities to rework in Data
 	- [ ] transformer Being en HealthCapacity
-	- [ ] faire un [[BrainSystem]] proto
+	- [ ] faire un [[MotorSystem]] proto
 
 - ## Autres
 	- [x] faire que ça build mdr -> on lance tous les logs et on build puis on inspecte

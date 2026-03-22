@@ -59,7 +59,10 @@ les [[Capacity]] gèrent leur propre **data** ET leur propre **logique** au sein
 ---
 # problèmes actuels
 
-
+- [ ] problème de [spawn] : comment on gère les entités qui sont loadées au début ? c du spawn non ?
+	- > comme on fait maintenant oui ca devrait etre spawn (+1)
+		- > plus tard y'aura pas de pb vu qu'on "spawnera" le world à la création de celui-ci
+		- > et après le spawn bah en fait la data sera saved et donc loadée à chaque lancement de world
 
 
 ---

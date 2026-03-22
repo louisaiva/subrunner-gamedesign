@@ -3,6 +3,7 @@
 -  version actuelle : **1.5.0c**
 
 ---
+
 - ## **objectifs**
 	- adapter les [[Capacity]] pour les intégrer dans le système actuel de pooling dynamique
 	- mettre en place des [DataTemplates] qui nous permettent de dupliquer la data depuis une data stable plutôt que depuis une [Data] potentiellement changée
@@ -11,6 +12,7 @@
 
 
 ---
+
 - ## **TODO**
 
 
@@ -27,7 +29,7 @@
 
 
 
-	- [ ] adapter [[Brain]] en un [[BrainSystem]]
+	- [ ] adapter [[Brain]] en un [[MotorSystem]] + [[BrainSystem]]
 
 	- [ ] adapter [[SpawnCapacity]]
 		- [x] stocker la data de l'entity id à load et les parametres de spawn
