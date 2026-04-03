@@ -13,7 +13,11 @@
 
 ---
 - ## **TODO**
-	- [ ] implémenter [MotorCapacity] & [MotorData]
-	- [ ] faire que ça se charge correctement avec le [[CapacitySystem]]
-	- [ ] pooler correctement action provider
-	- [ ] & Agent Behvaiour
+	- [x] implémenter [MotorCapacity] & [MotorData]
+	- [x] faire que ça se charge correctement avec le [[CapacitySystem]]
+	- [x] pooler correctement action provider
+	- [x] & Agent Behvaiour
+
+	- [ ] Tester avec 2 types d'actions / goal afin de vérifier que c'est réellement bien poolé
+		- [ ] faire un spawner à zombie + spawner à dev
+		- [ ] les dev doivent réparer des ordis jsp

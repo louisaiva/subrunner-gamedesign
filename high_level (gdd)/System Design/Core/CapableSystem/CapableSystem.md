@@ -1,7 +1,7 @@
-#system #designing
+ #system #designing
 
 - [x] [[CapableSystem_Proto]]
-- [ ] [[CapableSystem_Rework_1]]
+- [x] [[CapableSystem_Rework_1]]
 
 
 ---
@@ -58,6 +58,21 @@ les [[Capacity]] gèrent leur propre **data** ET leur propre **logique** au sein
 
 ---
 # problèmes actuels
+
+- [ ] problème de [design] : doit on avoir 2 Data différentes ?
+	- [ ] une [TypeData], qui est une sorte de template en gros, on en a une seule par type d'entité (une pour toutes les apple)
+	- [ ] une [InstanceData], qui contient par exemple la position, les pv, toutes les données qui peuvent varier d'une entité à l'autre. agit comme un [override] de la type data
+	- > comme ça déjà on a besoin de stocker beaucoup moins de data
+	- > et puis c'est plus simple pour spawn des nouveaux trucs
+	- > mais ça demande de revoir l'architecture
+
+- [ ] est-ce que les [CapableData] doivent contenir l'id de leur [Room] actuelle ?
+	- > maintenant que [[RoomSystem]] hold la vérité absolue des capables dans chaque [Room], bah pas forcément (+1)
+
+- [ ] lorsqu'on décharge une room, si un mob quitte cette room au mauvais moment, alors il peut changer de room MAIS quand même être déchargé par le [[CapableSystem]] parce qu'on l'avait mis dans sa liste à décharger.
+	- [ ] on doit vérifier que l'entité est bien toujours bien assignée à la room avant de la décharger
+		- > du coup c intéressant de garder l'id de la room dans les capabledata comme ça on peut vérifier que la room est bien déchargée avant de deload l'entité
+
 
 - [ ] problème de [spawn] : comment on gère les entités qui sont loadées au début ? c du spawn non ?
 	- > comme on fait maintenant oui ca devrait etre spawn (+1)

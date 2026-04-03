@@ -11,10 +11,12 @@ ce todo est différent du [[todo_low_level]] parce qu'il sert à détailler les 
 
 
 - #### systemes en cours de rework/proto
-	- [[RoomSystem]] && [[RoomSystem_Proto]]
-	- [[CapableSystem]] && [[CapableSystem_Proto]]
-	- [[CapacitySystem]] && [[CapacitySystem_Proto]]
-	- [[MotorSystem]] && [[MotorSystem_Proto]]
+	- [[RoomSystem]]
+	- [[CapableSystem]]
+	- [[CapacitySystem]]
+	- [[MotorSystem]]
+	- [[LevelSystem]]
+	- [[WorldSystem]] 
 
 
 - #### systèmes à rework
@@ -28,11 +30,10 @@ ce todo est différent du [[todo_low_level]] parce qu'il sert à détailler les 
 
 
 - #### systèmes encore inexistants (en cours de design)
-	- [[SaveSystem]]
 	- [[Ecosystem]]
 		- **EnemyWaveSystem** meilleur nom ?
 	- [[WallSystem]] / [[DoorSystem]] 
-	- [[LevelSystem]] ? [[WorldSystem]] ?
+	- [[SaveSystem]]
 	- [[Cinematics]]
 	- [[AudioSystem]]
 
