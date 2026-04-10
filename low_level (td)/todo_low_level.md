@@ -13,11 +13,12 @@ contrairement au [[todo_high_level]], ce document a pour but de détailler le pl
 		- [x] plus de body colliders ???
 	- [ ] [[MotorSystem_Proto]]
 	- [x] [[CapacitySystem_Proto]]
-	- [ ] [[CapacitySystem_Rework_1]]
 	- [x] [[CapableSystem_Rework_1]]
+	- [ ] [[CapableSystem_Rework_2]]
+	- [ ] [[CapacitySystem_Rework_1]]
 	- [x] [[LevelSystem_Proto]]
-	- [ ] [[WorldSystem_Proto]]
 	- [ ] [[LevelSystem_Rework_1]]
+	- [ ] [[WorldSystem_Proto]]
 - 
 - ## Capacities to rework in Data
 	- [x] transformer Being en HealthCapacity
@@ -27,6 +28,7 @@ contrairement au [[todo_high_level]], ce document a pour but de détailler le pl
 	- [x] faire que ça build mdr -> on lance tous les logs et on build puis on inspecte
 	- [x] [[MovableEngine]] HalfMatrix stills some bugs when resizing the matrix oh no
 	- [ ] Supprimer les appels vers AddCapacity() / RemoveCapacity() mais pour ça on doit avoir un moyen d'ajouter dynamiquement des capacités ?
+	- [ ] dans les coffres au **gamepad** quand on click sur un [[UI_ItemStack]] avec plusieurs items (quantity > 1) ça sélectionne ensuite un autre ui_item stack au lieu de rester sur le même
 
 
 # 1.5.2 : UI inventory rework

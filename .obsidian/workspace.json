@@ -8,45 +8,31 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d0181d314f888720",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "high_level (gdd)/System Design/Core/CapacitySystem/Capacity Utility And Save Policy Audit.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Capacity Utility And Save Policy Audit"
-            }
-          },
-          {
-            "id": "5e030064b845d7b4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "high_level (gdd)/System Design/Core/CapableSystem/CapableSystem.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "CapableSystem"
-            }
-          },
-          {
             "id": "18f89eaba472f5aa",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "a_trier/MotorSystem_Rework_1.md",
+                "file": "high_level (gdd)/System Design/Core/Capacities/MotorSystem.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "MotorSystem_Rework_1"
+              "title": "MotorSystem"
+            }
+          },
+          {
+            "id": "1b5d0b71c5a33de3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "journals/2026_04_10.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2026_04_10"
             }
           },
           {
@@ -55,15 +41,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "high_level (gdd)/System Design/Core/World/RoomSystem.md",
+                "file": "a_trier/RoomSystem_Rework_2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "RoomSystem"
+              "title": "RoomSystem_Rework_2"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -169,7 +156,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 487.5
+    "width": 442.5
   },
   "right": {
     "id": "07c140a3edb7f18b",
@@ -296,34 +283,34 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d0181d314f888720",
+  "active": "1b5d0b71c5a33de3",
   "lastOpenFiles": [
-    "high_level (gdd)/Planning/todo_high_level.md",
-    "high_level (gdd)/System Design/Core/CapacitySystem/Capacity Utility And Save Policy Audit.md",
-    "high_level (gdd)/System Design/Core/CapacitySystem/CapacitySystem.md",
     "high_level (gdd)/System Design/Core/CapacitySystem/CapacitySystem_Rework_1.md",
-    "a_trier/Capacity.md",
-    "low_level (td)/todo_low_level.md",
-    "high_level (gdd)/System Design/Core/CapableSystem/CapableSystem.md",
-    "a_trier/LevelSystem_Rework_1.md",
-    "a_trier/MotorSystem_Rework_1.md",
-    "high_level (gdd)/System Design/Core/World/RoomSystem.md",
+    "journals/2026_04_10.md",
     "a_trier/RoomSystem_Rework_2.md",
-    "low_level (td)/Core/World/RoomSystem_Proto.md",
+    "high_level (gdd)/System Design/Core/Capacities/MotorSystem.md",
+    "a_trier/Motor.md",
+    "a_trier/MotorSystem_Rework_1.md",
     "a_trier/MotorSystem_Proto.md",
+    "high_level (gdd)/Planning/todo_high_level.md",
+    "high_level (gdd)/System Design/Core/CapacitySystem/CapacitySystem.md",
+    "journals/2026_04_05.md",
+    "high_level (gdd)/System Design/Core/CapacitySystem/Capacity Utility And Save Policy Audit.md",
+    "high_level (gdd)/Planning/ROADMAP.md",
+    "low_level (td)/todo_low_level.md",
+    "a_trier/CapableSystem_Rework_2.md",
+    "high_level (gdd)/System Design/Core/CapableSystem/CapableSystem.md",
+    "a_trier/CapableSystem_Rework_1.md",
+    "journals/2026_04_03.md",
+    "high_level (gdd)/System Design/Core/World/RoomSystem.md",
+    "a_trier/Capacity.md",
+    "a_trier/LevelSystem_Rework_1.md",
+    "low_level (td)/Core/World/RoomSystem_Proto.md",
     "a_trier/WorldSystem.md",
     "high_level (gdd)/System Design/Core/World/LevelSystem.md",
     "a_trier/LevelSystem_Proto.md",
     "low_level (td)/Core/Capables/CapableSystem_Proto.md",
-    "high_level (gdd)/System Design/Core/Capacities/MotorSystem.md",
     "a_trier/RoomSystem_Rework_1.md",
-    "journals/2026_03_30.md",
-    "journals/2026_03_18.md",
-    "a_trier/RoomGraphDesign.md",
-    "a_trier/CapableSystem_Rework_1.md",
-    "high_level (gdd)/Planning/ROADMAP.md",
-    "a_trier/Sans titre.md",
-    "low_level (td)/UI/UI_Manager/UI_Manager_Rework_2.md",
     "high_level (gdd)/System Design/Core/CapableSystem",
     "high_level (gdd)/System Design/Core/CapacitySystem",
     "high_level (gdd)/System Design/Core/Capacities/AnimSystem",

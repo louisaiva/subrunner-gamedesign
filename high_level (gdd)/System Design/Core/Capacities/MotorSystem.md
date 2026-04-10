@@ -1,6 +1,6 @@
 #system #designing
 
-- [ ] [[MotorSystem_Proto]]
+- [x] [[MotorSystem_Proto]]
 - [ ] [[MotorSystem_Rework_1]]
 
 
@@ -84,11 +84,12 @@ Pour ces entités loadées, les **Actions** & **Sensors** & **Déplacement** son
 - problème [unloadé] : comment on gère la validation “arrivée à destination” pour les entités unloadées ?
 	- en mode loadé c'est basé distance/position (souvent via Transform/target position).
 	- en mode unloadé il faut un équivalent virtuel (position data + règle IsInRange) dans l'execution batch.
-- problème de [pooling] :
-	- risque principal pooling : refs/timers/events/goalrequest stale => hard reset obligatoire au rebind.
+- [x] problème de [pooling] :
+	- [x] risque principal pooling : refs/timers/events/goalrequest stale => hard reset obligatoire au rebind.
 
 
 
 ---
 # todo
-- [ ] 
+
+- [x] bug d'[Avoidance System] : certains mobs gardent leur avoidance enorme longtemps ce qui les empechent d'atteindre leur destination > ce qui les bloque dans une [Action] infinie, relou

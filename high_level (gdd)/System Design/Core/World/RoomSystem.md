@@ -2,7 +2,7 @@
 
 - [x] [[RoomSystem_Proto]]
 - [x] [[RoomSystem_Rework_1]]
-- [ ] [[RoomSystem_Rework_2]]
+- [x] [[RoomSystem_Rework_2]]
 
 ---
 # description
@@ -67,11 +67,3 @@ dans l'update :
 # problèmes actuels
 
 
-- [ ] est-ce qu'on a vraiment besoin de gérer les transitions de movables loadés to unloadés ? ça peut amener des bugs, trucs bizarres et demande pas mal de perf
-	- [ ] sinon on peut juste gérer toutes les transitions de room des entités via [[MotorSystem]] et seulement gérer les transitions de room du perso via [[RoomSystem]]
-		- > problème [MotorEngine] ne gère que les entités unloadées ?
-		- > problème potentiel de realisme vu que c'est au feeling
-
-- [x] des fois quand on unload une room ça unload ses entités, et donc ça trigger [OnRoomExit], ce qui recalcule une nouvelle room qui est parfois faussée pour des entités...
-	- > ça casse tout parce que si la nouvelle room associée est déjà loadée, bah les entités viennent de se faire unload donc la room est loadée mais pas les entités
-	- > quand on reload l'ancienne room, ça load pas du tout les entités du coup elles disparaissent pouf

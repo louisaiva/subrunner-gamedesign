@@ -1,4 +1,4 @@
-#rework #todo
+#rework #done
 
 -  version actuelle : **1.5.0**
 
@@ -18,6 +18,6 @@
 	- [x] pooler correctement action provider
 	- [x] & Agent Behvaiour
 
-	- [ ] Tester avec 2 types d'actions / goal afin de vérifier que c'est réellement bien poolé
-		- [ ] faire un spawner à zombie + spawner à dev
-		- [ ] les dev doivent réparer des ordis jsp
+	- [x] Tester avec 2 types d'actions / goal afin de vérifier que c'est réellement bien poolé
+		- [x] faire un spawner à zombie + spawner à dev
+		- [x] les dev doivent réparer des ordis jsp

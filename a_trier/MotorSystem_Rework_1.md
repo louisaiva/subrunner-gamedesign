@@ -4,6 +4,7 @@
 
 ---
 - ## **objectifs**
+	- pooler correctement la [WorldKeyData] des [GoapActionProvider]
 	- créer une première version d'un [MotorEngine] qui gère les entitées unloadées
 		- BatchActionProvider
 		- BatchActionAchiever
@@ -15,4 +16,6 @@
 
 ---
 - ## **TODO**
-	- [ ] 
+
+	- [ ] comprendre comment sauvegarder les [WorldKeyData]
+	- [ ] les pooler

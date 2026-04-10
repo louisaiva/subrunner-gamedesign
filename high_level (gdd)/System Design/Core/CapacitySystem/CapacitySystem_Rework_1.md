@@ -33,18 +33,29 @@
 		- [ ] ajouter une [AnimLayerData] optionnelle à SpawnCapacityData
 
 
-	- [ ] adapter [[WalkCapacity]] 
-		- [ ] créer une [WalkData] qui sauvegarde :
-			- [ ] par entité (donc save dynamiquement) [walk_percentage_target] + [walk_speed]
-			- [ ] par template [max_speed]
+	- [x] adapter [[WalkCapacity]] 
+		- [x] créer une [WalkData] qui sauvegarde :
+			- [x] par entité (donc save dynamiquement) [walk_percentage_target] + [walk_speed]
+			- [x] par template [max_speed]
 		- 
-		- [ ] regénère l'instance des footsteps au **Load()**
+		- [x] regénère l'instance des footsteps au **Load()**
 		- 
-		- [ ] merge [RunCapacity] dans Walk
-			- [ ] sauvegarde [run_speed] + [is_running]
+		- [x] merge [RunCapacity] dans Walk
+			- [x] sauvegarde [run_speed] + [is_running]
 
 
-	- [ ] adapter [[AttackCapacity]]
-		- [ ] créer une [AttackData]
-			- [ ] vitesse d'attaque
-			- [ ] points dégats
+	- [x] adapter [[AttackCapacity]]
+		- [x] créer une [AttackData]
+			- [x] vitesse d'attaque
+			- [x] points dégats
+
+	- [x] vérifier que l'AttackCapacity fonctionne vraiment bien
+		- [x] des fois bugs avec le polygon collider du chat ?
+			- jsaipa d'ou ça vient, debug ça
+		- [x] bug de [excluded tags] dans l'[[AttackCapacity]], ce qui fait que les chats peuvent se faire des dégats entre eux (et zombies entre eux)
+			- > certainement problème du tag de la [HealthCapacity] qui n'est pas la même que celui du [[Capable]] (+1)
+			
+
+	- [ ] comment faire pour que le chat retienne qu'on l'a attaqué ?
+		- [ ] > utiliser la [SocialData]
+		- [ ] > mid terme (+1) -> dépend de [[BrainSystem]]
