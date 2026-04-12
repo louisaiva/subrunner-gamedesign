@@ -28,7 +28,7 @@ Chaque entité voit son goap updaté selon 2 routes distinctes QUI NE DOIVENT JA
 
 ### 1. MotorEngine
 
-[MotorEngine] gère les entités unloadées. Elle récupère les entités qui s'unload et les ajoute à sa liste pour bien les gérer. De même, lorsqu'une entité est loadée, elle l'enlève de sa liste.
+[MotorEngine] gère les entités unloadées. Elle récupère les entités qui s'unload et les ajoute à sa liste pour bien les gérer. De même, lorsqu'une entité est loadée, elle l'enlève de sa liste. Pour cela elle register les callbacks du [CapableSystem]
 
 Ensuite elle fait tourner le goap system en batch pour toutes les entités unloadées. Pour ça il a 3 sous systèmes qui sont des Monobehaviours :
 - **BatchActionProvider** :
@@ -93,3 +93,5 @@ Pour ces entités loadées, les **Actions** & **Sensors** & **Déplacement** son
 # todo
 
 - [x] bug d'[Avoidance System] : certains mobs gardent leur avoidance enorme longtemps ce qui les empechent d'atteindre leur destination > ce qui les bloque dans une [Action] infinie, relou
+
+- [x] fix null ref exception bug [AttackAction] line 59
