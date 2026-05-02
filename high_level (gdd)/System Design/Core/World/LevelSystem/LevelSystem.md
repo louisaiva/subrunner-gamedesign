@@ -24,7 +24,7 @@
 - [LevelData] :
 	- données du [Level]. inclut aussi bien le navmesh data, que les rooms_ids et aussi la future data dynamique ?
 
-[LevelEngine] est aussi utile pour différentes autres choses notamment :
+[LevelEngine] est aussi utile pour différentes autres choses notamment via ses sous systèmes :
 
 ### 1. [[RoomGraphDesign]]
 
@@ -45,10 +45,6 @@ Cycle de vie d'un [[Level]] (quand on appuie sur le bouton de l'ascenceur, le sy
 
 ---
 # problèmes actuels
-
-- comment on gère les [Door] ? dans les link ? alors on doit avoir autre chose que juste les neighbours référencés dans la RoomData, on doit :
-	- soit avoir des datas pour les doors
-	- soit avoir un LinkRoomData qui gère les neighbours + doors + autres trucs
 
 
 

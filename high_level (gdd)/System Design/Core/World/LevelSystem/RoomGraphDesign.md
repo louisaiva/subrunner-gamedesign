@@ -3,11 +3,9 @@
 ---
 # description
 
-[RoomGraph] permet de répondre à plusieurs problématiques :
-- pouvoir décider des voisins de chaque room rapidement
-- permettre aux unloaded [Capable] de naviguer facilement à travers un [Level]
+[RoomGraph] permet de faciliter le workflow de dessin des voisinages de chunks des rooms. C'est un sous système de [[LevelSystem]]
 
-
+il ne **PERMET PAS** de dresser un itinéraire de navigation à travers un [Level] car c'est un sous système purement [visuel]. pour cela il faut plutot se diriger vers [[DoorSystem]]
 
 
 ---
@@ -17,12 +15,7 @@ On utilise un système de [node] / [link].
 
 chaque room représente une [node], et des [links] apparaissent entre les rooms voisines.
 
-
-[link] doit stocker plusieurs trucs :
-- données de frontière (edge collider)
-- les 2 rooms qui sont voisines
-- est-ce qu'on a des doors ou pas
-	- > ça ça sert à savoir quel mob peut passer la frontière !! (quand on est pas dans la zone chargée i mean)
+[link] stocke uniquement les 2 [nodes] voisines.
 
 
 on peut générer statiquement ce graph, via les collisions entre colliders de rooms, mais ça parait bancal si les collisions changent etc
@@ -33,6 +26,10 @@ on peut générer statiquement ce graph, via les collisions entre colliders de r
 # problèmes actuels
 
 
+- problème encore plus important de [work flow] :
+	- l'intégrer au [WorldBuilder]
+
+
 - problème de [work flow] :
 	- est-ce qu'on doit générer automatiquement le graph ?
 		- > moins flexible
@@ -40,3 +37,4 @@ on peut générer statiquement ce graph, via les collisions entre colliders de r
 	- ou le tracer à la main ? (+1)
 		- > on peut update précisément ce qu'on veut
 		- > nécessite de créer un editor de node/link 
+	- 

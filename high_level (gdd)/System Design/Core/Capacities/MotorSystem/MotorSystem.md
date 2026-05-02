@@ -1,7 +1,7 @@
 #system #designing
 
 - [x] [[MotorSystem_Proto]]
-- [ ] [[MotorSystem_Rework_1]]
+- [x] [[MotorSystem_Rework_1]]
 
 
 ---
@@ -69,11 +69,11 @@ Pour ces entités loadées, les **Actions** & **Sensors** & **Déplacement** son
 **Hard Reset conseillé quand [MotorCapacity] se load (ou s'unload)** :
 - [x] StopAction(false)
 - [x] ActionState.Reset()
-- [ ] Initialize() agent
+- [x] Initialize() agent
 - [x] reassign AgentType
-- [ ] clear WorldData local
+- [x] clear WorldData local
 - [ ] clear disablers/actions disabled
-- [ ] re-request goals
+- [x] re-request goals
 
 
 ### .
@@ -87,10 +87,22 @@ Pour ces entités loadées, les **Actions** & **Sensors** & **Déplacement** son
 - [x] problème de [pooling] :
 	- [x] risque principal pooling : refs/timers/events/goalrequest stale => hard reset obligatoire au rebind.
 
+- [ ] problème de [spawning] :
+	- [ ] j'ai l'impression que les mobs, lors du spawn, ont une position égale à 0,0, ce qui fait que leurs sensors font un premier sensing en 0,0, ce qui est illogique à balle
+
 
 
 ---
 # todo
+
+- [ ] faire un 1er jet de [BatchActionAchiever] qui :
+	- [ ] BatchGoToBehaviour
+	- [ ] reçoit des actions
+	- [ ] récupère la target
+	- [ ] move jusqu'à la target
+	- [ ] quand l'action est terminée, re s'enregistre pour resolve
+- [ ] tester avec une action idle de [WanderGoal] qui permet de voir si les entités se déplacent bien sur la map + gérer la transition loadé / unloadé
+
 
 - [x] bug d'[Avoidance System] : certains mobs gardent leur avoidance enorme longtemps ce qui les empechent d'atteindre leur destination > ce qui les bloque dans une [Action] infinie, relou
 

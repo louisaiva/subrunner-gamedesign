@@ -3,6 +3,7 @@
 - [x] [[RoomSystem_Proto]]
 - [x] [[RoomSystem_Rework_1]]
 - [x] [[RoomSystem_Rework_2]]
+- [ ] [[RoomSystem_Rework_3]]
 
 ---
 # description
@@ -59,6 +60,8 @@ dans l'update :
 			- une action pareil, prend un certain temps virtuel à s'effectuer comme ça ça donne une impression réelle et ça désengorge le cpu
 
 
+
+
 ### .
 
 ---
@@ -66,4 +69,4 @@ dans l'update :
 
 # problèmes actuels
 
-
+- [ ] loading bourrin des [tilemaps] : [[RoomSystem_Rework_3]]

@@ -1,6 +1,6 @@
 #system #designing
 
-- [ ] [[WorldSystem_Proto]]
+- [x] [[WorldSystem_Proto]]
 
 
 ---
@@ -14,6 +14,8 @@ il gère par la même occasion la [WorldData] qui peut comme ça être saved fac
 ---
 # fonctionnement du système
 
+
+## 1. [WorldData] & SaveSystem
 
 chaque monde a un dossier de save associé localisé dans
 
@@ -29,8 +31,10 @@ ce dossier se présente sous la forme suivante :
 les templates sont internes à **subrunner** et sont donc situés dans [Assets/Resources/data/templates/]
 
 
+## 2. [[WorldBuilder]]
 
 
+## .
 
 ---
 # problèmes actuels
@@ -42,4 +46,5 @@ les templates sont internes à **subrunner** et sont donc situés dans [Assets/R
 
 ---
 # todo
-- [ ] 
+
+- [ ] sauvegarder la version 

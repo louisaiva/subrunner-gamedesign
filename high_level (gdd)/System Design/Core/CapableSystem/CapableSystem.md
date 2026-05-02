@@ -55,6 +55,12 @@ C'est un système de type [[BSOD Pattern Design]] qui comporte 4 composants :
 
 les [[Capacity]] gèrent leur propre **data** ET leur propre **logique** au sein du [[CapacitySystem]] ce qui n'est **PAS** le même systeme que celui des capables.
 
+le [CapableSystem] contient aussi différents sub systèmes :
+
+- ## [SUB SYSTEMS]
+	- [[MovableEngine]]
+	- [[ColliderBank]]
+	- [[AnimLayerBank]]
 
 
 ---
@@ -68,7 +74,7 @@ les [[Capacity]] gèrent leur propre **data** ET leur propre **logique** au sein
 		- [ ] on doit vérifier que l'entité est bien toujours bien assignée à la room avant de la décharger
 			- > du coup c intéressant de garder l'id de la room dans les capabledata comme ça on peut vérifier que la room est bien déchargée avant de deload l'entité
 		- [ ] comme on a changé d'algo de RoomEngine, peut etre que ce bug n'existe plus. je peux imaginer qu'il arrive si le mob trigger une autre room [OnRoomEnter] juste avant de se faire unload
-			- [ ] dans ce cas là c'est simple suffit de faire un flag dans [Capable]  [_unloading]_ comme on en a déjà un pour [Room] (+1)
+			- [ ] dans ce cas là c'est simple suffit de faire un flag dans [Capable]  [_unloading]_ comme on en a déjà un pour [Room] (+2)
 
 
 - [ ] problème de [developement] edge case : comment on gère les entités qui sont loadées au début ? on devrait les spawn non ?
@@ -79,3 +85,8 @@ les [[Capacity]] gèrent leur propre **data** ET leur propre **logique** au sein
 
 ---
 # todo
+
+- [ ] faire une [RigidBodyData] qui sauvegarde différents trucs :
+	- [ ] body type (kinematic etc)
+	- [ ] mass ?
+	- [ ] la stocker dans la [FeetData]

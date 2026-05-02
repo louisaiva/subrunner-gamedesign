@@ -8,15 +8,17 @@ ce todo est différent du [[todo_low_level]] parce qu'il sert à détailler les 
 
 - #### systemes ok tier
 	- [[InventorySystem]]
+	- [[CapableSystem]]
+	- [[CapacitySystem]]
+	- [[RoomSystem]]
 
 
 - #### systemes en cours de rework/proto
-	- [[RoomSystem]]
-	- [[CapableSystem]]
-	- [[CapacitySystem]]
 	- [[MotorSystem]]
 	- [[LevelSystem]]
+		- [[DoorSystem]]
 	- [[WorldSystem]] 
+		- [[WorldBuilder]]
 
 
 - #### systèmes à rework
@@ -32,7 +34,7 @@ ce todo est différent du [[todo_low_level]] parce qu'il sert à détailler les 
 - #### systèmes encore inexistants (en cours de design)
 	- [[Ecosystem]]
 		- **EnemyWaveSystem** meilleur nom ?
-	- [[WallSystem]] / [[DoorSystem]] 
+	- [[WallSystem]] / 
 	- [[SaveSystem]]
 	- [[Cinematics]]
 	- [[AudioSystem]]
@@ -47,20 +49,29 @@ ce todo est différent du [[todo_low_level]] parce qu'il sert à détailler les 
 	- [EcoSystem]
 	- [UI System] i guess ?
 	- [Cinematics] ?????
+
 - **Level Tier**
 	- [LevelSystem] - holds [LevelData]
+		- [DoorSystem]
+
 	- [WallSystem] ?
-	- [DoorSystem] ???
+
 - **Room Tier**
 	- [RoomSystem] - holds [RoomData]
 	- [MovableEngine]
+
+- insérer un **Chunk Tier** ?
+	- > permettrait de faire la distinction entre une room & un chunk, ce qui permet de découper des rooms en plusieurs petites
+
 - **Capable Tier**
 	- [CapableSystem] - holds [CapableData]
 	- [ControllerSystem]
 	- [InventorySystem]
 	- [AnimPlayer]
 	- [AudioSystem] ?
+
 - **Capacity Tier**
+	- [MotorCapacity]
 	- [MoveCapacity]
 	- [Hacking]
 	- [Combat]

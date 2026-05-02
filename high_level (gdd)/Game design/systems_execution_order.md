@@ -6,4 +6,5 @@ Pour que ça soit pas le bordel (ça l'est déjà), faut pas hésiter à noter l
 
 
 - le script [[AppManager]] doit être awaken **AVANT** n'importe quel [[Capable]] **CAR** les capables appellent AppManager.Instance dans leur **OnEnable** (qui est parfois fait en meme temps qu'awake, donc probleme)
+- le script [[WorldManager]] doit être awaken **AVANT** [[GameManager]] pcq game manager lance le load du world dans l'awake, et donc world manager doit avoir vérifié quels world sont déjà existants avant sinon il peut pas select
 - le script [[CapacitySystem]] doit être awaken **APRES** [GameManager] **CAR** il utilise la methode **IsKind()** qui donc nécessite que GameManager.Instance soit != null
