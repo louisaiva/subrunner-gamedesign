@@ -1,6 +1,6 @@
 #system #designing
 
-- [ ] [[prototype]]
+- [ ] [[SaveSystem_Proto]]
 
 
 ---
@@ -30,10 +30,11 @@ le cycle de vie d'une [LevelSave], est, quant à lui, plus tumultueux :
 comme on peut le voir il y a donc 2 types de [LevelSaver] différents :
 
 
-## 2. Static Save
+## 2. Static Save (AIO Save)
 
 - soit depuis l'inspecteur dans l'Editor (save manuelle)
-- soit potentiellement depuis un [WorldBuilder] ?
+- soit directement depuis le [[WorldBuilder]] après un Build de Level
+- sauvegarde des [AIO_Level] (all in one level)
 
 - sauvegarde :
 	- les doors
@@ -45,8 +46,10 @@ comme on peut le voir il y a donc 2 types de [LevelSaver] différents :
 	- redessiner le room graph neighbourhood, ce qui est relou (ou doit se faire automatiquement)
 	- rebuild les navmesh
 	- regrab tous les capables, y compris les doors
+	- regénérer ids
+		- > pour ça on peut seulement regénérer ids for Movables
 
-> cette save doit donc se faire depuis un [Level] constitué en un seul gameobject regroupant :
+> cette save doit donc se faire depuis un [AIO_Level] constitué en un seul gameobject regroupant :
 > 	- les rooms
 > 	- les tilemaps
 > 	- les doors
@@ -66,6 +69,14 @@ comme on peut le voir il y a donc 2 types de [LevelSaver] différents :
 > on peut donc potentiellement faire cette save en full runtime pendant qu'on joue -> associer un bouton save dans les options [[UI_PauseMenu]]
 
 
+
+
+# 4. SubSystems
+
+Pour aider le [SaveSystem] on a besoin de différents subsystems, notamment :
+
+- [AIO_Loader] : utilisé principalement par le [LevelTranslator] pour load un level spécifique en mode AIO pour ensuite override ses rooms/capables pour ensuite re save le level
+
 ## .
 
 ---
@@ -74,6 +85,7 @@ comme on peut le voir il y a donc 2 types de [LevelSaver] différents :
 - problème de [workflow] :
 	- on doit donc pouvoir rewrite par dessus un [level-all-in-one] pour re assigner les doors, capables etc
 	- on doit donc pouvoir charger un [level-all-in-one] at runtime ?
+		- > oui (+2) -> [AIO_Loader] subsystem
 
 
 

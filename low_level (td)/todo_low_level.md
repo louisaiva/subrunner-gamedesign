@@ -19,13 +19,15 @@ contrairement au [[todo_high_level]], ce document a pour but de détailler le pl
 	- [x] [[LevelSystem_Proto]]
 	- [x] [[LevelSystem_Rework_1]]
 	- [x] [[DoorSystem_Proto]]
-	- [ ] [[WorldBuilder_Rework_1]]
-- 
+	- [ ] [[SaveSystem_Proto]]
+		- [ ] [[WorldBuilder_Rework_1]]
+
+
 - ## Capacities to rework in Data
 	- [x] transformer Being en HealthCapacity
 	- [x] WalkCapacity + RunCapacity (save the data pcq pour le moment ça garde l'ancienne valeur de walk_speed ce qui peut faire avancer des mobs sans moteur)
 	- [x] les AnimLayer ont l'air de faire des trucs chelou sur les [Corpse] et même des fois sur des devs qui marchent random, ptet que y'a un layer qui n'a pas été enlevé et qui donc garde son ancienne fonction ce qui n'est pas ouf.
-		- on dirait ça reinstancie des anim layers alors que y'en a déjà des présents !
+		- [x] on dirait ça reinstancie des anim layers alors que y'en a déjà des présents !
 
 - ## Optimisations
 	- [x] comprendre d'où vient la chute de fps de 1 frame au changement de room du perso
@@ -45,6 +47,7 @@ contrairement au [[todo_high_level]], ce document a pour but de détailler le pl
 	- [x] [[MovableEngine]] HalfMatrix stills some bugs when resizing the matrix oh no
 	- [ ] Supprimer les appels vers AddCapacity() / RemoveCapacity() mais pour ça on doit avoir un moyen d'ajouter dynamiquement des capacités ?
 	- [ ] dans les coffres au **gamepad** quand on click sur un [[UI_ItemStack]] avec plusieurs items (quantity > 1) ça sélectionne ensuite un autre ui_item stack au lieu de rester sur le même
+	- [x] mettre "material/objects" en material par défaut si on trouve pas
 	- [x] ShadowCaster2D décalé sur les portes dans les builds
 
 
@@ -66,6 +69,8 @@ contrairement au [[todo_high_level]], ce document a pour but de détailler le pl
 
 # A TRIER
 
+- [ ] réflechir mouse dynamic orientation [[2026_05_03]]
+
 - [ ] faire un post it system quickly (ui_pool) notamment pour le qg avec une liste des courses :
 	- pastas (last packet) !! important
 	- 2 piles AAAAAAAA
@@ -80,7 +85,7 @@ contrairement au [[todo_high_level]], ce document a pour but de détailler le pl
 - [ ] implement cinematics system
 	- [ ] make 2 start cinematic
 	- [ ] make demo completed cinematic
-	
+
 - [ ] implement enemy wave system for the spawners to not appear
 - [ ] implement first computer UI to have a proper way to steal the door' key
 - [ ] change [[UI_File]] visuals to have better UX for

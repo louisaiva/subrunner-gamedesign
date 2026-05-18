@@ -89,36 +89,41 @@ Il s'occupe de créer :
 - les [Room] (et les [Light2D] associés)
 - les [Door]
 
-ce translator possède plusieurs limites ce qui nous empêchent de créer sur le champ un level fonctionnel et testable instantanément:
-- pas de gestion de voisinage des [Room], donc on est obligé d'ouvrir le [RoomGraph] editor (paouf)
-- ne sauvegarde pas immédiatement
-- ne peut pas charger directement le monde ?
-- ne peut pas override un level existant parce que :
-	- duplique les doors
+Le [Translator] ne peut pas override un level existant parce que :
+	- duplique les doors / lights
 	- ne garde pas les voisins
-	- override les lights
+	- ne build pas le navmesh
+	- ne génère pas les ids
 
 
+Pour cela on doit ajouter plusieurs petits [subsystem] au Translator qui vont s'occuper de :
+- calculer le graph de neighbouring
+- buildnavmesh (on l'a déjà le subsystem :)))
+- autochunk
 
+### - [[NavMeshBuilder]]
 
+- peut pas générer depuis le build, sauf si on utilise genre reflexion ?
+### - AutoChunker (mid-term ?)
+- permet de séparer les grandes rooms en plus petits chunks
 
-## 5. AutoChunker (mid-term ?)
+### - AutoNeighbourer
+ 
+- permet de calculer automatiquement le room graph neighbour
 
-- l'auto chunker a 2 buts :
-	- auto draw le [RoomGraphNeighbourhood] pour le chargement réaliste des chunks
-	- pouvoir "chunk" des grosses [Room] en plusieurs sous parties (chunks lol)
+- dans un 1er temps on fait via les doors en gros on connecte les rooms de chaque door entre elles
 
-
-- pour l'auto neighbourhood calculation :
+- meilleure version : auto draw le [RoomGraphNeighbourhood] pour le chargement réaliste des chunks
 	- on calcule les 2 tiles les plus proche entre chaque paire de [Chunk]
 	- cela nous donne le plus petit vecteur séparant les deux chunks
 		- > si inférieur à un treshold, les chunks sont voisins
 		- ! si le treshold est trop large cela peut poser des soucis de perf (spike lags) pcq ça voudra dire qu'on charge bcp de chunks d'un coup
 
-- pour l'auto chunkage des grosses rooms :
-	- le faire au niveau du translator
-	- 
-## .
+
+
+
+## @
+
 
 
 ---
@@ -131,12 +136,41 @@ ce translator possède plusieurs limites ce qui nous empêchent de créer sur le
 		- > plutôt sur le [WorldManager] all-in-one method ???
 
 
+- problème de [translator] :
+	- pour passer d'un **schematic** à un **level all-in-one** (laio ?) on doit replacer des capables, qui peuvent avoir changé de place/été supprimés/créés pour la 1e fois. pour gérer ça, plusieurs options :
+
+		- (1e idée, bruteforce) :
+		  on supprime tous les objets (doors, lights) et on les recrée à l'endroit spécifique
+
+		- (2e idée, position-based) :
+		  on compare les objets existants avec les nouveaux objets, et, en fonction de leur position, soit on les recréé soit on les supprime soit on les garde
+			- > pour l'instant on teste ça (+5)
+			- > ça fonctionne ok tier
+	
+		- (3e idée, id-based) :
+		  on stocke une [id] dans les [schematics] pour les lights & doors.
+		  au début elle est vide, et une fois que la translation est faite, lorsqu'on assigne les ids aux capables dans le **AIO_Level** bah on assigne l'id aussi aux visus du schematics pour que l'id soit jsoné aussi.
+		  prochaine fois qu'on re translate on cherche les paires d'id matchantes et on met juste à jour les positions des objets trouvés grace a celle du visu correspondant.
+		  pour les objets qui ont une id mais pas de visu, on les supprime
+		  pour les visu qui ont pas d'id, on instancie un objet.
+			- > un peu relou ça veut dire faut garder l'id dans les visus aussi, et donc pour retrouver le schematic a modif après id generation ça va etre le zbeul (+2)
+				- ça attendra un gros rework avec placement d'objets etc
+
+
+- problème de [build / AssetDatabase] :
+	- BEAUCOUP de choses du [WorldBuilder] ne fonctionnent pas correctement dans le build, notamment
+		- get_material_path() de AnimPlayer / AnimLayer
+			- > solution potentielle : sauvegarder les materials path dans un .json des [Assets] qui retient le material path par skin quand on travaille dans l'inspector et ensuite s'en sert comme fallback dans le build
+		- nav mesh builder
+			- ça pas trop de solution, à part modifier moi même le code du navmesh :///
+
 
 ---
 # todo
 	
 - [x] supprimer l'Editor
-- [ ] [long-term] faire un réel light modifier (color picker + intensity)
+- [ ] [mid-term] faire un réel light modifier (color picker + intensity)
+- [x] [mid-term] quand on charge le AIO_Level et qu'on regénère les ids et qu'on regrab ça risque de supprimer toutes les refs des movables ? sauf si on les load aussi quand le translator demande la construction du AIO_Level
 
 - [ ] intégrer certains worlds aux assets afin de pouvoir load des "worlds templates" qui nous permettent notamment de choisir le type de world à créer lors de la création d'un world
 	- [ ] faire un ui_pool stackable de création de world, avec un input field, et le template de monde à créer :
@@ -146,8 +180,8 @@ ce translator possède plusieurs limites ce qui nous empêchent de créer sur le
 		- [ ] 
 
 
-
-
+- [ ] auto neighbour chunk
+	- [ ] améliorer pcq pour le moment c basé sur le door graph
 
 
 

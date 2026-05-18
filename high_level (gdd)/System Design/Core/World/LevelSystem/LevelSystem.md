@@ -28,7 +28,7 @@
 
 ### 1. [[RoomGraphDesign]]
 
-### 2. Pathfinding
+### 2. [[NavMeshBuilder]] (PathFinding)
 
 chaque [Level] gère aussi son pathfinding, en stockant les données du bon graph. Quand on bake le graph, ça bake le graph du level actuel seulement et l'enregistre dans [Level].
 
@@ -47,7 +47,7 @@ Cycle de vie d'un [[Level]] (quand on appuie sur le bouton de l'ascenceur, le sy
 # problèmes actuels
 
 
-
+- [ ] problème de [navmesh] : [[NavMeshBuilder]]
 
 ---
 # todo

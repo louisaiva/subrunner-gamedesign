@@ -16,7 +16,7 @@
 ---
 - ## **TODO**
 
-	- [ ] sauvegarder un [LevelSchematic] par level par world
+	- [x] sauvegarder un [LevelSchematic] par level par world
 		- [x] inclure dans la LevelData ?
 		- [x] -> non plutot c mieux de l'enregistrer en mode .schematic
 		
@@ -28,13 +28,32 @@
 		- [ ] une fois build le bouton build se transforme en bouton eye pour tester le level si souhaité.
 		- [x] faire un bouton save à côté pour sauvegarder le level. 
 
-		- [ ] stack le world builder pool sur pause menu
-		- [ ] ouvrir un popup pour unload le world
+		- [x] stack le world builder pool sur pause menu
+		- [x] ouvrir un popup pour unload le world
 
-	- [ ] améliorer le [LevelBuilder] :
-		- [ ] faire que les [RoomVisu] grabbent automatiquement les différentes cell lors de leur création (lights & doors)
-		- [ ] 
+	- [x] améliorer le [LevelBuilder] :
+		- [x] faire que les [RoomVisu] grabbent automatiquement les différentes cell lors de leur création (lights & doors)
+		- [x] remettre une tile de ground en dessous des doors
 
-	- [ ] améliorer le [Translator] :
-		- [ ] target le level spécifique
-		- [ ] supprimer les doors/lights OU MIEUX ne pas les recréer
+	- [x] améliorer le [Translator] :
+		- [x] load le level spécifique en mode "all-in-one"
+		- [x] applique les tilemaps aux rooms
+		- [x] applique les polycolliders
+		- [x] reinstancie toutes les doors ?
+			- > l'ideal serait de ne pas les re instancier :
+				- methode 3 "id-based"
+		- [x] supprime les old lights qui ne sont pas dans les new light du schematics
+		- [x] auto neighbour chunk
+		- [x] auto générate buildnavmesh
+		- [x] auto regenerate ids
+		- [x] make rooms grab capables 
+		- [x] level regrab all rooms
+
+	- [x] id generation bug generate new ids for capables that should keep their ids
+
+	- [x] anim player & layers material not getting the right one
+
+	- [x] navmesh build can't work in build ?
+		- > yeah no it can't work in build but lots of things in the world builder can't work in build
+
+	- [x] sometimes SaveEngine can't save some capables

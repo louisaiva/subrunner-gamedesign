@@ -14,11 +14,11 @@ ce todo est différent du [[todo_low_level]] parce qu'il sert à détailler les 
 
 
 - #### systemes en cours de rework/proto
+	- [[WorldBuilder]]
 	- [[MotorSystem]]
 	- [[LevelSystem]]
 		- [[DoorSystem]]
 	- [[WorldSystem]] 
-		- [[WorldBuilder]]
 
 
 - #### systèmes à rework
@@ -38,6 +38,7 @@ ce todo est différent du [[todo_low_level]] parce qu'il sert à détailler les 
 	- [[SaveSystem]]
 	- [[Cinematics]]
 	- [[AudioSystem]]
+	- [TV_System] ? ou alors c une [[UI_Pool]] ?
 
 
 
