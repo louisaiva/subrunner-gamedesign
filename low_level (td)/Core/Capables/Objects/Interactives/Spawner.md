@@ -1,5 +1,5 @@
 #capable
-sert d'**Agent/Entity** pour le [[Ecosystem]]
+sert d'**Agent/Entity** pour le [[EcoSystem]]
 
 
 

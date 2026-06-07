@@ -6,7 +6,7 @@ cette **roadmap** sert à accompagner le développement, et, par conséquent, es
 
 
 
-#### objectif actuel : **finir une 1e démo chouette**
+#### objectif actuel : **finir une 1e démo chouette** : [[july26demo]]
 #### version actuelle : **1.5.0**
 
 
@@ -34,10 +34,11 @@ cette **roadmap** sert à accompagner le développement, et, par conséquent, es
 
 ## lancement 1e démo (steam & itch.io)
 - deadline : **juillet 2026**
-- publish the demo on itch.io ?
+- publish the demo on itch.io
+- publish the demo **as a playtest** on steam si on a la page déjà
 - have 1 level with all capabilities
-- starts with pasta cinematic
-- finish with nobody's boss fight
+- starts with frigo cinematic
+- finish with qwin's boss fight
 
 ## lancement des mises à jour
 - on arrive enfin dans le #mid-term

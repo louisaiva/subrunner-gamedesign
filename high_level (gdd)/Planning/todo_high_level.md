@@ -10,18 +10,19 @@ ce todo est différent du [[todo_low_level]] parce qu'il sert à détailler les 
 	- [[InventorySystem]]
 	- [[CapableSystem]]
 	- [[CapacitySystem]]
-	- [[RoomSystem]]
+	- [[ChunkSystem]]
 
 
 - #### systemes en cours de rework/proto
 	- [[WorldBuilder]]
-	- [[MotorSystem]]
+	- [[DoorSystem]]
 	- [[LevelSystem]]
-		- [[DoorSystem]]
 	- [[WorldSystem]] 
+	- [[SaveSystem]]
 
 
 - #### systèmes à rework
+	- [[MotorSystem]]
 	- [[UI_Manager_Rework_2]]
 	- [[Item]] & [[Item_Rework_1]]
 	- [[Hacking]] & [[File]]
@@ -32,10 +33,10 @@ ce todo est différent du [[todo_low_level]] parce qu'il sert à détailler les 
 
 
 - #### systèmes encore inexistants (en cours de design)
-	- [[Ecosystem]]
+	- [[EcoSystem]]
 		- **EnemyWaveSystem** meilleur nom ?
-	- [[WallSystem]] / 
-	- [[SaveSystem]]
+	- [[WallSystem]]
+	- [[ExpSystem]]
 	- [[Cinematics]]
 	- [[AudioSystem]]
 	- [TV_System] ? ou alors c une [[UI_Pool]] ?
@@ -53,16 +54,18 @@ ce todo est différent du [[todo_low_level]] parce qu'il sert à détailler les 
 
 - **Level Tier**
 	- [LevelSystem] - holds [LevelData]
-		- [DoorSystem]
 
-	- [WallSystem] ?
 
 - **Room Tier**
 	- [RoomSystem] - holds [RoomData]
-	- [MovableEngine]
+	- [DoorSystem]
+	- [TilemapSystem]
+	- [LightSystem]
+	- ~~[WallSystem] ?~~ no need for it
 
-- insérer un **Chunk Tier** ?
-	- > permettrait de faire la distinction entre une room & un chunk, ce qui permet de découper des rooms en plusieurs petites
+- **Chunk Tier**
+	- [ChunkSystem] - holds [ChunkData]
+	- [MovableEngine]
 
 - **Capable Tier**
 	- [CapableSystem] - holds [CapableData]
@@ -72,6 +75,7 @@ ce todo est différent du [[todo_low_level]] parce qu'il sert à détailler les 
 	- [AudioSystem] ?
 
 - **Capacity Tier**
+	- [ExpCapacity]
 	- [MotorCapacity]
 	- [MoveCapacity]
 	- [Hacking]

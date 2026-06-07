@@ -8,77 +8,49 @@
         "type": "tabs",
         "children": [
           {
-            "id": "61bc5835ca4b31c8",
+            "id": "77282e709cc55b9b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "a_trier/SaveSystem.md",
+                "file": "a_trier/july26demo.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SaveSystem"
+              "title": "july26demo"
             }
           },
           {
-            "id": "ea3122d236a31e39",
+            "id": "8f086d5d0b9f62b6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "high_level (gdd)/System Design/Core/World/LevelSystem/LevelSystem.md",
+                "file": "a_trier/StorySystem.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "LevelSystem"
+              "title": "StorySystem"
             }
           },
           {
-            "id": "9f8e0a45abc40fc5",
+            "id": "7a65fb835a517e1c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "high_level (gdd)/System Design/Core/World/WorldSystem/WorldBuilder/WorldBuilder_Rework_1.md",
+                "file": "a_trier/UI_Dialog.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "WorldBuilder_Rework_1"
-            }
-          },
-          {
-            "id": "fcd71802eeed6b7c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "high_level (gdd)/System Design/Core/World/WorldSystem/WorldBuilder/WorldBuilder.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "WorldBuilder"
-            }
-          },
-          {
-            "id": "6ef7a9264fd3a5ee",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "journals/2026_05_18.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2026_05_18"
+              "title": "UI_Dialog"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -110,7 +82,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#system",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -184,7 +156,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 437.5
+    "width": 593.5
   },
   "right": {
     "id": "07c140a3edb7f18b",
@@ -311,40 +283,46 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ea3122d236a31e39",
+  "active": "7a65fb835a517e1c",
   "lastOpenFiles": [
     "high_level (gdd)/Planning/todo_high_level.md",
+    "a_trier/UI_Dialog.md",
+    "a_trier/StorySystem.md",
+    "a_trier/july26demo.md",
+    "high_level (gdd)/Marketing, Com & others/Potential Publishers.md",
+    "high_level (gdd)/Marketing, Com & others/Playtesters & Sound Designers.md",
+    "high_level (gdd)/Marketing, Com & others/MARKETING.md",
+    "high_level (gdd)/Planning/ROADMAP.md",
+    "high_level (gdd)/System Design/Core/Capacities/AnimSystem/AnimSystem.md",
+    "a_trier/AnimSystem_Capacity_Integration_Rework.md",
+    "high_level (gdd)/System Design/Cinematics.md",
+    "high_level (gdd)/Marketing, Com & others/Inspirations.md",
+    "resources/image-10.png",
+    "resources/image-9.png",
+    "templates/System_template.md",
     "low_level (td)/todo_low_level.md",
-    "high_level (gdd)/System Design/Core/World/LevelSystem/LevelSystem.md",
-    "high_level (gdd)/System Design/Core/World/RoomSystem/DoorSystem/DoorSystem.md",
-    "journals/2026_05_18.md",
-    "high_level (gdd)/System Design/Core/World/WorldSystem/WorldBuilder/WorldBuilder_Rework_1.md",
+    "high_level (gdd)/System Design/Core/CapableSystem/CapableSystem.md",
+    "high_level (gdd)/System Design/Core/Capacities/AnimSystem/AnimSystem_Rework_S_tier (ia).md",
+    "journals/2026_05_27.md",
+    "journals/2026_05_28.md",
+    "journals/2026_05_31.md",
+    "journals/2026_06_01.md",
+    "resources/image-8.png",
+    "journals/2026_05_25.md",
+    "high_level (gdd)/System Design/Core/EcoSystem.md",
+    "a_trier/SaveSystem_Proto.md",
+    "a_trier/Controller_Rework_1.md",
     "high_level (gdd)/System Design/Core/World/WorldSystem/WorldBuilder/WorldBuilder.md",
-    "high_level (gdd)/System Design/Core/World/LevelSystem/NavMesh/NavMeshBuilder.md",
-    "journals/2026_05_08.md",
-    "journals/2026_05_07.md",
-    "journals/2026_05_03.md",
-    "journals/2026_05_02.md",
-    "journals/2026_04_30.md",
-    "journals/2026_04_27.md",
-    "journals/2026_04_10.md",
-    "journals/2026_04_05.md",
-    "journals/2026_04_03.md",
-    "journals/2026_03_30.md",
-    "journals/2026_03_18.md",
-    "journals/2026_03_14.md",
-    "journals/2026_03_13.md",
-    "journals/2026_03_12.md",
-    "journals/2026_03_01.md",
-    "journals/2026_02_15.md",
-    "journals/2026_02_14.md",
-    "journals/2026_01_29.md",
+    "low_level (td)/Controller/ControllerSystem.md",
+    "resources/image-7.png",
+    "resources/image-6.png",
+    "resources/image-5.png",
+    "resources/image-4.png",
     "high_level (gdd)/System Design/Core/World/LevelSystem/NavMesh",
     "high_level (gdd)/System Design/Core/SaveSystem",
     "resources/image-3.png",
     "resources/image-2.png",
     "resources/image-1.png",
-    "resources/image.png",
     "high_level (gdd)/System Design/Core/World/WorldSystem/WorldBuilder",
     "low_level (td)/Core/Capables/Objects/Interactives",
     "high_level (gdd)/System Design/Core/Capacities/MotorSystem",
@@ -356,12 +334,6 @@
     "high_level (gdd)/System Design/UI/UI.canvas",
     "high_level (gdd)/Design/Level Design/Level design.canvas",
     "high_level (gdd)/Design/UI/UI.canvas",
-    "resources/Pasted image 20260125225033.png",
-    "resources/Pasted image 20260125224020.png",
-    "resources/Pasted image 20260125223908.png",
-    "resources/Pasted image 20260125215609.png",
-    "resources/Pasted image 20260125215453.png",
-    "resources/Pasted Image 20260125213738_748.png",
     "Untitled 3.canvas",
     "Untitled 2.canvas",
     "Untitled 1.canvas"

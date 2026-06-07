@@ -6,7 +6,7 @@ il s'affiche de 2 manières différentes :
 - soit en interagissant avec un [[Computer]] via **A**
 - soit en **trojan** sur un [[Device]]
 
-dans tous les cas, ça change le [[Controller]] de capable sur le device visé, ce qui désactive les **perso_inputs**
+dans tous les cas, ça change le [[ControllerSystem]] de capable sur le device visé, ce qui désactive les **perso_inputs**
 
 composition de l'ui :
 

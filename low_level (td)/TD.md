@@ -7,7 +7,7 @@ Idéalement il faudrait convertir tous nos systèmes dans un système **ECS** gl
 # Systèmes :
 
 - [[Capable]] & [[Capacity]]
-- [[Controller]]
+- [[ControllerSystem]]
 - [[UI_Manager]]
 - [[InputManager]]
 - [[GOAP_system]] & [[Brain]]

@@ -32,7 +32,7 @@ C'est un système de type [[BSOD Pattern Design]] qui comporte 4 composants :
 			- assigner une id unique à cette nouvelle [Data]
 			- ajouter cette new data à sa liste de toutes les data
 			- load le capable correspondant à cette data
-			- call [OnCapableSpawned(entity,spawner)] pour remonter l'info au [[RoomSystem]]
+			- call [OnCapableSpawned(entity,spawner)] pour remonter l'info au [[ChunkSystem]]
 
 - ## 2. [CapableBank]
 	- [x] la bank doit gérer le pooling + load / unloading des capables.

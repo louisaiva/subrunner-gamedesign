@@ -1,7 +1,7 @@
 #rework #todo
 
 -  version de création : **1.5.0r**
--  version de résolution : 
+-  version de résolution : **1.5.0v**
 
 ---
 - ## **objectifs**
@@ -21,11 +21,10 @@
 		- [x] -> non plutot c mieux de l'enregistrer en mode .schematic
 		
 
-	- [ ] modifier le [[UI_WorldBuilderPool]] pour avoir :
+	- [x] modifier le [[UI_WorldBuilderPool]] pour avoir :
 		- [x] un ui world builder pool où on voit toutes les infos du world, on peut changer l'image le nom etc, et surtout on peut sélectionner le level à éditer
 		- [x] l'ancien ui wolrd builder pool devient ui level builder pool pour éditer un seul level à la fois
 		- [x] déplacer le bouton "build" level dans le world builder plutôt que dans le level builder.
-		- [ ] une fois build le bouton build se transforme en bouton eye pour tester le level si souhaité.
 		- [x] faire un bouton save à côté pour sauvegarder le level. 
 
 		- [x] stack le world builder pool sur pause menu
@@ -40,8 +39,8 @@
 		- [x] applique les tilemaps aux rooms
 		- [x] applique les polycolliders
 		- [x] reinstancie toutes les doors ?
-			- > l'ideal serait de ne pas les re instancier :
-				- methode 3 "id-based"
+			- [x] > l'ideal serait de ne pas les re instancier :
+				- [x] methode 3 "id-based"
 		- [x] supprime les old lights qui ne sont pas dans les new light du schematics
 		- [x] auto neighbour chunk
 		- [x] auto générate buildnavmesh
@@ -54,6 +53,6 @@
 	- [x] anim player & layers material not getting the right one
 
 	- [x] navmesh build can't work in build ?
-		- > yeah no it can't work in build but lots of things in the world builder can't work in build
+		- [x] > yeah no it can't work in build but lots of things in the world builder can't work in build
 
 	- [x] sometimes SaveEngine can't save some capables

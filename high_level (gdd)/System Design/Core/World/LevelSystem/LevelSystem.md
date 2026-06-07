@@ -1,13 +1,13 @@
 #system #designing
 
 - [x] [[LevelSystem_Proto]]
-- [ ] [[LevelSystem_Rework_1]]
+- [x] [[LevelSystem_Rework_1]]
 
 
 ---
 # description
 
-**LevelSystem** est le système qui gère les Levels. Il s'occupe de load/unload les Levels et donc demande à [[RoomSystem]] de charger les bonnes rooms.
+**LevelSystem** est le système qui gère les Levels. Il s'occupe de load/unload les Levels et donc demande à [[ChunkSystem]] de charger les bonnes rooms.
 
 
 
@@ -20,15 +20,17 @@
 	- (intègre le pooler pcq pas besoin de dynamic pooling vu qu'on a qu'un seul level à la fois & pas bcp de levels)
 - [Level] :
 	- stocke la data
-	- appelle [[RoomSystem]] pour loader les rooms correspondantes
+	- appelle [[ChunkSystem]] pour loader les rooms correspondantes
 - [LevelData] :
 	- données du [Level]. inclut aussi bien le navmesh data, que les rooms_ids et aussi la future data dynamique ?
 
+
+
 [LevelEngine] est aussi utile pour différentes autres choses notamment via ses sous systèmes :
 
-### 1. [[RoomGraphDesign]]
+### 1. [[AutoNeighbourer]]
 
-### 2. [[NavMeshBuilder]] (PathFinding)
+### 2. [[LevelNavBaker]] (PathFinding)
 
 chaque [Level] gère aussi son pathfinding, en stockant les données du bon graph. Quand on bake le graph, ça bake le graph du level actuel seulement et l'enregistre dans [Level].
 
@@ -47,7 +49,7 @@ Cycle de vie d'un [[Level]] (quand on appuie sur le bouton de l'ascenceur, le sy
 # problèmes actuels
 
 
-- [ ] problème de [navmesh] : [[NavMeshBuilder]]
+- [ ] problème de [navmesh] : [[LevelNavBaker]]
 
 ---
 # todo

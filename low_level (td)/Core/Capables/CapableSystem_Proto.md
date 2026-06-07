@@ -4,7 +4,7 @@
 
 ---
 - ## **objectifs**
-	- prototyper un BSOD pattern comme pour [[RoomSystem]]
+	- prototyper un BSOD pattern comme pour [[ChunkSystem]]
 	- load/unload/spawn des capables dynamiquement
 	- pouvoir assigner en direct des capacities à ces capables -> [[CapacitySystem]]
 	- définir ce qui doit relever des capacités et ce qui doit relever du capable system

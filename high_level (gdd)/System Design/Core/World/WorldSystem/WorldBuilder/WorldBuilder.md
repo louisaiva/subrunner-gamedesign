@@ -1,6 +1,7 @@
 #system #designing
 
-- [ ] [[WorldBuilder_Rework_1]]
+- [x] [[WorldBuilder_Rework_1]]
+- [x] [[WorldBuilder_Rework_2]]
 
 
 ---
@@ -16,10 +17,15 @@ Il est accessible via les options de dev, ce qui active/désactive tout le world
 
 Le système est séparé en une unité centrale, [WorldBuilder] et plusieurs sous systèmes. Ces sous systèmes intéragissent entre eux pour amener au fonctionnement macro du système.
 
+[WorldBuilder] sert principalement de point d'entrée et de liens entre :
+- d'une part le [LevelBuilder] qui s'occuper des .schematic et de build les tilemaps et
+- ensuite le [LevelTranslator] qui s'occupe du [AIO] level load, état des lieu des capables & rooms, puis l'auto chunk, placage des doors, level nav mesh, auto neighbouring, et
+- enfin le [[SaveSystem]] qui applique la sauvegarde à ce [AIO] level
 
-## **1. WorldBuilder**
 
-Le [WorldBuilder] est le script principal qui fait tourner la machine.
+## **1. LevelBuilder
+
+Le [LevelBuilder] est le script principal qui fait tourner la machine.
 C'est un [Singleton] qui sert de point d'entrée aux systèmes extérieurs, et il sert d'orchestrateur des sous systèmes.
 
 Il possède plusieurs methodes public appelées par le [WorldBuilderCaller], qui sert à faire le lien avec les différents boutons [EventFeedback] de l'UI
@@ -34,12 +40,12 @@ Il gère un système de [tools] qui permet de placer les différentes nodes sur 
 
 Il s'occupe de récupérer les inputs de la souris pour le placement des nodes, et gère la création des [Visualizers] selon le tool séléctionné.
 
-Enfin, le [WorldBuilder] gère aussi un sous-système intégré de sauvegarde de la derniere edition du world
+Enfin, le [LevelBuilder] gère aussi un sous-système intégré de sauvegarde de la derniere edition du world
 
 
 
 
-## **2. Visuals**
+### **1.1. Visuals**
 
 Les différents [Visuals] sont donc créés par le WorldBuilder et sont de différents types :
 - [WorldCellVisualizer]
@@ -61,7 +67,7 @@ Les différents [Visuals] sont donc créés par le WorldBuilder et sont de diff�
 	- représente des [Room] lol mais nan jure ?
 
 
-## **3. Builders**
+### **1.2. Builders**
 
 Les [Builders] servent à créer des tilemaps à partir des [WorldRoomVisualizer] et des différentes [Cell] placée sur la grid
 
@@ -78,7 +84,7 @@ Ils sont chacun responsables du build d'une tilemap :
 	- ?? vraiment utile ??
 		- > nope plus maintenant qu'on cache les rooms via shaders pour les capables
 
-## **4. Translator**
+## **2. Translator**
 
 Les [Builders] créent les tilemaps mais c'est tout. En plus c'est créé dans un "univers" fictif du world, sans collisions etc etc.
 
@@ -101,24 +107,14 @@ Pour cela on doit ajouter plusieurs petits [subsystem] au Translator qui vont s'
 - buildnavmesh (on l'a déjà le subsystem :)))
 - autochunk
 
-### - [[NavMeshBuilder]]
+### 2.1. [[AIO_Level]] loading
+### 2.2. [[AutoChunker]]
+- permet de séparer les grandes rooms en plus petits chunks
+### **2.3.** [[LevelNavBaker]]
 
 - peut pas générer depuis le build, sauf si on utilise genre reflexion ?
-### - AutoChunker (mid-term ?)
-- permet de séparer les grandes rooms en plus petits chunks
 
-### - AutoNeighbourer
- 
-- permet de calculer automatiquement le room graph neighbour
-
-- dans un 1er temps on fait via les doors en gros on connecte les rooms de chaque door entre elles
-
-- meilleure version : auto draw le [RoomGraphNeighbourhood] pour le chargement réaliste des chunks
-	- on calcule les 2 tiles les plus proche entre chaque paire de [Chunk]
-	- cela nous donne le plus petit vecteur séparant les deux chunks
-		- > si inférieur à un treshold, les chunks sont voisins
-		- ! si le treshold est trop large cela peut poser des soucis de perf (spike lags) pcq ça voudra dire qu'on charge bcp de chunks d'un coup
-
+### 2.4. [[AutoNeighbourer]]
 
 
 
@@ -129,15 +125,13 @@ Pour cela on doit ajouter plusieurs petits [subsystem] au Translator qui vont s'
 ---
 # problèmes actuels
 
-- problème de [logique éparpillée] :
+- [x] problème de [logique éparpillée] :
 	- il ne place pas le voisinage de [Room] qui devrait être directement intégré au [WorldBuilder]
 	- [RoomGraph] fait ce travail mais est mal utile pcq fait pour s'executer dans l'onglet "Scène"
-	- pas d'appel vers [NavMeshBuilder] pour build le navmesh
-		- > plutôt sur le [WorldManager] all-in-one method ???
 
 
-- problème de [translator] :
-	- pour passer d'un **schematic** à un **level all-in-one** (laio ?) on doit replacer des capables, qui peuvent avoir changé de place/été supprimés/créés pour la 1e fois. pour gérer ça, plusieurs options :
+- [x] problème de [translator] :
+	- pour passer d'un **schematic** à un level **all-in-one** (laio ?) on doit replacer des capables, qui peuvent avoir changé de place/été supprimés/créés pour la 1e fois. pour gérer ça, plusieurs options :
 
 		- (1e idée, bruteforce) :
 		  on supprime tous les objets (doors, lights) et on les recrée à l'endroit spécifique
@@ -157,12 +151,18 @@ Pour cela on doit ajouter plusieurs petits [subsystem] au Translator qui vont s'
 				- ça attendra un gros rework avec placement d'objets etc
 
 
-- problème de [build / AssetDatabase] :
-	- BEAUCOUP de choses du [WorldBuilder] ne fonctionnent pas correctement dans le build, notamment
-		- get_material_path() de AnimPlayer / AnimLayer
+- [ ] problème de [build / AssetDatabase] :
+	- ==solution globale== : soit rebuild les trucs au level loading (comme LevelNavBaker) soit faire une petite engine/bank qui sauvegarde les paths des ressources avec un id quand on est dans l'editeur, qui peut ensuite etre retrouvé et loadé sur demande dans un build vu qu'on a les paths dans les assets 
+		- ==+1==
+	- BEAUCOUP de choses du [WorldBuilder] ne fonctionnent pas correctement dans le build, notamment :
+		- [x] get_material_path() de AnimPlayer / AnimLayer
 			- > solution potentielle : sauvegarder les materials path dans un .json des [Assets] qui retient le material path par skin quand on travaille dans l'inspector et ensuite s'en sert comme fallback dans le build
-		- nav mesh builder
-			- ça pas trop de solution, à part modifier moi même le code du navmesh :///
+		- [x] load tilebases
+
+		- [ ] nav mesh builder
+			- [x] ça pas trop de solution, à part modifier moi même le code du navmesh :///
+			- > finalement on a réussi on rebake simplement le navmesh dans [LevelNavBaker] au load du level
+			- > MAISSS encore problème zut pcq on override les [NavMeshData]
 
 
 ---
@@ -170,7 +170,15 @@ Pour cela on doit ajouter plusieurs petits [subsystem] au Translator qui vont s'
 	
 - [x] supprimer l'Editor
 - [ ] [mid-term] faire un réel light modifier (color picker + intensity)
+- [ ] [mid-term] régler les 2 issues de l'[[AutoChunker]]
 - [x] [mid-term] quand on charge le AIO_Level et qu'on regénère les ids et qu'on regrab ça risque de supprimer toutes les refs des movables ? sauf si on les load aussi quand le translator demande la construction du AIO_Level
+
+- [ ] [mid-term] on peut enlever les doors du [LevelBuilder] et à la place mettre une option pour effacer les murs à certains endroits.
+	- [ ] ensuite comme ça les doors pourront être placées directement depuis le [[WorldPlacer]] comme les autres capables
+		- > nécessite un grab dynamique des rooms ??? ca a l'air compliqué avec le door systeme
+
+- [ ] [mid-term] modifier le [[UI_WorldBuilderPool]] pour avoir :
+	- [ ] une fois build le bouton build se transforme en bouton eye pour tester le level si souhaité.
 
 - [ ] intégrer certains worlds aux assets afin de pouvoir load des "worlds templates" qui nous permettent notamment de choisir le type de world à créer lors de la création d'un world
 	- [ ] faire un ui_pool stackable de création de world, avec un input field, et le template de monde à créer :
@@ -178,13 +186,6 @@ Pour cela on doit ajouter plusieurs petits [subsystem] au Translator qui vont s'
 		- [ ] demo
 		- [ ] aventure
 		- [ ] 
-
-
-- [ ] auto neighbour chunk
-	- [ ] améliorer pcq pour le moment c basé sur le door graph
-
-
-
 
 
 

@@ -17,7 +17,7 @@
 - [x] changer les sprites du fantom en plus petit :3
 -
 -
-- [x] mettre à jour les hud_shortcuts en fonction du [[Capable]] du [[Controller]] (les cacher si c un device)
+- [x] mettre à jour les hud_shortcuts en fonction du [[Capable]] du [[ControllerSystem]] (les cacher si c un device)
 
 - [x] [[UI_Device]] buggé avec le new [[UI_Manager]]
 - [x] pareil pour les [[UI_RunningHacksViewer]]

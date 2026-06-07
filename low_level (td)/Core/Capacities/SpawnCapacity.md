@@ -1,5 +1,5 @@
 #capacity
-sert de **Data/Component** pour [[Ecosystem]]
+sert de **Data/Component** pour [[EcoSystem]]
 
 
 
@@ -7,7 +7,7 @@ sert de **Data/Component** pour [[Ecosystem]]
 
 Un spawner **STOCKE** et **SPAWN** des entités. il reçoit chaque entité via l'engine [[EcosystemEngine]] qui s'occupe de distribuer les différentes entités et choisit de la temporalité de cette distribution.
 
-Les spawners désactivés par le [[RoomSystem]] ont leur **SpawnCapacity** désactivée. Sauf qu'on veut pouvoir spawn des entités même dans ce cas. Heuresement, chaque capacité est stockée par l'engine [[EcosystemEngine]] qui elle est tout le temps active, et qui va loop à travers toutes les capacities pour déterminer lesquelles doivent recevoir / spawn quelle entité à quel moment.
+Les spawners désactivés par le [[ChunkSystem]] ont leur **SpawnCapacity** désactivée. Sauf qu'on veut pouvoir spawn des entités même dans ce cas. Heuresement, chaque capacité est stockée par l'engine [[EcosystemEngine]] qui elle est tout le temps active, et qui va loop à travers toutes les capacities pour déterminer lesquelles doivent recevoir / spawn quelle entité à quel moment.
 
 Le comportement du spawner est définie par son **mode de spawn** (spawn_mode) & son **mode de storage** (store_mode) :
 

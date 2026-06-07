@@ -4,7 +4,7 @@ contrairement au [[todo_high_level]], ce document a pour but de détailler le pl
 
 
 
-# 1.5.1 : Core update
+# [x] 1.5.0x : Core update
 
 - ## Core
 	- [x] [[RoomSystem_Proto]]
@@ -19,8 +19,8 @@ contrairement au [[todo_high_level]], ce document a pour but de détailler le pl
 	- [x] [[LevelSystem_Proto]]
 	- [x] [[LevelSystem_Rework_1]]
 	- [x] [[DoorSystem_Proto]]
-	- [ ] [[SaveSystem_Proto]]
-		- [ ] [[WorldBuilder_Rework_1]]
+	- [x] [[WorldBuilder_Rework_1]]
+	- [x] [[WorldBuilder_Rework_2]]
 
 
 - ## Capacities to rework in Data
@@ -45,24 +45,63 @@ contrairement au [[todo_high_level]], ce document a pour but de détailler le pl
 - ## Autres
 	- [x] faire que ça build mdr -> on lance tous les logs et on build puis on inspecte
 	- [x] [[MovableEngine]] HalfMatrix stills some bugs when resizing the matrix oh no
-	- [ ] Supprimer les appels vers AddCapacity() / RemoveCapacity() mais pour ça on doit avoir un moyen d'ajouter dynamiquement des capacités ?
-	- [ ] dans les coffres au **gamepad** quand on click sur un [[UI_ItemStack]] avec plusieurs items (quantity > 1) ça sélectionne ensuite un autre ui_item stack au lieu de rester sur le même
+
 	- [x] mettre "material/objects" en material par défaut si on trouve pas
 	- [x] ShadowCaster2D décalé sur les portes dans les builds
 
 
-# 1.5.2 : UI inventory rework
+# [ ] 1.5.1x : Core again
+
+- ## Core
+	- [x] [[Controller_Rework_1]]
+	- [x] [[SaveSystem_Proto]]
+	- [ ] [[StorySystem]]
+
+- ## Core bugs
+
+	- [x] bug de [[HealthCapacity]] : quand un capable meurt des fois ça marche pas ? ça l'unload pas dans le [[CapableSystem]] ????
+
+	- [x] [[ControllerSystem]] + [STATIC Save]
+		- [x] quand on translate le [Level] dans le [[WorldBuilder]] ça fait regrab les capables par les chunks avant de **DESTROY** les capables, ce qui peut entraîner le **ControlleurDestroy** et surtout supprimer le capable controllé et aussi ses fichiers de save !!! parce que [bob-1] n'est plus dans les fichiers !
+			- >  (y'a une protection en fait déjà sur ce controlleur destroy risk, mais pas sur la destruction de fichiers)
+			- [x] > protéger aussi bob et le ramener à 0,0 en cas de suppression des fichiers esquivée.
+
+	- [x] [[ControllerSystem]]
+		- [x] ghost / skins on perso not working
+
+
+- ## Small bugs
+	- [x] Supprimer les appels vers AddCapacity() / RemoveCapacity() mais pour ça on doit avoir un moyen d'ajouter dynamiquement des capacités ?
+	- [ ] dans les coffres au **gamepad** quand on click sur un [[UI_ItemStack]] avec plusieurs items (quantity > 1) ça sélectionne ensuite un autre ui_item stack au lieu de rester sur le même
+	- [x] drop cassé dans [[UI_ChestPool]] ça drop sur le sol au lieu de le mettre dans le coffre ?
+	- [x] UI_OutlineSlot ne grab que la moitié du stack
+
+
+	- [x] ### UI
+		- [x] mettre des croix top right pour sortir de :
+			- [x] [[UI_InventoryMenu]]
+			- [x] [[UI_ChestPool]]
+		- [x] supprimer les [SwitchToHUD()] et tout remplacer par des [UnstackPool()] : settings, 
+
+
+# [ ] 1.5.2x : UI inventory rework
 
 - ### Inventory rework
 	- [x] [[Inventory_Rework_1]]
 - ### UI rework
 	- [ ] [[UI_Manager_Rework_2]]
 	- [ ] supprimer [[ItemManager]] et le remplacer par un nouveau script qui est mieux et surtout ENTIEREMENT VISUEL et sur le hud
-	- [ ] faire un nouveau **HUD** avec les nouveaux sprites de barre de vie/xp, "hotbar" etc
+	- [x] faire un nouveau **HUD** avec les nouveaux sprites de barre de vie/xp, "hotbar" etc
 - ### File
 	- [ ] faire des [[File]] des [[Item]]
 	- [ ] faire des sprites de slots pour les [[File]]
 	- [ ] 
+
+
+
+
+
+# .
 
 
 
@@ -82,9 +121,6 @@ contrairement au [[todo_high_level]], ce document a pour but de détailler le pl
 
 - [ ] est-ce qu'on peut faire que le bg devient rouge quand on se fait hacker/on prend des dégats
 
-- [ ] implement cinematics system
-	- [ ] make 2 start cinematic
-	- [ ] make demo completed cinematic
 
 - [ ] implement enemy wave system for the spawners to not appear
 - [ ] implement first computer UI to have a proper way to steal the door' key

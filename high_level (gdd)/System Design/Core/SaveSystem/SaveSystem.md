@@ -43,11 +43,10 @@ comme on peut le voir il y a donc 2 types de [LevelSaver] différents :
 		- les lights
 
 - cela signifie qu'on doit aussi :
-	- redessiner le room graph neighbourhood, ce qui est relou (ou doit se faire automatiquement)
+	- [x] redessiner le room graph neighbourhood, ce qui est relou (ou doit se faire automatiquement)
 	- rebuild les navmesh
-	- regrab tous les capables, y compris les doors
-	- regénérer ids
-		- > pour ça on peut seulement regénérer ids for Movables
+	- [x] regrab tous les capables, y compris les doors
+	- [x] regénérer ids
 
 > cette save doit donc se faire depuis un [AIO_Level] constitué en un seul gameobject regroupant :
 > 	- les rooms
@@ -71,11 +70,13 @@ comme on peut le voir il y a donc 2 types de [LevelSaver] différents :
 
 
 
-# 4. SubSystems
+## 4. SubSystems
 
 Pour aider le [SaveSystem] on a besoin de différents subsystems, notamment :
 
-- [AIO_Loader] : utilisé principalement par le [LevelTranslator] pour load un level spécifique en mode AIO pour ensuite override ses rooms/capables pour ensuite re save le level
+- [AIO_Loader]
+	- utilisé principalement par le [LevelTranslator] pour load un level spécifique en mode AIO pour ensuite override ses rooms/capables pour ensuite re save le level
+	- aussi utilisé à chaque load de [[Level]] afin de bake le navmesh via le [[LevelNavBaker]]
 
 ## .
 
@@ -85,7 +86,7 @@ Pour aider le [SaveSystem] on a besoin de différents subsystems, notamment :
 - problème de [workflow] :
 	- on doit donc pouvoir rewrite par dessus un [level-all-in-one] pour re assigner les doors, capables etc
 	- on doit donc pouvoir charger un [level-all-in-one] at runtime ?
-		- > oui (+2) -> [AIO_Loader] subsystem
+		- > oui (+3) -> [AIO_Loader] subsystem
 
 
 
