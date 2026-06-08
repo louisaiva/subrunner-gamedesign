@@ -1,7 +1,11 @@
--
--
+
+check [[2026_05_02]]
+
+---
+
+
 - le scénario est divisé en plusieurs Actes ? par [[Level]] ?
--
+
 - ## Acte 1 (movement, lore & interactions)
 	- le premier acte prend place du tout début du jeu jusqu'à l'ascenceur
 	-

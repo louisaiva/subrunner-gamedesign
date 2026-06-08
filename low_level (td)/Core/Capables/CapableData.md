@@ -1,5 +1,5 @@
 
-cette data contient tous les différentes variables / listes qui permettent au [[RoomSystem]] de charger un capable.
+cette data contient tous les différentes variables / listes qui permettent au [[ChunkSystem]] de charger un capable.
 
 elle contient :
 

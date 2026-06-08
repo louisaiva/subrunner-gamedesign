@@ -1,6 +1,7 @@
 #rework #todo
 
--  version actuelle : **1.5.0**
+-  version de création : **1.5.0**
+-  version de résolution : 
 
 ---
 - ## **objectifs**

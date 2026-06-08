@@ -1,9 +1,22 @@
 #ui #ui_pool
 
-est un [[UI_Pool]]
-**purement graphique**
+---
+# Description
 
 permet d'afficher l'[[Inventory]] du perso.
+
+---
+# TODO
+
+- [ ] relier les [UI_BigItemStack] à leurs labels en tant que [Colorer] (devient noir quand désactivé)
+- [ ] la même avec les shortcuts
+
+
+
+
+
+---
+# Details / Fonctionnement
 
 est relié à 9 [[UI_ItemPool]] très précisément:
 - 1 pour B ([[Shoes]] ?)
@@ -12,3 +25,5 @@ est relié à 9 [[UI_ItemPool]] très précisément:
 - 1 big pour le stuff (!file)
 - 1 pour le [[Laptop]]
 - 1 [[UI_FilePool]] affichée seulement si on a un laptop -> affiche les [[File]] du laptop
+
+

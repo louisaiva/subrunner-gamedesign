@@ -13,10 +13,10 @@
 
 - ## **TODO**
 	- [ ] créer/rework des [[UI_Pool]]
-		- [ ] un [[UI_ChestPool]]
+		- [x] un [[UI_ChestPool]]
 		- [ ] de même [[UI_Device]]
 		- [ ] revoir le [[UI_HUD]]
-		- [ ] rework le [[UI_InventoryMenu]]
+		- [x] rework le [[UI_InventoryMenu]]
 	- [ ] organiser & réunifier les différentes classes d'ui :
 		- [ ] [[UI_Pool]]
 		- [ ] [[UI_Window]]
@@ -26,4 +26,4 @@
 	- [ ] [[ItemManager]] relink to [[ItemPool]] ? on a vraiment besoin d'ItemManager ?
 		- [x] la récupération des bons items se fait désormais directement depuis l'**Inventory** dcp PIC récupère les usables directement là
 		- [ ] supprimer ItemManager et le remplacer par un **UI_ItemBarHUD** ??
-			- > OUI (+2)
+			- > OUI (+3)

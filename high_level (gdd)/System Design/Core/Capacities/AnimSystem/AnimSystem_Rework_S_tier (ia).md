@@ -8,19 +8,6 @@
     
     - fiabiliser totalement le système [[AnimBank]] + [[AnimPlayer]] + [[AnimLayer]]
     - supprimer les bugs subtils liés aux états partagés entre entités
-    - rendre les comportements d’animation déterministes et testables
-    - ajouter des outils d’audit pour détecter les problèmes de contenu avant runtime
-    - poser des budgets perf clairs et vérifiables
-
----
-
-- ## **définition S tier**
-    
-    - zéro exception animation en session longue
-    - zéro allocation GC par frame en régime normal d’animation
-    - mêmes entrées = mêmes résultats (pile, priorités, fallback orientation)
-    - validation automatique des contenus (skins, capacités, orientations, sprites)
-    - tests auto + benchmark de charge + critères de sortie mesurables
 
 ---
 

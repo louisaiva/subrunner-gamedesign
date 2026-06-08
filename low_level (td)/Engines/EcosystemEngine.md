@@ -1,4 +1,4 @@
-[[Ecosystem]]
+[[EcoSystem]]
 
 
 # description

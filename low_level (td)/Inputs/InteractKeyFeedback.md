@@ -6,8 +6,8 @@
 		- -> chaque [[HoverCapacity]] gère sa visibilité et l'update de cette visibilité
 		- -> l' [[Interactable]] gère la position et l'update de cette position
 -
-	- soit on fait un seul **KF** qui est géré au niveau du [[Controller]]
-		- -> [[Controller]] met à jour la visibilité (en fonction de l' [[InteractCapacity]] du [[Capable]] ).
+	- soit on fait un seul **KF** qui est géré au niveau du [[ControllerSystem]]
+		- -> [[ControllerSystem]] met à jour la visibilité (en fonction de l' [[InteractCapacity]] du [[Capable]] ).
 		- -> chaque [[Interactable]] possède un attribut d'interface **interact_kf_position** qui s'update en fonction de l'interactable
 		- -> et le **KF** suit cette position dans son update (ou souscrit à des events -> +1)
 -

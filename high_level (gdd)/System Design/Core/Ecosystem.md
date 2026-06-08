@@ -2,6 +2,7 @@
 
 
 
+---
 # description
 
 l'**ecosystem** est le système qui se charge de gérer l'équilibre entre les différentes factions du jeu.
@@ -15,7 +16,7 @@ ps : **ECS** peut être renommé "EDA" Engine, Data, Agents
 le but de ce système est de gérer la **DIFFICULTE** du jeu, ainsi que simuler un **EQUILIBRE** de l'éco système.
 
 
-
+---
 # fonctionnement du système
 
 [[EcosystemEngine]] est appelée toutes les x frames, et à chaque fois qu'il est appelé il :
@@ -34,7 +35,7 @@ le but de ce système est de gérer la **DIFFICULTE** du jeu, ainsi que simuler 
 	- ensuite on regarde si on doit spawner des entités en fonction des entités actuellement stored dans le spawner
 
 
-
+---
 # problèmes actuels
 
 - problème de design : [[Spawner]] inutile ?????????? on veut une SpawnData plutôt ???
@@ -46,3 +47,11 @@ le but de ce système est de gérer la **DIFFICULTE** du jeu, ainsi que simuler 
 - des fois on veut spawn des entités via un event -> il manque des modes ?
 		- *exemple* je hack un parefeu. on veut qu'un developper arrive après ? en fait y'a pas de problème mdr le hack déclenche une alarme au -1 où y'a déjà une brigade de flics qui envoient des devs et une équipe enquêter. pas besoin de spawn ici
 			- *+1* mais du coup faut que le level -1 soit activé en partie alors qu'on est au -4, compliqué à faire mais certainement nécessaire.
+
+---
+
+# todo
+
+- [ ] adapter [[SpawnCapacity]]
+	- [x] stocker la data de l'entity id à load et les parametres de spawn
+	- [ ] ajouter une [AnimLayerData] optionnelle à SpawnCapacityData

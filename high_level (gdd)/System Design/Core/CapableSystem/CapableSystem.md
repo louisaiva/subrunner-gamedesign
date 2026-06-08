@@ -1,7 +1,8 @@
-#system #designing
+ #system #designing
 
 - [x] [[CapableSystem_Proto]]
-- [ ] [[CapableSystem_Rework_1]]
+- [x] [[CapableSystem_Rework_1]]
+- [ ] [[CapableSystem_Rework_2]]
 
 
 ---
@@ -31,7 +32,7 @@ C'est un système de type [[BSOD Pattern Design]] qui comporte 4 composants :
 			- assigner une id unique à cette nouvelle [Data]
 			- ajouter cette new data à sa liste de toutes les data
 			- load le capable correspondant à cette data
-			- call [OnCapableSpawned(entity,spawner)] pour remonter l'info au [[RoomSystem]]
+			- call [OnCapableSpawned(entity,spawner)] pour remonter l'info au [[ChunkSystem]]
 
 - ## 2. [CapableBank]
 	- [x] la bank doit gérer le pooling + load / unloading des capables.
@@ -54,12 +55,29 @@ C'est un système de type [[BSOD Pattern Design]] qui comporte 4 composants :
 
 les [[Capacity]] gèrent leur propre **data** ET leur propre **logique** au sein du [[CapacitySystem]] ce qui n'est **PAS** le même systeme que celui des capables.
 
+le [CapableSystem] contient aussi différents sub systèmes :
+
+- ## [SUB SYSTEMS]
+	- [[MovableEngine]]
+	- [[ColliderBank]]
+	- [[AnimLayerBank]]
 
 
 ---
 # problèmes actuels
 
-- [ ] problème de [spawn] : comment on gère les entités qui sont loadées au début ? c du spawn non ?
+- [ ] problème de [design] : instance/template data [[CapableSystem_Rework_2]]
+
+
+- [ ] bug de [timing] edge case :
+	- [ ] lorsqu'on décharge une room, si un mob quitte cette room au mauvais moment, alors il peut changer de room MAIS quand même être déchargé par le [[CapableSystem]] parce qu'on l'avait mis dans sa liste à décharger.
+		- [ ] on doit vérifier que l'entité est bien toujours bien assignée à la room avant de la décharger
+			- > du coup c intéressant de garder l'id de la room dans les capabledata comme ça on peut vérifier que la room est bien déchargée avant de deload l'entité
+		- [ ] comme on a changé d'algo de RoomEngine, peut etre que ce bug n'existe plus. je peux imaginer qu'il arrive si le mob trigger une autre room [OnRoomEnter] juste avant de se faire unload
+			- [ ] dans ce cas là c'est simple suffit de faire un flag dans [Capable]  [_unloading]_ comme on en a déjà un pour [Room] (+2)
+
+
+- [ ] problème de [developement] edge case : comment on gère les entités qui sont loadées au début ? on devrait les spawn non ?
 	- > comme on fait maintenant oui ca devrait etre spawn (+1)
 		- > plus tard y'aura pas de pb vu qu'on "spawnera" le world à la création de celui-ci
 		- > et après le spawn bah en fait la data sera saved et donc loadée à chaque lancement de world
@@ -67,3 +85,8 @@ les [[Capacity]] gèrent leur propre **data** ET leur propre **logique** au sein
 
 ---
 # todo
+
+- [ ] faire une [RigidBodyData] qui sauvegarde différents trucs :
+	- [ ] body type (kinematic etc)
+	- [ ] mass ?
+	- [ ] la stocker dans la [FeetData]

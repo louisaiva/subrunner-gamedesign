@@ -21,7 +21,7 @@
 		- [x] les élements d'UI n'ont donc plus d'**ItemRule**, mais par contre chaque UI_ItemPool est associé à une ItemPool et peut donc accéder à l'itemrule du ItemPool
 	- [x] Connecter [[UI_ItemPool]] à [[ItemPool]] pour afficher les items de la pool
 	- [x] comment on gère l'assignage dynamic des [[ItemPool]] avec leurs equivalents [[UI_ItemPool]] ?
-		- [x] [[Controller]] assigne les différents **ItemPool** de l'inventaire aux **UI_ItemPool** respectifs, ainsi quand on change de capable controllé bah ça change aussi les pools de l'inventaire ?
+		- [x] [[ControllerSystem]] assigne les différents **ItemPool** de l'inventaire aux **UI_ItemPool** respectifs, ainsi quand on change de capable controllé bah ça change aussi les pools de l'inventaire ?
 
 	- [x] fixer la hiérarchie de l'[[UI_InventoryMenu]] :
 		- [x] virer [[UI_Laptop]]

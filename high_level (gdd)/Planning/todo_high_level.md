@@ -8,16 +8,21 @@ ce todo est différent du [[todo_low_level]] parce qu'il sert à détailler les 
 
 - #### systemes ok tier
 	- [[InventorySystem]]
+	- [[CapableSystem]]
+	- [[CapacitySystem]]
+	- [[ChunkSystem]]
 
 
 - #### systemes en cours de rework/proto
-	- [[RoomSystem]] && [[RoomSystem_Proto]]
-	- [[CapableSystem]] && [[CapableSystem_Proto]]
-	- [[CapacitySystem]] && [[CapacitySystem_Proto]]
-	- [[MotorSystem]] && [[MotorSystem_Proto]]
+	- [[WorldBuilder]]
+	- [[DoorSystem]]
+	- [[LevelSystem]]
+	- [[WorldSystem]] 
+	- [[SaveSystem]]
 
 
 - #### systèmes à rework
+	- [[MotorSystem]]
 	- [[UI_Manager_Rework_2]]
 	- [[Item]] & [[Item_Rework_1]]
 	- [[Hacking]] & [[File]]
@@ -28,13 +33,13 @@ ce todo est différent du [[todo_low_level]] parce qu'il sert à détailler les 
 
 
 - #### systèmes encore inexistants (en cours de design)
-	- [[SaveSystem]]
-	- [[Ecosystem]]
+	- [[EcoSystem]]
 		- **EnemyWaveSystem** meilleur nom ?
-	- [[WallSystem]] / [[DoorSystem]] 
-	- [[LevelSystem]] ? [[WorldSystem]] ?
+	- [[WallSystem]]
+	- [[ExpSystem]]
 	- [[Cinematics]]
 	- [[AudioSystem]]
+	- [TV_System] ? ou alors c une [[UI_Pool]] ?
 
 
 
@@ -46,20 +51,32 @@ ce todo est différent du [[todo_low_level]] parce qu'il sert à détailler les 
 	- [EcoSystem]
 	- [UI System] i guess ?
 	- [Cinematics] ?????
+
 - **Level Tier**
 	- [LevelSystem] - holds [LevelData]
-	- [WallSystem] ?
-	- [DoorSystem] ???
+
+
 - **Room Tier**
 	- [RoomSystem] - holds [RoomData]
+	- [DoorSystem]
+	- [TilemapSystem]
+	- [LightSystem]
+	- ~~[WallSystem] ?~~ no need for it
+
+- **Chunk Tier**
+	- [ChunkSystem] - holds [ChunkData]
 	- [MovableEngine]
+
 - **Capable Tier**
 	- [CapableSystem] - holds [CapableData]
 	- [ControllerSystem]
 	- [InventorySystem]
 	- [AnimPlayer]
 	- [AudioSystem] ?
+
 - **Capacity Tier**
+	- [ExpCapacity]
+	- [MotorCapacity]
 	- [MoveCapacity]
 	- [Hacking]
 	- [Combat]

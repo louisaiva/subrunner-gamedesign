@@ -12,7 +12,7 @@ Room doit implémenter la logique des functions suivantes :
 
 
 
-Le reste se passe dans [[RoomSystem]] :
+Le reste se passe dans [[ChunkSystem]] :
 
 
 ## update 
