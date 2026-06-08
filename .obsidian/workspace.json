@@ -4,63 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "476290ea61d4271e",
+        "id": "190a34e49e71827e",
         "type": "tabs",
         "children": [
           {
-            "id": "d0181d314f888720",
+            "id": "4b75648211729248",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "low_level (td)/Core/World/RoomSystem_Proto.md",
+                "file": "high_level (gdd)/Game design/chara-design.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "RoomSystem_Proto"
-            }
-          },
-          {
-            "id": "5e030064b845d7b4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "high_level (gdd)/System Design/Core/CapableSystem/CapableSystem.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "CapableSystem"
-            }
-          },
-          {
-            "id": "18f89eaba472f5aa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "a_trier/MotorSystem_Proto.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "MotorSystem_Proto"
-            }
-          },
-          {
-            "id": "36401523bb3aaf64",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "high_level (gdd)/System Design/Core/CapacitySystem/CapacitySystem_Rework_1.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "CapacitySystem_Rework_1"
+              "title": "chara-design"
             }
           }
         ]
@@ -113,63 +71,14 @@
               "type": "bookmarks",
               "state": {},
               "icon": "lucide-bookmark",
-              "title": "Signets"
-            }
-          },
-          {
-            "id": "5e37594a615c8309",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "high_level (gdd)/Planning/ROADMAP.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "ROADMAP"
-            }
-          },
-          {
-            "id": "f12b54b1efec4b51",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "high_level (gdd)/Planning/todo_high_level.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "todo_high_level"
-            }
-          },
-          {
-            "id": "5d670565947abbe2",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "low_level (td)/todo_low_level.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "todo_low_level"
+              "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 579.5
+    "width": 316.5
   },
   "right": {
     "id": "07c140a3edb7f18b",
@@ -262,8 +171,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "calendar"
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           },
           {
@@ -281,7 +190,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 406.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -296,45 +205,46 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d0181d314f888720",
+  "active": "4b75648211729248",
   "lastOpenFiles": [
-    "a_trier/MotorSystem_Proto.md",
-    "high_level (gdd)/System Design/Core/CapacitySystem/CapacitySystem_Rework_1.md",
-    "high_level (gdd)/System Design/Core/CapableSystem/CapableSystem.md",
-    "low_level (td)/Core/World/RoomSystem_Proto.md",
-    "low_level (td)/UI/UI_Manager/UI_Manager_Rework_2.md",
-    "high_level (gdd)/Planning/todo_high_level.md",
-    "a_trier/CapableSystem_Rework_1.md",
-    "high_level (gdd)/System Design/Core/Capacities/MotorSystem.md",
-    "a_trier/Motor.md",
-    "high_level (gdd)/System Design/Core/CapacitySystem/CapacitySystem.md",
-    "high_level (gdd)/Planning/ROADMAP.md",
-    "low_level (td)/todo_low_level.md",
-    "high_level (gdd)/Marketing, Com & others/Useful Extensions.md",
-    "high_level (gdd)/System Design/Core/CapacitySystem/Capacity Utility And Save Policy Audit.md",
-    "logs/milanote_project.md",
-    "high_level (gdd)/System Design/Core/World/RoomSystem.md",
-    "low_level (td)/Core/Capables/CapableSystem_Proto.md",
-    "high_level (gdd)/System Design/Core/Capacities/AnimSystem/AnimSystem_Rework_S_tier.md",
+    "high_level (gdd)/Planning/todo_art.md",
+    "low_level (td)/Inventory/Item_Rework_1.md",
+    "low_level (td)/Inventory/ItemRule.md",
+    "low_level (td)/Inventory/ItemPool.md",
+    "low_level (td)/Inventory/Inventory.md",
+    "low_level (td)/Inventory/Inventory_Rework_1.md",
+    "low_level (td)/Inventory",
     "high_level (gdd)/System Design/Core/Capacities/AnimSystem/AnimSystem.md",
-    "journals/2026_03_18.md",
-    "low_level (td)/Core/Anims/AnimPlayer.md",
-    "templates/Rework_Template.md",
-    "high_level (gdd)/System Design/Core/Ecosystem.md",
-    "a_trier/Entity.md",
-    "high_level (gdd)/System Design/Core/CapableSystem",
-    "high_level (gdd)/System Design/Core/CapacitySystem",
+    "high_level (gdd)/System Design/Core/Capacities/AnimSystem/AnimSystem_Rework_S_tier.md",
+    "high_level (gdd)/System Design/Core/World/RoomSystem.md",
+    "high_level (gdd)/System Design/Core/World/LevelSystem.md",
+    "high_level (gdd)/System Design/Core/CapacitySystem/CapacitySystem_Rework_1.md",
+    "high_level (gdd)/System Design/Core/World/DoorSystem.md",
+    "high_level (gdd)/System Design/Core/CapacitySystem/CapacitySystem.md",
+    "high_level (gdd)/System Design/Core/CapacitySystem/Capacity Utility And Save Policy Audit.md",
+    "high_level (gdd)/System Design/Core/Capacities/MotorSystem.md",
+    "high_level (gdd)/System Design/Core/Capacities/Hacking.md",
+    "high_level (gdd)/System Design/Core/CapableSystem/CapableSystem.md",
     "high_level (gdd)/System Design/Core/Capacities/AnimSystem",
-    "low_level (td)/Core",
-    "low_level (td)/Core/Anims",
-    "journals/2026_03_14.md",
-    "journals/2026_03_13.md",
+    "high_level (gdd)/System Design/UI/ui_elevator.excalidraw.md",
     "high_level (gdd)/System Design/UI/UI.canvas",
-    "high_level (gdd)/Marketing, Com & others/ressources demarchage/Visuels pour Steam.pdf",
+    "high_level (gdd)/System Design/Level Design/Level Design.excalidraw.md",
+    "high_level (gdd)/System Design/Level Design/Level design.canvas",
+    "high_level (gdd)/System Design/Core/Ecosystem.md",
     "high_level (gdd)/System Design/Core/World",
+    "high_level (gdd)/System Design/Core/CapacitySystem",
     "high_level (gdd)/System Design/Core/Capacities",
-    "a_trier",
-    "high_level (gdd)/Marketing, Com & others/ressources demarchage",
+    "high_level (gdd)/System Design/Core/CapableSystem",
+    "high_level (gdd)/System Design/InputSystem.md",
+    "high_level (gdd)/System Design/UI",
+    "high_level (gdd)/System Design/InventorySystem.md",
+    "high_level (gdd)/System Design/Level Design",
+    "high_level (gdd)/System Design/Core",
+    "high_level (gdd)/System Design/Cinematics.md",
+    "high_level (gdd)/System Design/BSOD Pattern Design.md",
+    "high_level (gdd)/System Design/AudioSystem.md",
+    "high_level (gdd)/System Design",
+    "high_level (gdd)/Marketing, Com & others/Useful Extensions.md",
     "high_level (gdd)/Design/Level Design/Level design.canvas",
     "high_level (gdd)/Design/UI/UI.canvas",
     "resources/Pasted image 20260125225033.png",
