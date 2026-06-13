@@ -22,6 +22,7 @@ Le développement haut niveau de **subrunner** est lui-même séparé en plusieu
 - [[LONG-TERM]]
 
 ## Marketing etc
+- [[MARKETING]]
 - [[Potential Publishers]]
 - [[External Assets & Plugins]]
 - [[Playtesters & Sound Designers]]
@@ -37,7 +38,6 @@ Voici aussi les autres différentes pages qui aident à garder une vision long t
 
 ## Problemes actuels
 - [[equilibrage]]
-- [[Inventory-Problem]]
 - [[Over-Complicated-Hacking]]
 - [[3D-Problem]]
 - [[Optimisation]]
@@ -46,4 +46,5 @@ Voici aussi les autres différentes pages qui aident à garder une vision long t
 
 ici c'est juste pour garder une trace des différents problèmes résolus
 
-- [[Keyboard + Mouse problem]]
+- [x] [[Inventory-Problem]]
+- [x] [[Keyboard + Mouse problem]]

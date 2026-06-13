@@ -35,4 +35,5 @@
 		- ### avantages
 			- (A) pour interagir avec tout
 			- (B) est le bouton par défaut pour quitter mdr (dodge ça quitte le combat)
-			- (Y) bouton 
+			- (Y) bouton attaque
+			- 

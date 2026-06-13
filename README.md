@@ -37,6 +37,11 @@ Ce document est séparé en plusieurs sous parties, chacune ayant un role défin
 # Templates
 - situé dans `/templates`
 - stocke tous les templates obsidian utiles au document
+
 # [[Logs]]
 - situé dans `/logs`
 -  (moins organisé lol) contient les différents /logs et autres fichiers vieux, deprecated etc
+
+# A trier
+- situé dans `/a_trier`
+- comme son nom l'indique, c'est les nouveaux documents, à trier, donc c'est à dire à mettre dans les bons dossiers

@@ -6,7 +6,7 @@
 ---
 # description
 
-Ce système gère le scénario en fait un peu et permet surtout d'afficher des in-game cinematics (mouvement, action du joueur prédéfinie et sans que le joueur ne joue réellement)
+Ce système implémente le [[Scenario]] en fait un peu et permet surtout d'afficher des in-game cinematics (mouvement, action du joueur prédéfinie et sans que le joueur ne joue réellement)
 
 ---
 # fonctionnement du système
