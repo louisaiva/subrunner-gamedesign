@@ -30,6 +30,6 @@ Ici on liste toutes les [Capacity] et on peut jauger leur int√©gration aux syst√
 - [[HoverCapacity]]
 - [[CloseCapacity]]
 - [[OpenCapacity]]
-- [[SpawnCapacity]]
+- [[NestCapacity]]
 - [[SortingCapacity]]
 - [[ToggleCapacity]]

@@ -1,52 +1,52 @@
 {
   "main": {
-    "id": "d57b11faac261d76",
+    "id": "c35d199b76cf6016",
     "type": "split",
     "children": [
       {
-        "id": "9d4afb30c35eaf11",
+        "id": "55648fe8e0b51cb8",
         "type": "tabs",
         "children": [
           {
-            "id": "e07cb89190c09a0d",
+            "id": "90b68a7440817439",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "journals/2026_05_02.md",
+                "file": "a_trier/EcoSystem_Proto.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026_05_02"
+              "title": "EcoSystem_Proto"
             }
           },
           {
-            "id": "2107e0f30be1cbb9",
+            "id": "811ef6045ff93e3f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "a_trier/StorySystem.md",
+                "file": "a_trier/july26demo.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "StorySystem"
+              "title": "july26demo"
             }
           },
           {
-            "id": "022e44fb1161ac0e",
+            "id": "f39b4f562e6566e3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "high_level (gdd)/Marketing, Com & others/MARKETING.md",
+                "file": "a_trier/Pasta Crafting System.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "MARKETING"
+              "title": "Pasta Crafting System"
             }
           }
         ],
@@ -56,15 +56,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "8fe6c6beb96ea627",
+    "id": "2b1e164fa438bf78",
     "type": "split",
     "children": [
       {
-        "id": "fa1dba2a99f39103",
+        "id": "bd65a2e599a62738",
         "type": "tabs",
         "children": [
           {
-            "id": "4bff452b54204b8f",
+            "id": "6e4a4c0e940621c9",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -77,53 +77,96 @@
             }
           },
           {
-            "id": "f669f6fe882f558e",
+            "id": "f51f99506e3fe0f5",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
                 "query": "",
-                "matchingCase": true,
+                "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "Search"
+              "title": "Rechercher"
             }
           },
           {
-            "id": "9d3087320b05ac3d",
+            "id": "8f792d3247452347",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
               "state": {},
               "icon": "lucide-bookmark",
-              "title": "Bookmarks"
+              "title": "Signets"
+            }
+          },
+          {
+            "id": "2ae00dc88b747da4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "high_level (gdd)/Planning/ROADMAP.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "ROADMAP"
+            }
+          },
+          {
+            "id": "6da1de566eb492c4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "high_level (gdd)/Planning/todo_high_level.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "todo_high_level"
+            }
+          },
+          {
+            "id": "d3af498a691c883f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "low_level (td)/todo_low_level.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "todo_low_level"
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 254.5
+    "width": 539.5
   },
   "right": {
-    "id": "07c140a3edb7f18b",
+    "id": "43b8f9d0d3f67306",
     "type": "split",
     "children": [
       {
-        "id": "8c5e4e3287928d41",
+        "id": "78140916b59243dd",
         "type": "tabs",
         "children": [
           {
-            "id": "972db21fb9c5010b",
+            "id": "be0183aeec2ce11b",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "low_level (td)/UI_InventoryMenu.md",
+                "file": "a_trier/Pasta Crafting System.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,25 +176,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for UI_InventoryMenu"
+              "title": "Rétrolien pour Pasta Crafting System"
             }
           },
           {
-            "id": "ac2b0526c7d84b08",
+            "id": "f5e6551c94ef9f0b",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "low_level (td)/UI_InventoryMenu.md",
+                "file": "a_trier/Pasta Crafting System.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from UI_InventoryMenu"
+              "title": "Liens sortants de Pasta Crafting System"
             }
           },
           {
-            "id": "ad0ff827abfb4566",
+            "id": "77e59dfa2a84c4b3",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -162,11 +205,11 @@
                 "searchQuery": ""
               },
               "icon": "lucide-tags",
-              "title": "Tags"
+              "title": "Mots-clés"
             }
           },
           {
-            "id": "71a501dc3a2c8378",
+            "id": "3c60ed010a1808ed",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -176,26 +219,26 @@
                 "searchQuery": ""
               },
               "icon": "lucide-archive",
-              "title": "All properties"
+              "title": "Toutes les propriétés"
             }
           },
           {
-            "id": "54941374c6c2bc46",
+            "id": "4e899ce3940eee55",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "low_level (td)/UI_InventoryMenu.md",
+                "file": "low_level (td)/todo_low_level.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of UI_InventoryMenu"
+              "title": "Plan de todo_low_level"
             }
           },
           {
-            "id": "cd01673f93ac8c65",
+            "id": "f34ab47939fd1d1a",
             "type": "leaf",
             "state": {
               "type": "calendar",
@@ -205,7 +248,7 @@
             }
           },
           {
-            "id": "61fb6dcaa6c8d46f",
+            "id": "ede65b1a1d2237ac",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -219,7 +262,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -234,60 +277,36 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "022e44fb1161ac0e",
+  "active": "f5e6551c94ef9f0b",
   "lastOpenFiles": [
-    "journals/2026_05_02.md",
-    "a_trier/StorySystem.md",
-    "high_level (gdd)/Game design/Scenario.md",
-    "high_level (gdd)/Marketing, Com & others/Playtesters & Sound Designers.md",
-    "high_level (gdd)/Marketing, Com & others/Inspirations.md",
-    "a_trier/CapacitySnippetForVS_Code.md",
-    "high_level (gdd)/System Design/Core/CapacitySystem/CapacitySystem.md",
-    "high_level (gdd)/Game design/Lore.md",
-    "high_level (gdd)/GDD.md",
-    "high_level (gdd)/Problems/3D-Problem.md",
-    "high_level (gdd)/Problems/Optimisation/Optimisation.md",
-    "high_level (gdd)/Problems/Optimisation/GC Alloc free cheat sheet.md",
-    "high_level (gdd)/Problems/equilibrage.md",
-    "high_level (gdd)/Problems/Inventory-Problem.md",
-    "high_level (gdd)/Problems/Over-Complicated-Hacking.md",
-    "README.md",
-    "low_level (td)/TD.md",
+    "a_trier/july26demo.md",
+    "a_trier/EcoSystem_Proto.md",
+    "a_trier/Pasta Crafting System.md",
+    "high_level (gdd)/System Design/Core/Ecosystem.md",
     "high_level (gdd)/Marketing, Com & others/MARKETING.md",
-    "resources/image-12.png",
-    "resources/image-11.png",
-    "high_level (gdd)/System Design/Cinematics.md",
-    "journals/2026_01_29.md",
-    "high_level (gdd)/Game design/chara-design.md",
-    "conflict-files-obsidian-git.md",
-    "high_level (gdd)/System Design/Core/World/WorldSystem/WorldBuilder/WorldBuilder_Rework_1.md",
-    "high_level (gdd)/System Design/Core/World/WorldSystem/WorldBuilder/WorldBuilder.md",
-    "high_level (gdd)/System Design/Core/World/WorldSystem/WorldSystem_Proto.md",
-    "high_level (gdd)/System Design/Core/World/WorldSystem/WorldSystem.md",
-    "high_level (gdd)/System Design/Core/World/WorldSystem/WorldBuilder",
-    "high_level (gdd)/System Design/Core/World/WorldSystem",
-    "high_level (gdd)/System Design/Core/World/RoomSystem/DoorSystem",
-    "high_level (gdd)/System Design/Core/World/RoomSystem",
-    "high_level (gdd)/System Design/Core/Capacities/MotorSystem",
-    "resources/image.png",
-    "resources/image-9.png",
-    "resources/image-8.png",
-    "resources/image-7.png",
-    "low_level (td)/Core/Capables/Objects/Interactives",
-    "high_level (gdd)/System Design/Core/World/LevelSystem/NavMesh",
-    "high_level (gdd)/System Design/Core/World/LevelSystem",
-    "high_level (gdd)/System Design/Core/SaveSystem",
-    "low_level (td)/Inventory",
-    "high_level (gdd)/System Design/UI/UI.canvas",
-    "high_level (gdd)/System Design/Level Design/Level design.canvas",
-    "high_level (gdd)/Design/Level Design/Level design.canvas",
-    "high_level (gdd)/Design/UI/UI.canvas",
-    "resources/Pasted image 20260125225033.png",
-    "resources/Pasted image 20260125224020.png",
-    "resources/Pasted image 20260125223908.png",
-    "resources/Pasted image 20260125215609.png",
-    "Untitled 3.canvas",
-    "Untitled 2.canvas",
-    "Untitled 1.canvas"
+    "low_level (td)/todo_low_level.md",
+    "low_level (td)/Engines/EcoEngine.md",
+    "low_level (td)/Core/Capacities/NestCapacity.md",
+    "journals/2026_06_27.md",
+    "a_trier/DoorSystem_Rework_1.md",
+    "high_level (gdd)/System Design/DOPE Pattern Design.md",
+    "low_level (td)/Core/Capables/Objects/Interactives/Spawner.md",
+    "high_level (gdd)/Marketing, Com & others/Inspirations.md",
+    "resources/image-20.png",
+    "resources/image-19.png",
+    "resources/image-18.png",
+    "resources/image-17.png",
+    "resources/image-16.png",
+    "resources/image-15.png",
+    "resources/image-14.png",
+    "a_trier/SaveSystem_Proto.md",
+    "a_trier/StorySystem.md",
+    "a_trier/GetRealRoom().md",
+    "resources/image-13.png",
+    "high_level (gdd)/System Design/Core/World/RoomSystem/DoorSystem/DoorSystem.md",
+    "high_level (gdd)/System Design/Core/World/RoomSystem/DoorSystem/DoorSystem_Proto.md",
+    "high_level (gdd)/Planning/todo_high_level.md",
+    "low_level (td)/TD.md",
+    "high_level (gdd)/GDD.md"
   ]
 }

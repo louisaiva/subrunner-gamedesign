@@ -10,7 +10,7 @@
 
 le **capable system** est le système qui se charge de gérer toutes les entités et les capabilités.
 
-C'est un système de type [[BSOD Pattern Design]] qui comporte 4 composants :
+C'est un système de type [[DOPE Pattern Design]] qui comporte 4 composants :
 - Bank : [CapableBank]
 - System : [CapableSystem]
 - Object : les [[Capable]]. ce sont les gameobjects réels, instanciés et poolés par [[CapableBank]]

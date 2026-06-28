@@ -13,3 +13,4 @@
 - # Sound Designers
 	- Armand
 	- Thomas (pote gaetan)
+	- m.org (discord) morgan

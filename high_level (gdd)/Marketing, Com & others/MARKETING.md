@@ -14,6 +14,8 @@
 
 ## 2.2. Tags :
 
+https://www.reddit.com/r/gamedev/comments/1sex9th/steam_tags_are_one_of_the_most_important_things/
+
 - metroidvania + exploration + mystère + atmosphère
 - pixel art (graphismes pixel)
 - top down (vue de dessus)
@@ -26,8 +28,21 @@
 - scénario riche ?
 
 
+![[image-15.png|236x448]]![[image-14.png|228x445]]![[image-16.png|227x426]]
+
+
+test 1 tags :
+
+![[image-18.png]]![[image-19.png]]![[image-20.png]] 
+- + editeur de niveaux + combat + action & rpg
+
+
+
+
 ## 2.3. [[Inspirations]]
 
 ## 2.4. Inspirations Capsule :
 
 ![[image-11.png|363]]![[image-12.png|429]]
+![[image-13.png]]
+![[image-17.png]]

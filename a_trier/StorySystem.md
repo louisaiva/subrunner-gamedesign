@@ -20,7 +20,8 @@ Ce système doit être designé lol j'ai aucune idée de comment ça fonctionne.
 
 on peut utiliser un "QuestSystem" un peu comme ça : https://www.youtube.com/watch?v=UyTJLDGcT64
 - fonctionne full event & data driven, très modulable
-- déjà implémenté sur github
+- d
+- éjà implémenté sur github
 - on peut plugger ça dans le [[GOAP_system]] assez simplement pour que [[Brain]] devienne un [QuestBrain] ce qui nous permet de déterminer le goal souhaité
 	- exemple :
 		- qwin a une quête principale avec plusieurs sous quete :
@@ -50,5 +51,7 @@ on peut utiliser un "QuestSystem" un peu comme ça : https://www.youtube.com/wat
 # todo
 
 - [ ] implement cinematics system
-	- [ ] make 2 start cinematic
+	- [x] make start cinematic
 	- [ ] make demo completed cinematic
+
+- [x] sauvegarder la data de qu'estce que c'est les cinematiques qui ont déjà eu lieu

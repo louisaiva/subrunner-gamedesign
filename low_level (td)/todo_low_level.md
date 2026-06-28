@@ -50,12 +50,13 @@ contrairement au [[todo_high_level]], ce document a pour but de détailler le pl
 	- [x] ShadowCaster2D décalé sur les portes dans les builds
 
 
-# [ ] 1.5.1x : Core again
+# [ ] 1.5.1x : 4th july Demo
 
 - ## Core
 	- [x] [[Controller_Rework_1]]
 	- [x] [[SaveSystem_Proto]]
-	- [ ] [[StorySystem]]
+	- [x] [[StorySystem]]
+	- [ ] [[EcoSystem_Proto]]
 
 - ## Core bugs
 
@@ -68,14 +69,27 @@ contrairement au [[todo_high_level]], ce document a pour but de détailler le pl
 
 	- [x] [[ControllerSystem]]
 		- [x] ghost / skins on perso not working
+	- [x] [[ControllerSystem]] : fix health callbacks issue
+		- [x] fix perso respawn on death, on sofa
 
+	- [x] fix sofa issue, on doit pouvoir en sortir n'importe quand, pas seulement via le UI_Pool. autoriser les inputs du perso
+
+	- [x] [[DoorSystem]] rework : [[DoorSystem_Rework_1]]
+	- [ ] Doors :
+		- [x] verticales : mettre seulement la position de l'IF au milieu c'est chouette comme ça
+		- [x] le layer mid est malheuresement passé sur du ceiling, à remettre
+		- [ ] faire qu'elles se ferment automatiquement au bout de x secondes
+
+- ## Gamepad
+	- [ ] [[UI_PopupPool]] bug quand on appuie direct sur entrée avec que du vide ça valide aps
+	- [ ] pareil au gamepad quand on appuie sur A
+		- > virer tout simplement les "enter world name" pour la démo
+	- [ ] dans les coffres au **gamepad** quand on click sur un [[UI_ItemStack]] avec plusieurs items (quantity > 1) ça sélectionne ensuite un autre ui_item stack au lieu de rester sur le même
 
 - ## Small bugs
 	- [x] Supprimer les appels vers AddCapacity() / RemoveCapacity() mais pour ça on doit avoir un moyen d'ajouter dynamiquement des capacités ?
-	- [ ] dans les coffres au **gamepad** quand on click sur un [[UI_ItemStack]] avec plusieurs items (quantity > 1) ça sélectionne ensuite un autre ui_item stack au lieu de rester sur le même
 	- [x] drop cassé dans [[UI_ChestPool]] ça drop sur le sol au lieu de le mettre dans le coffre ?
 	- [x] UI_OutlineSlot ne grab que la moitié du stack
-
 
 	- [x] ### UI
 		- [x] mettre des croix top right pour sortir de :
@@ -83,6 +97,9 @@ contrairement au [[todo_high_level]], ce document a pour but de détailler le pl
 			- [x] [[UI_ChestPool]]
 		- [x] supprimer les [SwitchToHUD()] et tout remplacer par des [UnstackPool()] : settings, 
 
+	- [x] mettre des colliders feet pour les tags avec layer "SemiGhost" ? comme ça les rooms grabbent sur ce layer aussi
+
+	- [x] items qui viennent d'etre drop ont pas encore de [GetRealRoom()] parce qu'ils viennent de passer de free à pas free donc on peut pas regrab direct malheuresement ://
 
 # [ ] 1.5.2x : UI inventory rework
 
@@ -90,7 +107,8 @@ contrairement au [[todo_high_level]], ce document a pour but de détailler le pl
 	- [x] [[Inventory_Rework_1]]
 - ### UI rework
 	- [ ] [[UI_Manager_Rework_2]]
-	- [ ] supprimer [[ItemManager]] et le remplacer par un nouveau script qui est mieux et surtout ENTIEREMENT VISUEL et sur le hud
+	- [x] supprimer [[ItemManager]] et le remplacer par un nouveau script qui est mieux et surtout ENTIEREMENT VISUEL et sur le hud
+		- [ ] corriger les derniers bar de [UI_ItemBar]
 	- [x] faire un nouveau **HUD** avec les nouveaux sprites de barre de vie/xp, "hotbar" etc
 - ### File
 	- [ ] faire des [[File]] des [[Item]]
@@ -104,7 +122,8 @@ contrairement au [[todo_high_level]], ce document a pour but de détailler le pl
 # .
 
 
-
+- [ ] > [mid-term] mettre un clavier alphabet pour les popup gamepad
+- [ ] > mettre des objets interactifs qui ouvre un [[UI_Pool]] en particulier par exemple un placard qui affiche l'inventaire (ou miroir) tuto + récompense le joueur pour l'exploration
 
 # A TRIER
 

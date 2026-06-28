@@ -3,4 +3,4 @@ sert d'**Agent/Entity** pour le [[EcoSystem]]
 
 
 
-possède une [[SpawnCapacity]]
+possède une [[NestCapacity]]

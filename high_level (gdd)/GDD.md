@@ -14,7 +14,7 @@ Le développement haut niveau de **subrunner** est lui-même séparé en plusieu
 
 ## System Design
 - [[todo_high_level]]
-- [[BSOD Pattern Design]]
+- [[DOPE Pattern Design]]
 - [[systems_execution_order]]
 
 ## Planning
