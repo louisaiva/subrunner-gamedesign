@@ -32,4 +32,23 @@ Les différentes étapes de crafting de pates se fait via plusieurs objects [[In
 
 ---
 # todo
-- [ ] 
+
+- [ ] faire des animations :
+	- [x] Distributor idle, hover
+	- [x] Orderer hover + open/close
+	- [ ] sofa bob eating pasta
+
+- [ ] dessiner des items :
+	- [x] fork ?
+	- [x] pasta_ticket pour le distrib
+
+- [ ] coder [[Distributor]]
+	- [ ] supprimer le ticket
+	- [ ] quitter l'ui pool dès qu'on drop
+	- [ ] ajuster le drop parameters des pates
+	- [ ] ticket ui pool n'arrive pas à récup la PoolID "ticket" lors de la connection d'itempool, à vérifier
+		- > ptet pour ça qu'on peut pas drag n drop
+
+
+- [x] coder [[Orderer]]
+	- [ ] le relier à [[Printer]]

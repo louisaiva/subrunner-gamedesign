@@ -56,7 +56,8 @@ contrairement au [[todo_high_level]], ce document a pour but de détailler le pl
 	- [x] [[Controller_Rework_1]]
 	- [x] [[SaveSystem_Proto]]
 	- [x] [[StorySystem]]
-	- [ ] [[EcoSystem_Proto]]
+	- [x] [[EcoSystem_Proto]]
+	- [ ] [[Pasta Crafting System]]
 
 - ## Core bugs
 
@@ -71,14 +72,15 @@ contrairement au [[todo_high_level]], ce document a pour but de détailler le pl
 		- [x] ghost / skins on perso not working
 	- [x] [[ControllerSystem]] : fix health callbacks issue
 		- [x] fix perso respawn on death, on sofa
+		- [x] this is the issue : ![[image-21.png]]
 
 	- [x] fix sofa issue, on doit pouvoir en sortir n'importe quand, pas seulement via le UI_Pool. autoriser les inputs du perso
 
 	- [x] [[DoorSystem]] rework : [[DoorSystem_Rework_1]]
-	- [ ] Doors :
+	- [x] Doors :
 		- [x] verticales : mettre seulement la position de l'IF au milieu c'est chouette comme ça
 		- [x] le layer mid est malheuresement passé sur du ceiling, à remettre
-		- [ ] faire qu'elles se ferment automatiquement au bout de x secondes
+		- ~~[x] faire qu'elles se ferment automatiquement au bout de x secondes~~
 
 - ## Gamepad
 	- [ ] [[UI_PopupPool]] bug quand on appuie direct sur entrée avec que du vide ça valide aps

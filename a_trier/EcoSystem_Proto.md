@@ -1,7 +1,7 @@
 #rework #todo
 
 -  version de création : **1.5.1f**
--  version de résolution : 
+-  version de résolution : **1.5.1g**
 
 > README PLEASE
 > - seulement un prototype !! doit être fait le plus rapidement possible pour la [[july26demo]], on verra plus tard les trucs compliqués et chiants
@@ -29,8 +29,8 @@
 		- [x] important : c'est ici qu'on DuplicateTemplate() !!!
 		- [x] eco engine envoie seulement l'ID de l'entité à la burrow capacity
 
-	- [ ] intégrer des scripts de gestion de spawn manuel des [[NestCapacity]], notamment pour que le [[NPC]] s'active seulement lorsque > 50 trashs détectés
-		- [ ] pour ça on doit check à chaque update si y'a plus de 50 corpses, et spawn tous les npc des nest si y'en a
-		- [ ] [mid-term] on pourra plus tard compter combien y'a de npc déjà spawn en train de ramasser les trash, en comptant la différence entre les entités stored dans les nest et la alive_population globale de la species. comme ça ça permet d'avoir seulement 1 npc en train de nettoyer les corps, et dès qu'il revient au nest, si on a encore 50 corpses alors on en renvoit un random direct. pareil on peut mettre des paliers, si 100 corpses on fait en sorte d'en avoir toujours 2 npc qui sont spawned, les autres peuvent rester au nest s'ils veulent
+	- [x] intégrer des scripts de gestion de spawn manuel des [[NestCapacity]], notamment pour que le [[NPC]] s'active seulement lorsque > 50 trashs détectés
+		- [x] pour ça on doit check à chaque update si y'a plus de 50 corpses, et spawn tous les npc des nest si y'en a
+		- [x] [mid-term] on pourra plus tard compter combien y'a de npc déjà spawn en train de ramasser les trash, en comptant la différence entre les entités stored dans les nest et la alive_population globale de la species. comme ça ça permet d'avoir seulement 1 npc en train de nettoyer les corps, et dès qu'il revient au nest, si on a encore 50 corpses alors on en renvoit un random direct. pareil on peut mettre des paliers, si 100 corpses on fait en sorte d'en avoir toujours 2 npc qui sont spawned, les autres peuvent rester au nest s'ils veulent
 
-	- [ ] tester des nester en spawn : [Trigger] et store :[Once] pour les zombies de la 1e grosse room
+	- [x] tester des nester en spawn : [Trigger] et store :[Once] pour les zombies de la 1e grosse room
