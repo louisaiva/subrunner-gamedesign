@@ -57,7 +57,8 @@ contrairement au [[todo_high_level]], ce document a pour but de détailler le pl
 	- [x] [[SaveSystem_Proto]]
 	- [x] [[StorySystem]]
 	- [x] [[EcoSystem_Proto]]
-	- [ ] [[Pasta Crafting System]]
+	- [x] [[Pasta Crafting System]]
+	- [x] (~) bug drop item avec HoverBasedInteractCapacity
 
 - ## Core bugs
 

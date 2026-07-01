@@ -18,11 +18,12 @@ Les différentes étapes de crafting de pates se fait via plusieurs objects [[In
 
 étape préliminaires :
 
-- récupérer un ou plusieurs items [ingredient:pasta_dry] au [[Distributor]]
+- récupérer un ou plusieurs items [food:dry_pastas] au [[Distributor]]
 - réunir les ingrédients autres ingrédients :
 	- onion
 	- tomato_sauce
 	- lentils
+	- beans
 - réunir les autres items ?
 	- plate
 	- fork ? mdr
@@ -33,22 +34,29 @@ Les différentes étapes de crafting de pates se fait via plusieurs objects [[In
 ---
 # todo
 
-- [ ] faire des animations :
+- [x] faire des animations :
 	- [x] Distributor idle, hover
 	- [x] Orderer hover + open/close
-	- [ ] sofa bob eating pasta
+	- [x] sofa bob eating pasta
 
-- [ ] dessiner des items :
+- [x] dessiner des items :
 	- [x] fork ?
 	- [x] pasta_ticket pour le distrib
 
-- [ ] coder [[Distributor]]
-	- [ ] supprimer le ticket
-	- [ ] quitter l'ui pool dès qu'on drop
-	- [ ] ajuster le drop parameters des pates
-	- [ ] ticket ui pool n'arrive pas à récup la PoolID "ticket" lors de la connection d'itempool, à vérifier
-		- > ptet pour ça qu'on peut pas drag n drop
+- [x] coder [[Distributor]]
+	- [x] supprimer le ticket
+	- [x] quitter l'ui pool dès qu'on drop
+	- [x] ajuster le drop parameters des pates
+	- [x] mettre big_item type pool
+	- [x] ticket ui pool n'arrive pas à récup la PoolID "ticket" lors de la connection d'itempool, à vérifier
+	- [x] drag n drop cassé
+		- [x] UI_ItemMover doit pouvoir récup les UI_ItemPool depuis un UI_SlottableMixer, donc changer la pool ticket dans le mixer
+		- [x] par contre ça drop pas correctement dans l'inventaire ??? ptet à cause de GrabbedFromLowerInventory
+	- [x] drop cassé
+		- [x] vérifier que ça marche bien avec Inventory.GetInteractingInventory() qui marche avec les Chestable
 
 
 - [x] coder [[Orderer]]
-	- [ ] le relier à [[Printer]]
+	- [x] faire l'ui
+	- [x] coder cook meal coroutine
+		- [x] le relier à [[Printer]]

@@ -5,7 +5,7 @@ c'est la démo de juillet 2026 !
 
 systèmes à rework encore (non-exhaustif, à exhaustiver):
 - [x] [[EcoSystem_Proto]]   <------- THIS
-- [ ] [[Pasta Crafting System]]
+- [x] [[Pasta Crafting System]]
 
 
 
@@ -16,15 +16,15 @@ systèmes à rework encore (non-exhaustif, à exhaustiver):
 FINAL WORLD (Level Design) :
 - [x] 4 canapés : 1 QG, 1 au milieu, 1 secret room et 1 à la toute fin
 - [x] garder que des vertical door ?.? ou presque
-- mettre un [[Distributor]] à pates assez en évidence qq part
+- [x] mettre un [[Distributor]] à pates assez en évidence qq part
 
 
 objects pas encore implémentés / à rework :
 - [x] [[Burner]] (anciennement fan_cube à simplement rework)
 
 éléments d'ui à rework encore (ne,àe) :
-- [ ] Pasta Orderer ui
-- [ ] Pasta Distributor ui
+- [x] Pasta Orderer ui
+- [x] Pasta Distributor ui
 
 
 
