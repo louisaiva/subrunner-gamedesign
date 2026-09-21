@@ -1,6 +1,7 @@
 #system #designing
 
-- [ ] [[EcoSystem_Proto]]
+- [x] [[EcoSystem_Proto]]
+- [ ] [[EcoSystem_Rework_1]]
 
 ---
 # description

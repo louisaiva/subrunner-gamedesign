@@ -50,7 +50,10 @@ contrairement au [[todo_high_level]], ce document a pour but de détailler le pl
 	- [x] ShadowCaster2D décalé sur les portes dans les builds
 
 
-# [ ] 1.5.1x : 4th july Demo
+# [x] 1.5.1x : 4th july Demo
+
+- demo finale:
+	- [x] [[july26demo]]
 
 - ## Core
 	- [x] [[Controller_Rework_1]]
@@ -84,10 +87,10 @@ contrairement au [[todo_high_level]], ce document a pour but de détailler le pl
 		- ~~[x] faire qu'elles se ferment automatiquement au bout de x secondes~~
 
 - ## Gamepad
-	- [ ] [[UI_PopupPool]] bug quand on appuie direct sur entrée avec que du vide ça valide aps
-	- [ ] pareil au gamepad quand on appuie sur A
+	- [x] [[UI_PopupPool]] bug quand on appuie direct sur entrée avec que du vide ça valide aps
+	- [x] pareil au gamepad quand on appuie sur A
 		- > virer tout simplement les "enter world name" pour la démo
-	- [ ] dans les coffres au **gamepad** quand on click sur un [[UI_ItemStack]] avec plusieurs items (quantity > 1) ça sélectionne ensuite un autre ui_item stack au lieu de rester sur le même
+	- [x] dans les coffres au **gamepad** quand on click sur un [[UI_ItemStack]] avec plusieurs items (quantity > 1) ça sélectionne ensuite un autre ui_item stack au lieu de rester sur le même
 
 - ## Small bugs
 	- [x] Supprimer les appels vers AddCapacity() / RemoveCapacity() mais pour ça on doit avoir un moyen d'ajouter dynamiquement des capacités ?
@@ -144,7 +147,7 @@ contrairement au [[todo_high_level]], ce document a pour but de détailler le pl
 - [ ] est-ce qu'on peut faire que le bg devient rouge quand on se fait hacker/on prend des dégats
 
 
-- [ ] implement enemy wave system for the spawners to not appear
+- [x] implement enemy wave system for the spawners to not appear
 - [ ] implement first computer UI to have a proper way to steal the door' key
 - [ ] change [[UI_File]] visuals to have better UX for
 	- [ ] [[UI_ExploitSelector]]

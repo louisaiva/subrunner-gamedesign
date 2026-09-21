@@ -83,16 +83,16 @@ Pour aider le [SaveSystem] on a besoin de différents subsystems, notamment :
 ---
 # problèmes actuels
 
-- problème de [workflow] :
+- [x] problème de [workflow] :
 	- on doit donc pouvoir rewrite par dessus un [level-all-in-one] pour re assigner les doors, capables etc
 	- on doit donc pouvoir charger un [level-all-in-one] at runtime ?
 		- > oui (+3) -> [AIO_Loader] subsystem
 
-
+- [ ] supprimer les logs immenses de WSD (WorldSaveData) à chaque save ça prend 95% des logs et c'est inutile
 
 
 ---
 # todo
 
 - [x] sauvegarder la [version] du jeu dans [WorldData]
-- [ ] continuer le design
+- [x] continuer le design

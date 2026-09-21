@@ -6,6 +6,10 @@
 	- plans the best action plan to follow for the [[Mobs]] to achieve a goal
 	- uses **Jobs** & **ECS** so it's very fast
 
+- ## Hot Reload
+	- [hot reload site](https://hotreload.net/)
+	- used for avoid compiling scripts
+
 - ## A* project (useless now)
 	- [astar project](https://arongranberg.com/astar/)
 	- **NOT USED AFTER ALL**
@@ -16,7 +20,6 @@
 	- [navmeshplus github](https://github.com/h8man/NavMeshPlus)
 	- replaced **A*** for pathfinding
 	- free open source asset to allow unity's navmesh to work in 2D
-	-
 
 - ## Shapes2D
 	- [shapes2D github](https://github.com/all-iver/shapes2d)
@@ -24,7 +27,7 @@
 	- used for now in [[UI_ExploitSelector]]
 	- see later if we can use it to create some [[USB_Cable]]
 
-- ## Plot
+- ## Plot (useless now)
 	- [plot github](https://github.com/cecarlsen/dk.cec.plot/tree/main/)
 	- **NOT USED IN THE PROJECT**
 	- same as **Shapes2D** procedural shapes

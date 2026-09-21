@@ -14,3 +14,5 @@
 	- Armand
 	- Thomas (pote gaetan)
 	- m.org (discord) morgan
+	- Thomas binga
+	- 

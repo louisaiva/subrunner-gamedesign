@@ -11,6 +11,10 @@
 
 > Votre frigo vous a volé vos pâtes ? Pas de problème. Jeu d'action nerveux où vous devez découper des zombies et explorer un labyrinthe cyberpunk pour vous échapper de la simulation (et manger des pâtes).
 
+> Ton frigo a volé tes pâtes ? No problemo. Metroidvania nerveux
+> Ton frigo a volé tes pâtes ? Pas de problème. Jeu d'action nerveux mélangé à un metroidvania basé sur le hacking
+
+> Your fridge stole your pastas ? No problem. Fast-paced action based hacking metroidvania
 
 ## 2.2. Tags :
 
@@ -42,7 +46,18 @@ test 1 tags :
 ## 2.3. [[Inspirations]]
 
 ## 2.4. Inspirations Capsule :
+![[image-23.png|648]]
 
 ![[image-11.png|363]]![[image-12.png|429]]
 ![[image-13.png]]
 ![[image-17.png]]
+
+
+
+
+## 2.5. Longues Descriptions :
+
+- [[English_Big_Desc]]
+- [[French_Big_Desc]]
+
+

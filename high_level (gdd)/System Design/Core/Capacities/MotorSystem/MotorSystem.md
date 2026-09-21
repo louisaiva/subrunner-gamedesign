@@ -90,6 +90,10 @@ Pour ces entités loadées, les **Actions** & **Sensors** & **Déplacement** son
 - [ ] problème de [spawning] :
 	- [ ] j'ai l'impression que les mobs, lors du spawn, ont une position égale à 0,0, ce qui fait que leurs sensors font un premier sensing en 0,0, ce qui est illogique à balle
 
+- [ ] problème potentiel de [persistence] world loading :
+	- comme on peut le voir sur l'image d'après les CapableTarget ne sauvegardent rien ? ça devrait sauvegarder l'[id] du capable targeted mais ça le fait pass
+	- ![[image-22.png]]
+
 
 
 ---
