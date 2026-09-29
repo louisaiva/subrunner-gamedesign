@@ -116,9 +116,11 @@ contrairement au [[todo_high_level]], ce document a pour but de détailler le pl
 	- [x] supprimer [[ItemManager]] et le remplacer par un nouveau script qui est mieux et surtout ENTIEREMENT VISUEL et sur le hud
 		- [ ] corriger les derniers bar de [UI_ItemBar]
 	- [x] faire un nouveau **HUD** avec les nouveaux sprites de barre de vie/xp, "hotbar" etc
+	- [ ] faire que quand on maintient la touche pour basculer des items d'un slottable à l'autre ça s'arrete lorsque tous les items sont dans l'autre ui.
+		- > ça navigue quand même vers l'autre ui mais ça annule le drop continu. si on relache et qu'on remaintient par contre ça relance
 - ### File
 	- [ ] faire des [[File]] des [[Item]]
-	- [ ] faire des sprites de slots pour les [[File]]
+	- [x] faire des sprites de slots pour les [[File]]
 	- [ ] 
 
 
@@ -131,18 +133,22 @@ contrairement au [[todo_high_level]], ce document a pour but de détailler le pl
 - [ ] > [mid-term] mettre un clavier alphabet pour les popup gamepad
 - [ ] > mettre des objets interactifs qui ouvre un [[UI_Pool]] en particulier par exemple un placard qui affiche l'inventaire (ou miroir) tuto + récompense le joueur pour l'exploration
 
+
+
+
+
 # A TRIER
 
+- [ ] fix divers bugs des [[july26demo]]/[[oct26demo]] : [[2026_09_22]]
 - [ ] réflechir mouse dynamic orientation [[2026_05_03]]
 
-- [ ] faire un post it system quickly (ui_pool) notamment pour le qg avec une liste des courses :
+- [x] faire un post it system quickly (ui_pool) notamment pour le qg avec une liste des courses :
 	- pastas (last packet) !! important
 	- 2 piles AAAAAAAA
 	- 16 Yo micro sd card
 
 
 - [ ] [[CapableSystem_Rework_2]]
-- [ ] transformer Movable en MoveCapacity
 
 - [ ] est-ce qu'on peut faire que le bg devient rouge quand on se fait hacker/on prend des dégats
 
@@ -153,3 +159,5 @@ contrairement au [[todo_high_level]], ce document a pour but de détailler le pl
 	- [ ] [[UI_ExploitSelector]]
 	- [ ] [[UI_Device]]
 	- [ ] [[UI_HDD]]
+
+- [ ] transformer Movable en MoveCapacity

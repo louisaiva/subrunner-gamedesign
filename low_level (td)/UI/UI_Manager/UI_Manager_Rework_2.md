@@ -23,7 +23,7 @@
 		- [ ] [[UI_Slot]]
 	- [ ] transformer [[UI_ItemPool]] en [[UI_Window]]
 
-	- [ ] [[ItemManager]] relink to [[ItemPool]] ? on a vraiment besoin d'ItemManager ?
+	- [x] [[ItemManager]] relink to [[ItemPool]] ? on a vraiment besoin d'ItemManager ?
 		- [x] la récupération des bons items se fait désormais directement depuis l'**Inventory** dcp PIC récupère les usables directement là
-		- [ ] supprimer ItemManager et le remplacer par un **UI_ItemBarHUD** ??
+		- [x] supprimer ItemManager et le remplacer par un **UI_ItemBarHUD** ??
 			- > OUI (+3)

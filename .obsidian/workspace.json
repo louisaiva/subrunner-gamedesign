@@ -34,6 +34,34 @@
               "icon": "lucide-file",
               "title": "oct26demo"
             }
+          },
+          {
+            "id": "535b9fc8824111f6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "journals/2026_09_22.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2026_09_22"
+            }
+          },
+          {
+            "id": "644ea0f4b1d04dd1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "high_level (gdd)/Marketing, Com & others/MARKETING.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "MARKETING"
+            }
           }
         ],
         "currentTab": 1
@@ -268,11 +296,14 @@
   "active": "87f3f11b1b792b23",
   "lastOpenFiles": [
     "low_level (td)/todo_low_level.md",
+    "journals/2026_09_22.md",
     "high_level (gdd)/Planning/todo_high_level.md",
     "high_level (gdd)/Planning/ROADMAP.md",
-    "high_level (gdd)/GDD.md",
-    "high_level (gdd)/Marketing, Com & others/MARKETING.md",
     "a_trier/oct26demo.md",
+    "high_level (gdd)/Marketing, Com & others/MARKETING.md",
+    "low_level (td)/UI/UI_Manager/UI_Manager_Rework_2.md",
+    "journals/2026_06_27.md",
+    "high_level (gdd)/GDD.md",
     "a_trier/july26demo.md",
     "high_level (gdd)/Marketing, Com & others/Playtesters & Sound Designers.md",
     "a_trier/EcoSystem_Rework_1.md",
@@ -292,10 +323,7 @@
     "resources/image-21.png",
     "low_level (td)/Engines/EcoEngine.md",
     "low_level (td)/Core/Capacities/NestCapacity.md",
-    "journals/2026_06_27.md",
     "a_trier/DoorSystem_Rework_1.md",
-    "high_level (gdd)/System Design/DOPE Pattern Design.md",
-    "low_level (td)/Core/Capables/Objects/Interactives/Spawner.md",
     "resources/image-20.png",
     "resources/image-19.png",
     "resources/image-18.png",
