@@ -139,7 +139,7 @@ contrairement au [[todo_high_level]], ce document a pour but de détailler le pl
 
 # A TRIER
 
-- [ ] fix divers bugs des [[july26demo]]/[[oct26demo]] : [[2026_09_22]]
+- [ ] fix divers bugs des [[july26demo]]/[[oct26demo]] : [[2026_09_22]] + [[2026_09_28]]
 - [ ] réflechir mouse dynamic orientation [[2026_05_03]]
 
 - [x] faire un post it system quickly (ui_pool) notamment pour le qg avec une liste des courses :
