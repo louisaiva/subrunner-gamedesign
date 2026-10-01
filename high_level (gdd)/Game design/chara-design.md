@@ -16,6 +16,7 @@
 	- 
 	- est trop swag
 	- a 2 courtes épées de lumière un peu
+	- ![[image-25.png|244]]
 - ### [moustik]
 	- a un "dard" comme epee
 	- habite avec des mini moustiques qui servent de drones
@@ -58,6 +59,8 @@
 
 ***
 
-# Defenders
-- ### [usd_1]
-- 
+# Bourrins
+- ### [usb]
+	- *Unité Spéciale Bourrine* (fr)
+	- *Unit Surprisingly Bad* (eng)
+	- ![[image-24.png|198x244]]
