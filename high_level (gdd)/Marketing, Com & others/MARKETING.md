@@ -64,4 +64,4 @@ test 1 tags :
 
 ## 2.6. Présentation orale du jeu :
 
-> SUBRUNNER est un labyrinthe cyberpunk souterrain. Vous incarnez BOB, un ninja hacker, et votre seule et unique mission, c'est de manger des pâtes, pasq vous avez très très faim. Mais d'²
+> SUBRUNNER est un labyrinthe cyberpunk souterrain. Vous incarnez BOB, un ninja hacker, et votre seule et unique mission, c'est de manger des pâtes, pasq vous avez très très faim. Réunissez des ingrédients, explorez le souterrain et survivez aux attaques de zombies.
