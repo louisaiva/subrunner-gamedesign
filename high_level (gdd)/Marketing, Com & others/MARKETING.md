@@ -7,7 +7,9 @@
 
 # 2. Com :
 
-## 2.1. Descriptions du jeu
+## 2.1. Descriptions du jeu / Headlines :
+
+> La faim justifie les moyens
 
 > Votre frigo vous a volé vos pâtes ? Pas de problème. Jeu d'action nerveux où vous devez découper des zombies et explorer un labyrinthe cyberpunk pour vous échapper de la simulation (et manger des pâtes).
 
@@ -60,4 +62,6 @@ test 1 tags :
 - [[English_Big_Desc]]
 - [[French_Big_Desc]]
 
+## 2.6. Présentation orale du jeu :
 
+> SUBRUNNER est un labyrinthe cyberpunk souterrain. Vous incarnez BOB, un ninja hacker, et votre seule et unique mission, c'est de manger des pâtes, pasq vous avez très très faim. Mais d'²

@@ -57,37 +57,37 @@ c'est la démo du 3 octobre 2026 ! (aquarium ciné)
 
 
 ## 4. Questionnaire
-- [ ] faire un google form avec les questions :
+- [x] faire un google form avec les questions :
 
-	- [ ] est-ce que vous vous êtes senti perdu ?
+	- [x] est-ce que vous vous êtes senti perdu ?
 		- complètement perdu
 		- un petit peu perdu, pas assez guidé
 		- ça va
 		- aucun soucis
 	
-	- [ ] est-ce que vous avez eu des problèmes de performances ?
+	- [x] est-ce que vous avez eu des problèmes de performances ?
 		- énormes lags
 		- petits lags
 		- ça va
 		- aucun soucis
 
-	- [ ] est-ce que l'intro était cool, compréhensible ? (choix multiples)
+	- [x] est-ce que l'intro était cool, compréhensible ? (choix multiples)
 		- pas drôle
 		- buggée
 		- incompréhensible
 		- super chouette
 
-	- [ ] comment était la difficulté ?
+	- [x] comment était la difficulté ?
 		- trop dur
 		- un peu trop dur
 		- difficulté parfaite
 		- un peu trop facile
 		- trop facile
 
-	- [ ] comment était le gameplay ? (choix multiples)
+	- [x] comment était le gameplay ? (choix multiples)
 		- trop répétitif
 		- frustrant
 		- dur à prendre en main
 		- agréable
 
-	- [ ] avez vous des suggestions ?
+	- [x] avez vous des suggestions ?
