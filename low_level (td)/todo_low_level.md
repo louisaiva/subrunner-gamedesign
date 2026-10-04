@@ -126,21 +126,19 @@ contrairement au [[todo_high_level]], ce document a pour but de détailler le pl
 
 
 
+# A TRIER
 
-# .
+- [ ] fix divers bugs des [[july26demo]]/[[oct26demo]] : [[2026_09_22]] + [[2026_09_28]]
+- [ ] réflechir mouse dynamic orientation [[2026_05_03]]
+- [ ] mettre un bouton save and exit dans le [[UI_PauseMenu]] quand **dev_tools** est à 0, les deux boutons de d'hab sinon
+- [ ] UI hover pas assez visible : quand on hover qqch, tous les autres UI_ItemStack perdent de l'alpha 
+
 
 
 - [ ] > [mid-term] mettre un clavier alphabet pour les popup gamepad
 - [ ] > mettre des objets interactifs qui ouvre un [[UI_Pool]] en particulier par exemple un placard qui affiche l'inventaire (ou miroir) tuto + récompense le joueur pour l'exploration
 
 
-
-
-
-# A TRIER
-
-- [ ] fix divers bugs des [[july26demo]]/[[oct26demo]] : [[2026_09_22]] + [[2026_09_28]]
-- [ ] réflechir mouse dynamic orientation [[2026_05_03]]
 
 - [x] faire un post it system quickly (ui_pool) notamment pour le qg avec une liste des courses :
 	- pastas (last packet) !! important
