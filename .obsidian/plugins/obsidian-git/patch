@@ -1,0 +1,341 @@
+diff --git a/.obsidian/workspace.json b/.obsidian/workspace.json
+index 000000..000000 100644
+--- a/.obsidian/workspace.json
++++ b/.obsidian/workspace.json
+@@ -1,0 +1,335 @@
++{
++  "main": {
++    "id": "c35d199b76cf6016",
++    "type": "split",
++    "children": [
++      {
++        "id": "55648fe8e0b51cb8",
++        "type": "tabs",
++        "children": [
++          {
++            "id": "deeabfef8a499a1e",
++            "type": "leaf",
++            "state": {
++              "type": "markdown",
++              "state": {
++                "file": "high_level (gdd)/Marketing, Com & others/Playtesters & Sound Designers.md",
++                "mode": "source",
++                "source": false
++              },
++              "icon": "lucide-file",
++              "title": "Playtesters & Sound Designers"
++            }
++          },
++          {
++            "id": "33e0e4be87dbe389",
++            "type": "leaf",
++            "state": {
++              "type": "markdown",
++              "state": {
++                "file": "high_level (gdd)/Game design/chara-design.md",
++                "mode": "source",
++                "source": false
++              },
++              "icon": "lucide-file",
++              "title": "chara-design"
++            }
++          },
++          {
++            "id": "2ad2c37812ea3c77",
++            "type": "leaf",
++            "state": {
++              "type": "markdown",
++              "state": {
++                "file": "a_trier/oct26demo.md",
++                "mode": "source",
++                "source": false
++              },
++              "icon": "lucide-file",
++              "title": "oct26demo"
++            }
++          },
++          {
++            "id": "8468820783216fa8",
++            "type": "leaf",
++            "state": {
++              "type": "markdown",
++              "state": {
++                "file": "high_level (gdd)/Marketing, Com & others/MARKETING.md",
++                "mode": "source",
++                "source": false
++              },
++              "icon": "lucide-file",
++              "title": "MARKETING"
++            }
++          }
++        ],
++        "currentTab": 3
++      }
++    ],
++    "direction": "vertical"
++  },
++  "left": {
++    "id": "2b1e164fa438bf78",
++    "type": "split",
++    "children": [
++      {
++        "id": "bd65a2e599a62738",
++        "type": "tabs",
++        "children": [
++          {
++            "id": "6e4a4c0e940621c9",
++            "type": "leaf",
++            "state": {
++              "type": "file-explorer",
++              "state": {
++                "sortOrder": "alphabetical",
++                "autoReveal": false,
++                "showSearch": false,
++                "searchQuery": ""
++              },
++              "icon": "lucide-folder-closed",
++              "title": "Explorateur de fichiers"
++            }
++          },
++          {
++            "id": "f51f99506e3fe0f5",
++            "type": "leaf",
++            "state": {
++              "type": "search",
++              "state": {
++                "query": "",
++                "matchingCase": false,
++                "explainSearch": false,
++                "collapseAll": false,
++                "extraContext": false,
++                "sortOrder": "alphabetical"
++              },
++              "icon": "lucide-search",
++              "title": "Rechercher"
++            }
++          },
++          {
++            "id": "8f792d3247452347",
++            "type": "leaf",
++            "state": {
++              "type": "bookmarks",
++              "state": {},
++              "icon": "lucide-bookmark",
++              "title": "Signets"
++            }
++          },
++          {
++            "id": "2ae00dc88b747da4",
++            "type": "leaf",
++            "state": {
++              "type": "markdown",
++              "state": {
++                "file": "high_level (gdd)/Planning/ROADMAP.md",
++                "mode": "source",
++                "source": false
++              },
++              "icon": "lucide-file",
++              "title": "ROADMAP"
++            }
++          },
++          {
++            "id": "6da1de566eb492c4",
++            "type": "leaf",
++            "state": {
++              "type": "markdown",
++              "state": {
++                "file": "high_level (gdd)/Planning/todo_high_level.md",
++                "mode": "source",
++                "source": false
++              },
++              "icon": "lucide-file",
++              "title": "todo_high_level"
++            }
++          },
++          {
++            "id": "d3af498a691c883f",
++            "type": "leaf",
++            "state": {
++              "type": "markdown",
++              "state": {
++                "file": "low_level (td)/todo_low_level.md",
++                "mode": "source",
++                "source": false
++              },
++              "icon": "lucide-file",
++              "title": "todo_low_level"
++            }
++          }
++        ],
++        "currentTab": 5
++      }
++    ],
++    "direction": "horizontal",
++    "width": 469.5
++  },
++  "right": {
++    "id": "43b8f9d0d3f67306",
++    "type": "split",
++    "children": [
++      {
++        "id": "78140916b59243dd",
++        "type": "tabs",
++        "children": [
++          {
++            "id": "be0183aeec2ce11b",
++            "type": "leaf",
++            "state": {
++              "type": "backlink",
++              "state": {
++                "file": "a_trier/Pasta Crafting System.md",
++                "collapseAll": false,
++                "extraContext": false,
++                "sortOrder": "alphabetical",
++                "showSearch": false,
++                "searchQuery": "",
++                "backlinkCollapsed": false,
++                "unlinkedCollapsed": true
++              },
++              "icon": "links-coming-in",
++              "title": "Rétrolien pour Pasta Crafting System"
++            }
++          },
++          {
++            "id": "f5e6551c94ef9f0b",
++            "type": "leaf",
++            "state": {
++              "type": "outgoing-link",
++              "state": {
++                "file": "a_trier/Pasta Crafting System.md",
++                "linksCollapsed": false,
++                "unlinkedCollapsed": true
++              },
++              "icon": "links-going-out",
++              "title": "Liens sortants de Pasta Crafting System"
++            }
++          },
++          {
++            "id": "77e59dfa2a84c4b3",
++            "type": "leaf",
++            "state": {
++              "type": "tag",
++              "state": {
++                "sortOrder": "frequency",
++                "useHierarchy": true,
++                "showSearch": false,
++                "searchQuery": ""
++              },
++              "icon": "lucide-tags",
++              "title": "Mots-clés"
++            }
++          },
++          {
++            "id": "3c60ed010a1808ed",
++            "type": "leaf",
++            "state": {
++              "type": "all-properties",
++              "state": {
++                "sortOrder": "frequency",
++                "showSearch": false,
++                "searchQuery": ""
++              },
++              "icon": "lucide-archive",
++              "title": "Toutes les propriétés"
++            }
++          },
++          {
++            "id": "4e899ce3940eee55",
++            "type": "leaf",
++            "state": {
++              "type": "outline",
++              "state": {
++                "file": "low_level (td)/todo_low_level.md",
++                "followCursor": false,
++                "showSearch": false,
++                "searchQuery": ""
++              },
++              "icon": "lucide-list",
++              "title": "Plan de todo_low_level"
++            }
++          },
++          {
++            "id": "f34ab47939fd1d1a",
++            "type": "leaf",
++            "state": {
++              "type": "calendar",
++              "state": {},
++              "icon": "calendar-with-checkmark",
++              "title": "Calendar"
++            }
++          },
++          {
++            "id": "ede65b1a1d2237ac",
++            "type": "leaf",
++            "state": {
++              "type": "git-view",
++              "state": {},
++              "icon": "git-pull-request",
++              "title": "Source Control"
++            }
++          }
++        ],
++        "currentTab": 6
++      }
++    ],
++    "direction": "horizontal",
++    "width": 300
++  },
++  "left-ribbon": {
++    "hiddenItems": {
++      "switcher:Ouvrir le sélecteur rapide": false,
++      "graph:Ouvrir la vue graphique": false,
++      "canvas:Créer une nouvelle toile": false,
++      "daily-notes:Ouvrir la note quotidienne": false,
++      "templates:Insérer le modèle": false,
++      "command-palette:Ouvrir la palette de commandes": false,
++      "bases:Créer une nouvelle base": false,
++      "obsidian-excalidraw-plugin:New drawing": false,
++      "obsidian-git:Open Git source control": false
++    }
++  },
++  "active": "ede65b1a1d2237ac",
++  "lastOpenFiles": [
++    "conflict-files-obsidian-git.md",
++    "low_level (td)/todo_low_level.md",
++    "high_level (gdd)/Marketing, Com & others/MARKETING.md",
++    "a_trier/English_Big_Desc.md",
++    "high_level (gdd)/Game design/chara-design.md",
++    "a_trier/oct26demo.md",
++    "high_level (gdd)/Marketing, Com & others/Playtesters & Sound Designers.md",
++    "journals/2026_09_28.md",
++    "resources/image-25.png",
++    "resources/image-24.png",
++    "journals/2026_09_29.md",
++    "journals/2026_09_22.md",
++    "high_level (gdd)/Planning/todo_high_level.md",
++    "high_level (gdd)/Planning/ROADMAP.md",
++    "low_level (td)/UI/UI_Manager/UI_Manager_Rework_2.md",
++    "journals/2026_06_27.md",
++    "high_level (gdd)/GDD.md",
++    "a_trier/july26demo.md",
++    "a_trier/EcoSystem_Rework_1.md",
++    "a_trier/ExpSystem.md",
++    "a_trier/French_Big_Desc.md",
++    "a_trier/GetRealRoom().md",
++    "resources/image-23.png",
++    "high_level (gdd)/System Design/Core/Ecosystem.md",
++    "a_trier/Pasta Crafting System.md",
++    "high_level (gdd)/System Design/Core/SaveSystem/SaveSystem.md",
++    "high_level (gdd)/System Design/Core/Capacities/MotorSystem/MotorSystem.md",
++    "resources/image-22.png",
++    "high_level (gdd)/Marketing, Com & others/External Assets & Plugins.md",
++    "a_trier/EcoSystem_Proto.md",
++    "resources/image-21.png",
++    "resources/image-20.png",
++    "resources/image-19.png",
++    "resources/image-18.png",
++    "resources/image-17.png",
++    "resources/image-16.png"
++  ]
++}
+\ No newline at end of file
