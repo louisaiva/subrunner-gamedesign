@@ -1,3 +1,4 @@
+#todo 
 
 c'est la démo du 3 octobre 2026 ! (aquarium ciné)
 
@@ -8,6 +9,7 @@ c'est la démo du 3 octobre 2026 ! (aquarium ciné)
 - raccourcir l'intro (texte + skippable)
 - changer logo
 - mettre des logs ?
+- corriger le problème principal de performance
 - ne rien casser
 
 

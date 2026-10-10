@@ -3,6 +3,8 @@ Le **Game Design Document** présent dans cette sous partie a pour vocation d'ai
 
 Il doit servir à guider le développement dans les différents choix passés et futurs et garder un oeil sur le planning. C'est ici qu'on va donc retrouver aussi tout ce qui touche à l'organisation IRL des bails.
 
+> Si vous cherchez la **documentation technique**, je vous redirige vers le **Technical Document** : [[TD]]
+
 ---
 
 Le développement haut niveau de **subrunner** est lui-même séparé en plusieurs sous catégories :
@@ -18,8 +20,10 @@ Le développement haut niveau de **subrunner** est lui-même séparé en plusieu
 - [[systems_execution_order]]
 
 ## Planning
-- [[ROADMAP]]
+- [x] [[ROADMAP_1.5.2]]
+- [ ] [[ROADMAP ACTUELLE]]
 - [[LONG-TERM]]
+- [[DEMOS LIST]]
 
 ## Marketing etc
 - [[MARKETING]]
@@ -42,7 +46,7 @@ Voici aussi les autres différentes pages qui aident à garder une vision long t
 - [[3D-Problem]]
 - [[Optimisation]]
 
-## Logs
+## Problemes Logs
 
 ici c'est juste pour garder une trace des différents problèmes résolus
 

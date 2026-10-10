@@ -4,25 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "55648fe8e0b51cb8",
+        "id": "01ffd6ba3b7d9c19",
         "type": "tabs",
         "children": [
           {
-            "id": "deeabfef8a499a1e",
+            "id": "706e730e9dd5e149",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "high_level (gdd)/Marketing, Com & others/Playtesters & Sound Designers.md",
+                "file": "high_level (gdd)/Planning/RoadMaps/ROADMAP ACTUELLE.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Playtesters & Sound Designers"
+              "title": "ROADMAP ACTUELLE"
             }
           },
           {
-            "id": "33e0e4be87dbe389",
+            "id": "673e7abbb80ced3a",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -35,8 +35,7 @@
               "title": "chara-design"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -97,12 +96,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "high_level (gdd)/Planning/ROADMAP.md",
+                "file": "high_level (gdd)/Planning/RoadMaps/ROADMAP_1.5.2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ROADMAP"
+              "title": "ROADMAP_1.5.2"
             }
           },
           {
@@ -134,11 +133,11 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 469.5
+    "width": 540.5
   },
   "right": {
     "id": "43b8f9d0d3f67306",
@@ -154,7 +153,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "a_trier/Pasta Crafting System.md",
+                "file": "high_level (gdd)/Planning/RoadMaps/ROADMAP ACTUELLE.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,7 +163,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Rétrolien pour Pasta Crafting System"
+              "title": "Rétroliens"
             }
           },
           {
@@ -216,13 +215,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "low_level (td)/todo_low_level.md",
+                "file": "high_level (gdd)/Planning/RoadMaps/ROADMAP ACTUELLE.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Plan de todo_low_level"
+              "title": "Plan"
             }
           },
           {
@@ -265,38 +264,47 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "33e0e4be87dbe389",
+  "active": "706e730e9dd5e149",
   "lastOpenFiles": [
-    "a_trier/oct26demo.md",
-    "conflict-files-obsidian-git.md",
-    "low_level (td)/todo_low_level.md",
-    "high_level (gdd)/Marketing, Com & others/MARKETING.md",
-    "a_trier/English_Big_Desc.md",
     "high_level (gdd)/Game design/chara-design.md",
+    "high_level (gdd)/Planning/RoadMaps/ROADMAP ACTUELLE.md",
+    "high_level (gdd)/Planning/RoadMaps/ROADMAP_1.5.2.md",
+    "templates/Rework_Template.md",
+    "high_level (gdd)/Planning/ROADMAPS LIST.md",
+    "high_level (gdd)/Planning/Demos/july26demo.md",
+    "high_level (gdd)/Planning/Demos/oct26demo.md",
+    "high_level (gdd)/Planning/DEMOS LIST.md",
+    "high_level (gdd)/Planning/todo_high_level.md",
+    "high_level (gdd)/Planning/todo_audio.md",
+    "high_level (gdd)/Planning/Sans titre",
+    "high_level (gdd)/Planning/RoadMaps",
     "high_level (gdd)/Marketing, Com & others/Playtesters & Sound Designers.md",
-    "journals/2026_09_28.md",
+    "low_level (td)/TD.md",
+    "low_level (td)/todo_low_level.md",
+    "low_level (td)/Core/Capables/Beings/Being.md",
+    "low_level (td)/Core/Capables/Beings/Mobs.md",
+    "low_level (td)/Core/Anims/AnimPlayer.md",
+    "high_level (gdd)/System Design/Core/CapacitySystem/Capacities/Capacities List.md",
+    "high_level (gdd)/System Design/Core/CapacitySystem/Capacities/Hacking.md",
+    "high_level (gdd)/System Design/Core/CapacitySystem/CapacitySystem.md",
+    "high_level (gdd)/System Design/Core/CapacitySystem/Capacities/AnimSystem/AnimSystem_Capacity_Integration_Rework.md",
+    "high_level (gdd)/System Design/Core/CapableSystem/Capacities/AnimSystem/AnimSystem",
+    "high_level (gdd)/System Design/Core/ControllerSystem/ControllerSystem.md",
+    "high_level (gdd)/System Design/Core/EcoSystem",
+    "high_level (gdd)/System Design/Core/ControllerSystem/PIC (PersoInputsController).md",
+    "high_level (gdd)/System Design/Core/ControllerSystem/UIC (UI_InputsController).md",
+    "high_level (gdd)/System Design/Core/ControllerSystem",
+    "tools/CapacitySnippetForVS_Code.md",
+    "high_level (gdd)/System Design/Core/StorySystem/UI_Dialog.md",
+    "tools",
+    "high_level (gdd)/System Design/Core/StorySystem",
+    "high_level (gdd)/System Design/Core/Pasta Crafting System.md",
+    "high_level (gdd)/Marketing, Com & others/Localisation",
+    "high_level (gdd)/Planning/Demos",
     "resources/image-25.png",
     "resources/image-24.png",
-    "journals/2026_09_29.md",
-    "journals/2026_09_22.md",
-    "high_level (gdd)/Planning/todo_high_level.md",
-    "high_level (gdd)/Planning/ROADMAP.md",
-    "low_level (td)/UI/UI_Manager/UI_Manager_Rework_2.md",
-    "journals/2026_06_27.md",
-    "high_level (gdd)/GDD.md",
-    "a_trier/july26demo.md",
-    "a_trier/EcoSystem_Rework_1.md",
-    "a_trier/ExpSystem.md",
-    "a_trier/French_Big_Desc.md",
-    "a_trier/GetRealRoom().md",
     "resources/image-23.png",
-    "high_level (gdd)/System Design/Core/Ecosystem.md",
-    "a_trier/Pasta Crafting System.md",
-    "high_level (gdd)/System Design/Core/SaveSystem/SaveSystem.md",
-    "high_level (gdd)/System Design/Core/Capacities/MotorSystem/MotorSystem.md",
     "resources/image-22.png",
-    "high_level (gdd)/Marketing, Com & others/External Assets & Plugins.md",
-    "a_trier/EcoSystem_Proto.md",
     "resources/image-21.png",
     "resources/image-20.png",
     "resources/image-19.png",

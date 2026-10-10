@@ -1,5 +1,5 @@
 #capacity
-sert de **Data/Component** pour [[EcoSystem]]
+sert de **Data/Component** pour [[Ecosystem]]
 
 
 ---

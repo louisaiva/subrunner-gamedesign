@@ -3,7 +3,7 @@
 ---
 # description
 
-**SousSystem** est une [engine] de : [[EcoSystem]]
+**SousSystem** est une [engine] de : [[Ecosystem]]
 
 Cette engine a pour but de tendre vers l'équilibre entre les espèces souhaité par le dev. Gère les spawners, les entités, et en gros l'équilibre entre les factions
 

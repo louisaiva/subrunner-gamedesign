@@ -1,6 +1,6 @@
 #planning
 
-ce todo est différent du [[todo_low_level]] parce qu'il sert à détailler les prochaines étapes du [[ROADMAP]] d'un point de vue **Systèmes**. cela signifie que les reworks à l'intérieur des systèmes ne sont pas détaillés. on veut garder une vision d'ensemble.
+ce todo est différent du [[todo_low_level]] parce qu'il sert à détailler les prochaines étapes du [[ROADMAP ACTUELLE]] d'un point de vue **Systèmes**. cela signifie que les reworks à l'intérieur des systèmes ne sont pas détaillés. on veut garder une vision d'ensemble.
 
 
 # systems design & prototypage
@@ -33,7 +33,7 @@ ce todo est différent du [[todo_low_level]] parce qu'il sert à détailler les 
 
 
 - #### systèmes encore inexistants (en cours de design)
-	- [[EcoSystem]]
+	- [[Ecosystem]]
 		- **EnemyWaveSystem** meilleur nom ?
 	- [[WallSystem]]
 	- [[ExpSystem]]

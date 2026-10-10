@@ -1,8 +1,16 @@
 
-# 1 - Légende du wiki
+La légende a pour but de détailler la grammaire spécifique à ce wiki et différents autres trucs aussi comme vous pourrez le constater dans les sous parties suivantes :
+
+> Consultez aussi le [[Glossaire]]
+
+---
+# 1. Légende du wiki
 
 
-*N.B. la légende n'est pas à jour. Encore en transition de milanote vers logseq/obsidian*
+> *N.B. la légende n'est pas à jour. Encore en transition de milanote vers logseq/obsidian*
+>- ouai vraiment pas à jour du tt, on fait quoi ?
+	- on supprime la sous partie (+1)
+	- on réecrit vite fait comment qu'on fait sur obsidian maintenant (+1)
 
 
 
@@ -64,7 +72,7 @@ quand on revient dessus et qu'une idée est grave majoritaire ça veut souvent d
 
 
 
-# **2 - Légendes des commits (git)**
+# 2. Versionning des commits (git)
 
 Sur le github (https://github.com/louisaiva/subrunner) il y a plein de commits (292 à ce jour). Les noms de ces commits nous informent sur leur état de santé et leur contenu.  
 
@@ -74,8 +82,9 @@ Sur le github (https://github.com/louisaiva/subrunner) il y a plein de commits (
 
 **(%16) j'ai tout réparé !!** -> ce commit est un build, dernière version à ce jour !! si notre code actuel est cassé c'est une bonne idée de revenir à un commit comme ça. Idéalement à chaque commit % faudrait faire une release mais bon tkt pr le moment j'ai 3 builds de retard mdr
 
-*N.B. : des fois je m'embrouille du coup ces légendes de commit ne sont pas forcément fiables à 100%, je crois j'ai noté des (~XX) en tant que maj stables mais je sais plus*
-- [ ] à vérifier
+> *N.B. : des fois je m'embrouille du coup ces légendes de commit ne sont pas forcément fiables à 100%, je crois j'ai noté des (~XX) en tant que maj stables mais je sais plus*
+ [ ] à vérifier
+	- > jlai pas fait encore, le faire vraiment la prochaine fois que tu lis ce message stp
 
 
 
@@ -83,28 +92,37 @@ Sur le github (https://github.com/louisaiva/subrunner) il y a plein de commits (
 
 
 
-# **3 - Légendes des versions de Build alpha**
+# **3. Versionning des Builds alpha**
 
 les builds viennent avec un numéro de version _idéalement_ unique à ce build.  
 les numéros de builds se présentent comme ça:
-
-## - 1.4.1
-
-## - 1.5.2c
+- **1.4.1**
+- **1.5.2c**
 
 ou, plus généralement, sous la forme:
-#### itération . grosse_maj . prototype (+ lettre de build)
+#### [itération] . [grosse_maj] . [maj de todo]  [lettre de prototype]
 
 où :
 
-- **itération** est le nombre de fois que je reprends mon jeu vidéo de la base (la première itération part de 0)
-    
-- **grosse_maj** est une mise à jour majeure du jeu, ajout d'un ou plusieurs nouveaux systèmes / gros rework de gros systemes
+
+
+- **[itération]** est le nombre de fois que je reprends mon jeu vidéo de la base (la première itération part de 0)
+
+
+
+- **[grosse_maj]** est une mise à jour majeure du jeu, ajout d'un ou plusieurs nouveaux systèmes / gros rework de gros systemes
 	- (exemple ajouter un world_builder)
-    
-- **prototype** est une mise à jour d'une fonctionnalité légèrement complexe, soit un rework de systeme, soit développement de plusieurs sous système, soit des fois un système complet si je fais un gros prototype ou quoi
+
+
+
+- **[maj de todo]** est une mise à jour d'une fonctionnalité légèrement complexe, soit un rework de systeme, soit développement de plusieurs sous système, soit des fois un système complet si j'ai une grosse refonte de plusieurs systèmes ou quoi
 	- (ex : ajout d'un menu avec plusieurs trucs)
-    
-- enfin la lettre qui suit (ou pas) indique le numéro de build actuel dans le dév de la fonctionnalité en cours de prototypage.
-	- pas de **a** parce que quand on fait le 1er build bah c'est la première maj quoi, donc commence à partir de la b (si y'a un a c pas si grave non plus mdr)
-	- en fait des fois y'a des **a** j'ai menti oups
+	- cette maj suit les itérations du [[todo_low_level]] 
+
+
+
+- **[lettre de prototype]** indique le numéro de prototype (lol) actuel dans le dév de la fonctionnalité en cours de prototypage.
+
+	- si aucune lettre n'est présente :
+		- soit c'est un vieux build
+		- soit cela peut être une version de **démo**, ce qui signifie souvent une build légèrement plus clean, optimisée et surtout avec une histoire et une fin j'imagine :)

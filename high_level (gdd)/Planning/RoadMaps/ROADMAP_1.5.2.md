@@ -1,14 +1,14 @@
 #planning
 
-contrairement aux différents todos [[todo_art]], [[todo_low_level]] & [[todo_high_level]], cette **ROADMAP** permet de détailler le planning long terme pour arriver enfin à l'*objectif actuel*. ce document n'a pas pour but de détailler les systèmes etc c'est une vision encore plus globale du développement de **subrunner** en général.
 
-cette **roadmap** sert à accompagner le développement, et, par conséquent, est vouée à évoluer en fonction du temps qui passe et des différents aléas rencontrés.
+- version de création : **1.5.0**
+- version de résolution : **1.5.2d**
 
+---
+#### objectif actuel :
+- finir une 1e démo chouette : [[july26demo]]
 
-
-#### objectif actuel : **finir une 1e démo chouette** : [[july26demo]]
-#### version actuelle : **1.5.0**
-
+---
 
 ## game design & prototypage
 - deadline : **1er avril 2026**
@@ -32,7 +32,7 @@ cette **roadmap** sert à accompagner le développement, et, par conséquent, es
 - si on doit réécrire des systèmes, **NE PAS OVER SCOPE** et idéalement ne pas le faire
 - optimiser tout ce qui peut doit être optimisé
 
-## lancement 1e démo (steam & itch.io)
+## lancement 1e démo (itch.io)
 - deadline : **juillet 2026**
 - publish the demo on itch.io
 - publish the demo **as a playtest** on steam si on a la page déjà
