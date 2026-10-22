@@ -2,7 +2,7 @@
 
 ---
 
-# Hackers
+# Anarchists
 
 
 - ### [bob]
@@ -23,6 +23,10 @@
 	- ![[image-25.png|244]]
 
 
+- ### [nikita]
+	- petite mais très très vive
+	- donne des gros coup de poingue et des coups de piégue dans la teteu oh aie ca fait mal
+	- un peu charactere de asuka dans evangelion
 
 
 
