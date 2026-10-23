@@ -118,6 +118,7 @@ contrairement au [[todo_high_level]], ce document a pour but de détailler le pl
 	- [x] faire un nouveau **HUD** avec les nouveaux sprites de barre de vie/xp, "hotbar" etc
 	- [ ] faire que quand on maintient la touche pour basculer des items d'un slottable à l'autre ça s'arrete lorsque tous les items sont dans l'autre ui.
 		- > ça navigue quand même vers l'autre ui mais ça annule le drop continu. si on relache et qu'on remaintient par contre ça relance
+	- [ ] faire que le [[WorldSelector]] soit accessible manette
 - ### File
 	- [ ] faire des [[File]] des [[Item]]
 	- [x] faire des sprites de slots pour les [[File]]
@@ -158,4 +159,4 @@ contrairement au [[todo_high_level]], ce document a pour but de détailler le pl
 	- [ ] [[UI_Device]]
 	- [ ] [[UI_HDD]]
 
-- [ ] transformer Movable en MoveCapacity
+- [ ] [long-term] transformer Movable en MoveCapacity

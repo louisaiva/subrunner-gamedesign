@@ -8,26 +8,26 @@
         "type": "tabs",
         "children": [
           {
+            "id": "572d37ebee759de9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "a_trier/gameplay d'attaque & esquive.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "gameplay d'attaque & esquive"
+            }
+          },
+          {
             "id": "706e730e9dd5e149",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "high_level (gdd)/Planning/RoadMaps/ROADMAP ACTUELLE.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "ROADMAP ACTUELLE"
-            }
-          },
-          {
-            "id": "673e7abbb80ced3a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "high_level (gdd)/Game design/chara-design.md",
+                "file": "high_level (gdd)/Game design/CharaDesign/chara-design.md",
                 "mode": "source",
                 "source": false
               },
@@ -36,21 +36,21 @@
             }
           },
           {
-            "id": "7911cc8251e3e635",
+            "id": "11ef8ef32bc519c0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "journals/2026_10_22.md",
+                "file": "high_level (gdd)/Game design/CharaDesign/USB (Unit).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026_10_22"
+              "title": "USB (Unit)"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -147,12 +147,11 @@
               "title": "todo_low_level"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 540.5
+    "width": 419.5
   },
   "right": {
     "id": "43b8f9d0d3f67306",
@@ -230,7 +229,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "high_level (gdd)/Planning/RoadMaps/ROADMAP ACTUELLE.md",
+                "file": "high_level (gdd)/Game design/CharaDesign/USB (Unit).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -279,21 +278,29 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "673e7abbb80ced3a",
+  "active": "ede65b1a1d2237ac",
   "lastOpenFiles": [
+    "a_trier/gameplay d'attaque & esquive.md",
+    "high_level (gdd)/Game design/CharaDesign/USB (Unit).md",
+    "resources/image-29.png",
+    "resources/image-28.png",
+    "resources/image-27.png",
+    "high_level (gdd)/Game design/CharaDesign/chara-design.md",
+    "a_trier/USB_Cable.md",
+    "high_level (gdd)/Game design/CharaDesign",
+    "high_level (gdd)/Planning/RoadMaps/ROADMAP ACTUELLE.md",
+    "low_level (td)/todo_low_level.md",
+    "journals/2026_09_22.md",
+    "journals/2026_09_28.md",
     "journals/2026_10_22.md",
     "journals/2026_10_20.md",
     "resources/image-26.png",
-    "high_level (gdd)/Game design/chara-design.md",
     "high_level (gdd)/Marketing, Com & others/Potential Publishers.md",
-    "journals/2026_09_28.md",
     "journals/2026_10_11.md",
     "high_level (gdd)/Marketing, Com & others/MARKETING.md",
     "high_level (gdd)/System Design/Core/CapableSystem/CapableSystem_Rework_2.md",
-    "low_level (td)/todo_low_level.md",
     "high_level (gdd)/Planning/todo_high_level.md",
     "low_level (td)/Core/Anims/AnimPlayer.md",
-    "high_level (gdd)/Planning/RoadMaps/ROADMAP ACTUELLE.md",
     "high_level (gdd)/Planning/RoadMaps/ROADMAP_1.5.2.md",
     "templates/Rework_Template.md",
     "high_level (gdd)/Planning/ROADMAPS LIST.md",
@@ -305,10 +312,6 @@
     "high_level (gdd)/Planning/RoadMaps",
     "high_level (gdd)/Marketing, Com & others/Playtesters & Sound Designers.md",
     "low_level (td)/TD.md",
-    "low_level (td)/Core/Capables/Beings/Being.md",
-    "low_level (td)/Core/Capables/Beings/Mobs.md",
-    "high_level (gdd)/System Design/Core/CapacitySystem/Capacities/Capacities List.md",
-    "high_level (gdd)/System Design/Core/CapacitySystem/Capacities/Hacking.md",
     "high_level (gdd)/System Design/Core/CapableSystem/Capacities/AnimSystem/AnimSystem",
     "high_level (gdd)/System Design/Core/EcoSystem",
     "high_level (gdd)/System Design/Core/ControllerSystem",
@@ -321,9 +324,6 @@
     "resources/image-23.png",
     "resources/image-22.png",
     "resources/image-21.png",
-    "resources/image-20.png",
-    "resources/image-19.png",
-    "resources/image-18.png",
-    "resources/image-17.png"
+    "resources/image-20.png"
   ]
 }
