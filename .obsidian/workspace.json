@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "high_level (gdd)/Game design/CharaDesign/USB (Unit).md",
+                "file": "high_level (gdd)/Marketing, Com & others/Potential Publishers.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "USB (Unit)"
+              "title": "Potential Publishers"
             }
           }
         ],
@@ -278,10 +278,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ede65b1a1d2237ac",
+  "active": "11ef8ef32bc519c0",
   "lastOpenFiles": [
-    "a_trier/gameplay d'attaque & esquive.md",
     "high_level (gdd)/Game design/CharaDesign/USB (Unit).md",
+    "high_level (gdd)/Marketing, Com & others/MARKETING.md",
+    "a_trier/gameplay d'attaque & esquive.md",
     "resources/image-29.png",
     "resources/image-28.png",
     "resources/image-27.png",
@@ -297,7 +298,6 @@
     "resources/image-26.png",
     "high_level (gdd)/Marketing, Com & others/Potential Publishers.md",
     "journals/2026_10_11.md",
-    "high_level (gdd)/Marketing, Com & others/MARKETING.md",
     "high_level (gdd)/System Design/Core/CapableSystem/CapableSystem_Rework_2.md",
     "high_level (gdd)/Planning/todo_high_level.md",
     "low_level (td)/Core/Anims/AnimPlayer.md",
