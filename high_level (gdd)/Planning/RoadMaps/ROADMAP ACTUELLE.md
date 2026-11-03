@@ -25,7 +25,7 @@
 
 ## Animation systeme rework
 
-- vérifier certains bugs de performance check le postit Optimizations Possibles
+- vérifier certains bugs de performance check le postit **Optimizations Possibles**
 - redessiner **Bob**, pour avoir des layers de jambes, de body et de hair, comme ça on peut parler en courant.
 	- chaque layer possèderait donc sa propre liste de ACP ?
 		- (AnimCapacityPriority)

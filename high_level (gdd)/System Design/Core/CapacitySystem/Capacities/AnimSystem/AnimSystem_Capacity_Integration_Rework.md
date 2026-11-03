@@ -1,10 +1,11 @@
-#rework #todo
+#rework #toclean
 
 -  version de création : **1.5.0**
 -  version de résolution : 
 
 > **README PLEASE**
-> this is [mid-term], which means we don't do it before the [[july26demo]]
+> ~~this is [mid-term], which means we don't do it before the [[july26demo]]~~
+> this is **DEPRECATED**, which means we need to rework on the **DESIGN** part of this rework to ensure it is necessary and does not contain bugs
 
 ---
 - ## **objectifs**
@@ -13,7 +14,6 @@
 	- réunifier le système des anims et l'ouvrir sous un système de [Visuel]
 		- faire une [AnimCapacity] qui fait le lien entre [[AnimPlayer]] et le [[Capable]]
 
-	- 
 	- ainsi on peut avoir une [SpriteCapacity] aussi qui gère un système tout simple d'affichage de [Sprite] statiques.
 
 

@@ -1,4 +1,4 @@
-#rework #todo
+#rework #toclean 
 
 - version actuelle : **1.5.0**
 
@@ -37,7 +37,7 @@
 
 - [ ] **Intégrité de la Data & Cycle de vie**
     - [ ]  **ST-005 Corriger les copies profondes de Anim**
-        - [ ]  copier sprites_paths et sprites_durations en deep copy
+        - [x]  copier sprites_paths et sprites_durations en deep copy
         - [ ]  vérifier qu’un variant n’altère jamais l’animation source
         - [ ]  ajouter un test qui détecte toute mutation croisée
 

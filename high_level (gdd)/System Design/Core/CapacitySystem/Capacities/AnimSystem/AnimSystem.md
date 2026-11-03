@@ -1,12 +1,14 @@
 #system #designing
 
-- [ ] [[AnimSystem_Capacity_Integration_Rework]]
-- [ ] [[AnimSystem_Rework_S_tier (ia)]]
+
+
+- [ ] ~~[[AnimSystem_Capacity_Integration_Rework]]~~ (obsolete)
+- [ ] [[AnimSystem_Rework_S_tier (ia)]] (long-term)
 
 ---
 # description
 
-[[AnimPlayer]] gère le rendu des [[Capable]]. Il est associé à un [SpriteRenderer] qui va recevoir les bons sprites pour les bonnes animations sous la classe [Anim].
+[[AnimPlayer]] gère le rendu des [[Capable]]. Il recoit les bonnes animations sous la classe [Anim] et applique les sprites à un [SpriteRenderer].
 Il possède donc un paramètre [Skin] qui lui permet d'obtenir les bonnes animations.
 
 Relié à une [[AnimBank]] chez qui il va chercher toutes les anims lol ça parait logique en fait...

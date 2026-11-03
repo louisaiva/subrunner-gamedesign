@@ -36,17 +36,17 @@
             }
           },
           {
-            "id": "11ef8ef32bc519c0",
+            "id": "ba7fac3ec4ffdc05",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "high_level (gdd)/Marketing, Com & others/Potential Publishers.md",
+                "file": "high_level (gdd)/System Design/Core/CapacitySystem/Capacities/AnimSystem/AnimSystem.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Potential Publishers"
+              "title": "AnimSystem"
             }
           }
         ],
@@ -108,20 +108,23 @@
           {
             "id": "2ae00dc88b747da4",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "high_level (gdd)/Planning/RoadMaps/ROADMAP_1.5.2.md",
+                "file": "high_level (gdd)/Planning/RoadMaps/ROADMAP ACTUELLE.md",
                 "mode": "source",
                 "source": false
               },
+              "pinned": true,
               "icon": "lucide-file",
-              "title": "ROADMAP_1.5.2"
+              "title": "ROADMAP ACTUELLE"
             }
           },
           {
             "id": "6da1de566eb492c4",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
@@ -129,6 +132,7 @@
                 "mode": "source",
                 "source": false
               },
+              "pinned": true,
               "icon": "lucide-file",
               "title": "todo_high_level"
             }
@@ -136,6 +140,7 @@
           {
             "id": "d3af498a691c883f",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
@@ -143,15 +148,17 @@
                 "mode": "source",
                 "source": false
               },
+              "pinned": true,
               "icon": "lucide-file",
               "title": "todo_low_level"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 419.5
+    "width": 567.5
   },
   "right": {
     "id": "43b8f9d0d3f67306",
@@ -278,40 +285,41 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "11ef8ef32bc519c0",
+  "active": "2ae00dc88b747da4",
   "lastOpenFiles": [
+    "high_level (gdd)/System Design/Core/CapacitySystem/Capacities/AnimSystem/AnimSystem.md",
+    "high_level (gdd)/System Design/Core/CapacitySystem/Capacities/AnimSystem/AnimSystem_Rework_S_tier (ia).md",
+    "high_level (gdd)/System Design/Core/CapacitySystem/Capacities/AnimSystem/AnimSystem_Capacity_Integration_Rework.md",
+    "high_level (gdd)/Planning/RoadMaps/ROADMAP ACTUELLE.md",
+    "low_level (td)/Core/Anims/AnimPlayer.md",
+    "a_trier/gameplay d'attaque & esquive.md",
+    "high_level (gdd)/Game design/CharaDesign/chara-design.md",
+    "high_level (gdd)/Planning/ROADMAPS LIST.md",
+    "high_level (gdd)/Planning/RoadMaps/ROADMAP_1.5.2.md",
+    "low_level (td)/todo_low_level.md",
+    "high_level (gdd)/Planning/todo_high_level.md",
+    "high_level (gdd)/Marketing, Com & others/Potential Publishers.md",
     "high_level (gdd)/Game design/CharaDesign/USB (Unit).md",
     "high_level (gdd)/Marketing, Com & others/MARKETING.md",
-    "a_trier/gameplay d'attaque & esquive.md",
     "resources/image-29.png",
     "resources/image-28.png",
     "resources/image-27.png",
-    "high_level (gdd)/Game design/CharaDesign/chara-design.md",
     "a_trier/USB_Cable.md",
     "high_level (gdd)/Game design/CharaDesign",
-    "high_level (gdd)/Planning/RoadMaps/ROADMAP ACTUELLE.md",
-    "low_level (td)/todo_low_level.md",
     "journals/2026_09_22.md",
     "journals/2026_09_28.md",
     "journals/2026_10_22.md",
     "journals/2026_10_20.md",
     "resources/image-26.png",
-    "high_level (gdd)/Marketing, Com & others/Potential Publishers.md",
     "journals/2026_10_11.md",
     "high_level (gdd)/System Design/Core/CapableSystem/CapableSystem_Rework_2.md",
-    "high_level (gdd)/Planning/todo_high_level.md",
-    "low_level (td)/Core/Anims/AnimPlayer.md",
-    "high_level (gdd)/Planning/RoadMaps/ROADMAP_1.5.2.md",
     "templates/Rework_Template.md",
-    "high_level (gdd)/Planning/ROADMAPS LIST.md",
     "high_level (gdd)/Planning/Demos/july26demo.md",
     "high_level (gdd)/Planning/Demos/oct26demo.md",
     "high_level (gdd)/Planning/DEMOS LIST.md",
     "high_level (gdd)/Planning/todo_audio.md",
     "high_level (gdd)/Planning/Sans titre",
     "high_level (gdd)/Planning/RoadMaps",
-    "high_level (gdd)/Marketing, Com & others/Playtesters & Sound Designers.md",
-    "low_level (td)/TD.md",
     "high_level (gdd)/System Design/Core/CapableSystem/Capacities/AnimSystem/AnimSystem",
     "high_level (gdd)/System Design/Core/EcoSystem",
     "high_level (gdd)/System Design/Core/ControllerSystem",
