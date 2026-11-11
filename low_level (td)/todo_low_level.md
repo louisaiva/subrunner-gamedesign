@@ -116,8 +116,7 @@ contrairement au [[todo_high_level]], ce document a pour but de détailler le pl
 	- [x] supprimer [[ItemManager]] et le remplacer par un nouveau script qui est mieux et surtout ENTIEREMENT VISUEL et sur le hud
 		- [ ] corriger les derniers bar de [UI_ItemBar]
 	- [x] faire un nouveau **HUD** avec les nouveaux sprites de barre de vie/xp, "hotbar" etc
-	- [x] faire que quand on maintient la touche pour basculer des items d'un slottable à l'autre ça s'arrete lorsque tous les items sont dans l'autre ui.
-		- [x] > ça navigue quand même vers l'autre ui mais ça annule le drop continu. si on relache et qu'on remaintient par contre ça relance
+
 	- [ ] faire que le [[WorldSelector]] soit accessible manette
 - ### File
 	- [ ] faire des [[File]] des [[Item]]
@@ -129,34 +128,48 @@ contrairement au [[todo_high_level]], ce document a pour but de détailler le pl
 
 # A TRIER
 
-- [ ] fix divers bugs des [[july26demo]]/[[oct26demo]] : [[2026_09_22]] + [[2026_09_28]]
+- [ ] fix divers bugs des [[july26demo]]/[[oct26demo]] : 
+	- [ ] [[2026_09_22]]
+	- [x] [[2026_09_28]]
 - [ ] réflechir mouse dynamic orientation [[2026_05_03]]
-- [ ] mettre un bouton save and exit dans le [[UI_PauseMenu]] quand **dev_tools** est à 0, les deux boutons de d'hab sinon
-- [ ] UI hover pas assez visible : quand on hover qqch, tous les autres UI_ItemStack perdent de l'alpha 
+
+
+- [ ] level design ? objects ?
+	- [ ] > mettre des objets interactifs qui ouvre un [[UI_Pool]] en particulier par exemple un placard qui affiche l'inventaire (ou miroir) tuto + récompense le joueur pour l'exploration
+	- [x] faire un post it system quickly (ui_pool) notamment pour le qg avec une liste des courses :
+		- pastas (last packet) !! important
+		- 2 piles AAAAAAAA
+		- 16 Yo micro sd card
 
 
 
-- [ ] > [mid-term] mettre un clavier alphabet pour les popup gamepad
-- [ ] > mettre des objets interactifs qui ouvre un [[UI_Pool]] en particulier par exemple un placard qui affiche l'inventaire (ou miroir) tuto + récompense le joueur pour l'exploration
+- [ ] ui :
+	- [ ] mettre un bouton save and exit dans le [[UI_PauseMenu]] quand **dev_tools** est à 0, les deux boutons de d'hab sinon
+	- [ ] UI hover pas assez visible
+		- [x] déjà réduire l'alpha global des slots normal & disabled
+		- [ ] quand on hover qqch, tous les autres UI_ItemStack perdent de l'alpha
+	- [x] faire que quand on maintient la touche pour basculer des items d'un slottable à l'autre ça s'arrete lorsque tous les items sont dans l'autre ui.
+		- [x] > ça navigue quand même vers l'autre ui mais ça annule le drop continu. si on relache et qu'on remaintient par contre ça relance
+		- [ ] [edge-case] encore un léger bug edge case au niveau du moving ui item, des fois dcp ça prevent le prochain drop release, ce qui annule l'effet du ui moving drop, peut etre voir ça après ?
+
+	- [ ] > [mid-term] reprendre la même logique que le changement de UI_Slottable qui cancel l'**endless drop**, mais avec le **endless navigate**, seulement pour certains slottables / UI_Pool ? genre sur l'écran titre on veut pouvoir confirmer qu'on veut aller dans les options de customization
+	- [ ] > [mid-term] mettre un clavier alphabet pour les popup gamepad
+
+	- [ ] est-ce qu'on peut faire que le bg devient rouge quand on se fait hacker/on prend des dégats
+
+	- [ ] implement first computer UI to have a proper way to steal the door' key
 
 
-
-- [x] faire un post it system quickly (ui_pool) notamment pour le qg avec une liste des courses :
-	- pastas (last packet) !! important
-	- 2 piles AAAAAAAA
-	- 16 Yo micro sd card
-
-
-- [ ] [[CapableSystem_Rework_2]]
-
-- [ ] est-ce qu'on peut faire que le bg devient rouge quand on se fait hacker/on prend des dégats
-
-
-- [x] implement enemy wave system for the spawners to not appear
-- [ ] implement first computer UI to have a proper way to steal the door' key
 - [ ] change [[UI_File]] visuals to have better UX for
 	- [ ] [[UI_ExploitSelector]]
 	- [ ] [[UI_Device]]
 	- [ ] [[UI_HDD]]
 
+
+
+
+# DEPRECATED ???
+
 - [ ] [long-term] transformer Movable en MoveCapacity
+
+- [ ] [[CapableSystem_Rework_2]]

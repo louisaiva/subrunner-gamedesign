@@ -48,9 +48,23 @@
               "icon": "lucide-file",
               "title": "AnimSystem"
             }
+          },
+          {
+            "id": "1d4f62312e8f9489",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "journals/2026_09_28.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2026_09_28"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -287,8 +301,10 @@
   },
   "active": "d3af498a691c883f",
   "lastOpenFiles": [
-    "high_level (gdd)/System Design/Core/CapacitySystem/Capacities/AnimSystem/AnimSystem.md",
+    "journals/2026_09_28.md",
     "low_level (td)/todo_low_level.md",
+    "journals/2026_09_22.md",
+    "high_level (gdd)/System Design/Core/CapacitySystem/Capacities/AnimSystem/AnimSystem.md",
     "high_level (gdd)/Planning/todo_high_level.md",
     "high_level (gdd)/Planning/RoadMaps/ROADMAP ACTUELLE.md",
     "high_level (gdd)/System Design/Core/CapacitySystem/Capacities/AnimSystem/AnimSystem_Rework_S_tier (ia).md",
@@ -306,8 +322,6 @@
     "resources/image-27.png",
     "a_trier/USB_Cable.md",
     "high_level (gdd)/Game design/CharaDesign",
-    "journals/2026_09_22.md",
-    "journals/2026_09_28.md",
     "journals/2026_10_22.md",
     "journals/2026_10_20.md",
     "resources/image-26.png",
