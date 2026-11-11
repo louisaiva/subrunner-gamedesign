@@ -51,6 +51,30 @@
 - on peut 
 
 
+
+## UI & Cinematics
+- changer les messages :
+	- la bulle de text s'étend vers le bas
+	- **IL NE FAUT PAS QUE LE MOT QU4ON EST EN TRAIN DE LIRE BOUGE**
+	- quand on appuie sur A ça valide et fait monter le message, puis ça passe au message d'après
+	- on supprime le changement dynamique de coté
+
+	- Quand une discussion est lancée, ça "split" l'écran en 2 avec une enorme bande noire au milieu qui laisse de la place pour les bulles de messages.
+		- 2 caméras ??????????
+			- +1
+			- on peut même faire descendre le perso à qui on parle comme ça les bulles sont "en face" verticalement & horizontalement
+			- une discussion ne peut pas changer de coté
+				- quand on discute le temps == 0 ?
+					- +1
+					- pas de mouvement de rien ?
+					- pas de déplacements en tout cas
+					- ça veut qu'on veut 2 trucs différents : des réactions rapides avec des émojis / onomatopées qui peuvent être dites n'imp quand et arrête pas le gameplay.
+					- on peut répondre à n'importe quel réaction rapide et lancer une discussion ??
+		- faire un shader fullscreen pour ça ? comment on déplace tout ?
+			- -1
+			- pas fullscreen, on veut pouvoir placer les bulles de messages dedans
+		- quand la discussion est finie, ça s'arrête et ça redevient normal
+
 ## lancement 1e démo steam
 - deadline : 
 - fixer la résolution à 16:9

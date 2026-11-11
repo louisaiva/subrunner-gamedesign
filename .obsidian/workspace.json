@@ -154,11 +154,11 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 567.5
+    "width": 481.5
   },
   "right": {
     "id": "43b8f9d0d3f67306",
@@ -285,19 +285,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2ae00dc88b747da4",
+  "active": "ba7fac3ec4ffdc05",
   "lastOpenFiles": [
+    "low_level (td)/todo_low_level.md",
+    "high_level (gdd)/Planning/todo_high_level.md",
+    "high_level (gdd)/Planning/RoadMaps/ROADMAP ACTUELLE.md",
     "high_level (gdd)/System Design/Core/CapacitySystem/Capacities/AnimSystem/AnimSystem.md",
     "high_level (gdd)/System Design/Core/CapacitySystem/Capacities/AnimSystem/AnimSystem_Rework_S_tier (ia).md",
     "high_level (gdd)/System Design/Core/CapacitySystem/Capacities/AnimSystem/AnimSystem_Capacity_Integration_Rework.md",
-    "high_level (gdd)/Planning/RoadMaps/ROADMAP ACTUELLE.md",
     "low_level (td)/Core/Anims/AnimPlayer.md",
     "a_trier/gameplay d'attaque & esquive.md",
     "high_level (gdd)/Game design/CharaDesign/chara-design.md",
     "high_level (gdd)/Planning/ROADMAPS LIST.md",
     "high_level (gdd)/Planning/RoadMaps/ROADMAP_1.5.2.md",
-    "low_level (td)/todo_low_level.md",
-    "high_level (gdd)/Planning/todo_high_level.md",
     "high_level (gdd)/Marketing, Com & others/Potential Publishers.md",
     "high_level (gdd)/Game design/CharaDesign/USB (Unit).md",
     "high_level (gdd)/Marketing, Com & others/MARKETING.md",
