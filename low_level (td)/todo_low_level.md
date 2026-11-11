@@ -116,8 +116,8 @@ contrairement au [[todo_high_level]], ce document a pour but de détailler le pl
 	- [x] supprimer [[ItemManager]] et le remplacer par un nouveau script qui est mieux et surtout ENTIEREMENT VISUEL et sur le hud
 		- [ ] corriger les derniers bar de [UI_ItemBar]
 	- [x] faire un nouveau **HUD** avec les nouveaux sprites de barre de vie/xp, "hotbar" etc
-	- [ ] faire que quand on maintient la touche pour basculer des items d'un slottable à l'autre ça s'arrete lorsque tous les items sont dans l'autre ui.
-		- > ça navigue quand même vers l'autre ui mais ça annule le drop continu. si on relache et qu'on remaintient par contre ça relance
+	- [x] faire que quand on maintient la touche pour basculer des items d'un slottable à l'autre ça s'arrete lorsque tous les items sont dans l'autre ui.
+		- [x] > ça navigue quand même vers l'autre ui mais ça annule le drop continu. si on relache et qu'on remaintient par contre ça relance
 	- [ ] faire que le [[WorldSelector]] soit accessible manette
 - ### File
 	- [ ] faire des [[File]] des [[Item]]
