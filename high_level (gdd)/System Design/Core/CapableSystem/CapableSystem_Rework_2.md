@@ -1,4 +1,4 @@
-#rework #todo
+#rework #obsolete
 
 -  version de création : **1.5.0**
 

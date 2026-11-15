@@ -2,7 +2,9 @@
 
 - [x] [[CapableSystem_Proto]]
 - [x] [[CapableSystem_Rework_1]]
-- [ ] [[CapableSystem_Rework_2]]
+- ~~[[CapableSystem_Rework_2]]~~
+- [ ] [[CapableSystem_Rework_3]]
+- [ ] 
 
 
 ---

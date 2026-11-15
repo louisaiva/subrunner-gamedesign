@@ -1,7 +1,7 @@
 #system #designing
 
 
-
+- [ ] [[AnimSystem_Rework_1]]
 - [ ] ~~[[AnimSystem_Capacity_Integration_Rework]]~~ (obsolete)
 - [ ] [[AnimSystem_Rework_S_tier (ia)]] (long-term)
 
