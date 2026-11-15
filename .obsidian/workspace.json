@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "gameplay d'attaque & esquive"
             }
+          },
+          {
+            "id": "4b31444c8a6e85c8",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": ".obsidian/workspace.json",
+                "bFile": ".obsidian/workspace.json",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: workspace.json  (Working Tree)"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -292,8 +307,9 @@
       }
     ]
   },
-  "active": "572d37ebee759de9",
+  "active": "4b31444c8a6e85c8",
   "lastOpenFiles": [
+    "a_trier/gameplay d'attaque & esquive.md",
     "a_trier/CapableSystem_Rework_3.md",
     "resources/JSON LOAD & SAVE FLOW CHARTS.excalidraw.md",
     "high_level (gdd)/Game design/CharaDesign/chara-design.md",
@@ -305,7 +321,6 @@
     "high_level (gdd)/System Design/Core/CapacitySystem/Capacities/AnimSystem/AnimSystem_Rework_S_tier (ia).md",
     "a_trier/AnimSystem_Rework_1.md",
     "journals/2026_09_28.md",
-    "a_trier/gameplay d'attaque & esquive.md",
     "low_level (td)/todo_low_level.md",
     "journals/2026_09_22.md",
     "high_level (gdd)/Planning/todo_high_level.md",
