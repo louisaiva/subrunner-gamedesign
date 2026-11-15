@@ -13,30 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "a_trier/gameplay d'attaque & esquive.md",
+                "file": "a_trier/CapableSystem_Rework_3.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "gameplay d'attaque & esquive"
-            }
-          },
-          {
-            "id": "4b31444c8a6e85c8",
-            "type": "leaf",
-            "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": ".obsidian/workspace.json",
-                "bFile": ".obsidian/workspace.json",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: workspace.json  (Working Tree)"
+              "title": "CapableSystem_Rework_3"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -139,11 +124,12 @@
               "title": "todo_low_level"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 481.5
+    "width": 584.5
   },
   "right": {
     "id": "43b8f9d0d3f67306",
@@ -307,13 +293,13 @@
       }
     ]
   },
-  "active": "4b31444c8a6e85c8",
+  "active": "2ae00dc88b747da4",
   "lastOpenFiles": [
-    "a_trier/gameplay d'attaque & esquive.md",
     "a_trier/CapableSystem_Rework_3.md",
-    "resources/JSON LOAD & SAVE FLOW CHARTS.excalidraw.md",
-    "high_level (gdd)/Game design/CharaDesign/chara-design.md",
     "high_level (gdd)/Planning/RoadMaps/ROADMAP ACTUELLE.md",
+    "resources/JSON LOAD & SAVE FLOW CHARTS.excalidraw.md",
+    "a_trier/gameplay d'attaque & esquive.md",
+    "high_level (gdd)/Game design/CharaDesign/chara-design.md",
     "high_level (gdd)/System Design/Core/CapableSystem/CapableSystem.md",
     "high_level (gdd)/System Design/Core/CapableSystem/CapableSystem_Rework_2.md",
     "high_level (gdd)/System Design/Core/CapacitySystem/Capacities/AnimSystem/AnimSystem.md",

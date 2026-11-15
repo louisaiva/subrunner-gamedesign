@@ -14,22 +14,24 @@
 ---
 
 
-## CORE systems finalisation
+## CORE systems finalisation :
+
 - objectif : optimiser les systemes existants, corriger des erreurs de design en implémentant des solutions à prototyper (le design est globalement fini)
 
-- **Capables** : 
+- **Capables** :
+	- [ ] [[CapableSystem_Rework_3]]
+	- [ ] réécrire une pipeline de load de capable par **Task** sur le modèle déjà existant cf [[ChunkLoader]]
+
 - **Chunks** : réécrire le loading/unloading des chunks en se basant sur les frontières de l'écran, ce qui va corriger beaucoup de bugs visuels et réduire drastiquement les frames drop
-	- le réecrire sur le modèle de chargement des entités dans les chunks. cf [[ChunkLoader]]
 	- mettre un gros collider idéalement [LineCollider2D] ? ou alors un énorme polygon collider qui épouse la forme du level afin de renforcer les murs pour pas que des items traversent
 
 
 ## [[AnimSystem_Rework_1]]
 
+## [[gameplay d'attaque & esquive]]
 
-## Combat gameplay : [[gameplay d'attaque & esquive]]
+## Hacking :
 
-
-## Hacking
 - objectif : réintégrer un premier système fonctionnel de hacking **ui-based**
 
 - pas de hack through gameplay
@@ -39,7 +41,8 @@
 
 
 
-## UI & Cinematics
+## UI & Cinematics :
+
 - changer les messages :
 	- la bulle de text s'étend vers le bas
 	- **IL NE FAUT PAS QUE LE MOT QU4ON EST EN TRAIN DE LIRE BOUGE**
