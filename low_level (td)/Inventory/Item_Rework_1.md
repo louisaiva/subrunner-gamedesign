@@ -1,7 +1,14 @@
-#rework #todo
+#rework #deprecated 
 
 
 -  version actuelle : **1.5.0**
+
+> README !
+> Est-ce que c'est vraiment utile de faire ça ?
+> Peut-etre dans le futur ça serait utile oui de ne pas avoir des capables loadés pour tous les items dans les inventaires pcq la plupart des items dans les inventaires ne servent à rien
+> Après ça me semble un gros rework pour pas énormément de gain de perf, surtout la façon dont on gère les Usable, faire un **CapacityHolder** wtf c'est vraiment la pire idée....
+> Idéalement vaudrait mieux garder le système actuel pour tous les Usables, et simplement faire une sorte de tampon [ItemAggregat] ou qqch comme ça qui n'a de sens que dans l'inventaire, si il est drop au sol il drop tous ses potes. Comme ça on gagne seulement des perfs pour les trucs chiants qui servent à r et qui sont plein, et le reste c ok y'a rien a changer
+
 
 
 - ## **objectifs**

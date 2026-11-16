@@ -18,28 +18,20 @@
 
 - objectif : optimiser les systemes existants, corriger des erreurs de design en implémentant des solutions à prototyper (le design est globalement fini)
 
-- **Capables** :
+- [ ] **Capables** :
 	- [ ] [[CapableSystem_Rework_3]]
-	- [ ] 
+	- [ ] [[CapableSystem_Rework_4]]
 
-- **Chunks** : réécrire le loading/unloading des chunks en se basant sur les frontières de l'écran, ce qui va corriger beaucoup de bugs visuels et réduire drastiquement les frames drop
-	- mettre un gros collider idéalement [LineCollider2D] ? ou alors un énorme polygon collider qui épouse la forme du level afin de renforcer les murs pour pas que des items traversent
+- [ ] **Chunks** : réécrire le loading/unloading des chunks en se basant sur les frontières de l'écran, ce qui va corriger beaucoup de bugs visuels et réduire drastiquement les frames drop
+	- [ ] mettre un gros collider idéalement [LineCollider2D] ? ou alors un énorme polygon collider qui épouse la forme du level afin de renforcer les murs pour pas que des items traversent
 
+## .
 
 ## [[AnimSystem_Rework_1]]
+## .
 
 ## [[gameplay d'attaque & esquive]]
-
-## Hacking :
-
-- objectif : réintégrer un premier système fonctionnel de hacking **ui-based**
-
-- pas de hack through gameplay
-- **faire que les Files sont des Items**, stockables sur un ordi serveur etc
-- remettre le laptop
-- on peut 
-
-
+## .
 
 ## UI & Cinematics :
 
@@ -65,8 +57,23 @@
 			- pas fullscreen, on veut pouvoir placer les bulles de messages dedans
 		- quand la discussion est finie, ça s'arrête et ça redevient normal
 
-## lancement 1e démo steam
+
+## .
+
+## Hacking :
+
+- objectif : réintégrer un premier système fonctionnel de hacking **ui-based**
+
+- [ ] pas de hack through gameplay
+- [ ] **faire que les Files sont des Items**, stockables sur un ordi serveur etc
+- [ ] remettre le laptop
+- [ ] faire un premier jet de [[UI_Laptop]]
+
+
+## .
+## lancement 1e démo steam :
+
 - deadline : 
-- fixer la résolution à 16:9
-- faire un shader pour la cinématique
-- et faire un shader pour les traces de [Fred]
+- [ ] fixer la résolution à 16:9
+- [ ] faire un shader pour la cinématique
+- [ ] et faire un shader pour les traces de [Fred]
