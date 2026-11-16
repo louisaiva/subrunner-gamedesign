@@ -1,6 +1,7 @@
-#ux #ui #todo
+#ux #ui #deprecated 
 
 - version actuelle : **1.5.0b**
+- version de résolution : 
 
 ---
 
