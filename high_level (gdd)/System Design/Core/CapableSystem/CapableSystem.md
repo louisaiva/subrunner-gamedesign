@@ -2,7 +2,9 @@
 
 - [x] [[CapableSystem_Proto]]
 - [x] [[CapableSystem_Rework_1]]
-- [ ] [[CapableSystem_Rework_2]]
+- ~~[[CapableSystem_Rework_2]]~~
+- [ ] [[CapableSystem_Rework_3]]
+- [ ] [[CapableSystem_Rework_4]]
 
 
 ---
@@ -11,10 +13,10 @@
 le **capable system** est le système qui se charge de gérer toutes les entités et les capabilités.
 
 C'est un système de type [[DOPE Pattern Design]] qui comporte 4 composants :
-- Bank : [CapableBank]
-- System : [CapableSystem]
+- Pooler : [CapableBank]
+- Engine : [CapableEngine]
 - Object : les [[Capable]]. ce sont les gameobjects réels, instanciés et poolés par [[CapableBank]]
-- Data : [[CapableData]]. gérés par le [System] et associés à des [Object] pour donner l'individu final loadé
+- Data : [[CapableData]]. gérés par l'[Engine] et associés à des [Object] pour donner l'individu final loadé
 	- data possède une [CapableID] c'est ça qui définit l'individualité du capable en fait
 
 
@@ -22,35 +24,39 @@ C'est un système de type [[DOPE Pattern Design]] qui comporte 4 composants :
 
 # fonctionnement du système
 
-- ## 1. [CapableSystem]
-	- le but de ce script est de gérer les capable en batch afin d'améliorer certaines perfs. Il doit permettre :
-		- [x] d'etre la porte d'entrée de ce systeme -> transmets les load/unload to bank
-		- d'ajouter / enlever des capacities à un capable
-		- de transformer facilement un capable en corpse par exemple
-		- [x] il doit pouvoir spawn des entités :
-			- dupliquer [CapableData] depuis une base (exemple : zombo)
-			- assigner une id unique à cette nouvelle [Data]
-			- ajouter cette new data à sa liste de toutes les data
-			- load le capable correspondant à cette data
-			- call [OnCapableSpawned(entity,spawner)] pour remonter l'info au [[ChunkSystem]]
+- ## 1. [CapableEngine]
+
+	- le but de ce script est de gérer les capable en batch afin d'améliorer certaines perfs.
+
+	- est la porte d'entrée du système, relie le systeme aux autres systemes adjacents notamment [[CapacitySystem]] & [[ChunkSystem]]
+
+	- stocke les capables data loadées et les capables templates. permet à n'importe qui de récupérer n'importe quel capable & capable data efficacement.
+
+	- est relié à un [Loader] qui gère la pile de chargement/déchargement des capables ainsi qu'un système de **Task** qui permet notamment aux chunks de savoir s'ils sont loadés complètement : [[CapableSystem_Rework_4]]
+
 
 - ## 2. [CapableBank]
-	- [x] la bank doit gérer le pooling + load / unloading des capables.
-	- sa principale complexité est de gérer les DIFFERENTS types de capables et donc d'avoir :
-		- soit une pool par type de capable
-			- -> en fait on est obligé d'avoir ça pcq sinon faut detacher / attacher les scripts [Capable] aux [GameObject] qu'on load/unload bref ça prend bcp de temps donc c pas fou, vaut mieux avoir une pool pour chaque kind !
-			- mais ça change rien au fait que **body/feet/inventory/animplayer** vont être des [Capacity] plus tard !
-			- 
-		- ~~soit une pool de capable + plusieurs sous pool de gameObjects utiles ou non type **body**, **feet**, **inventory**, etc~~
-			- ~~-> en vrai body/feet/inventory ça peut très clairement être des [[Capacity]] et donc être géré au niveau du [[CapacitySystem]]~~
-				- ~~-> +2~~
+
+	- stocke les capables efficacement, via différentes pool de capables, en mode object pooler.
+		- une pool par **kind** de capable. comme ça dès qu'on a besoin d'un capable d'un kind particulier bah on a juste à piocher dans la bonne pool et logiquement y'a déjà des capables instanciés et prêts à être loadés
+
+	- est appelée par l'Engine lorsqu'on spawn/load un capable pour construire le capable final. appelle Capable.LoadData(data)
 
 - ## 3. [Capable]
-	- [x] l'object doit principalement être vide, à part les method **LoadData/UnloadData/UpdateData**
-	- de même stocker les refs aux différentes [[Capacity]] (l'object réel du capacity system) & animplayer ?
+
+	- bon c'est un peu mal codé mais dans la théorie **Capable** doit juste stocké la reference à la data.
+	- en réalité **Capable** possède de nombreuses variables RuntimeOnly qui doivent potentiellement être fed depuis la data à chaque Loading/Unloading.
+	- on a donc plusieurs méthodes nécessaires et utiles :
+
+		- **GetStaticData()** : utile que dans l'editeur. permet d'extraire une [[CapableData]]	d'un [[Capable]]. C'est comme ça qu'on construit la data de base.
+		- **LoadData(data)** : methode principale pour loader la data. permet de feed la data dans le Capable
+		- **SaveDynamicData()** : sauvegarde les valeurs runtime de Capable dans la CapableData associée, genre met à jour la position du transform dans la data
+		- **UnloadData()** : remove proprement la data après avoir appelé SaveDynamicData(). stop les coroutines
 
 - ## 4. [CapableData]
-	- [x] doit avoir une methode **Duplicate()**
+
+	- la **Data** de base utile aux **Capables** pour fonctionner correctement.
+	- Dérive de l'interface [[DataHolder]], donc tous les fields doivent être attribués sinon ils seront ignorés par le JsonSerializer, et donc pas sauvegardés.
 
 
 les [[Capacity]] gèrent leur propre **data** ET leur propre **logique** au sein du [[CapacitySystem]] ce qui n'est **PAS** le même systeme que celui des capables.
@@ -66,8 +72,7 @@ le [CapableSystem] contient aussi différents sub systèmes :
 ---
 # problèmes actuels
 
-- [ ] problème de [design] : instance/template data [[CapableSystem_Rework_2]]
-
+- [ ] problème de [design] : instance/template data [[CapableSystem_Rework_3]]
 
 - [ ] bug de [timing] edge case :
 	- [ ] lorsqu'on décharge une room, si un mob quitte cette room au mauvais moment, alors il peut changer de room MAIS quand même être déchargé par le [[CapableSystem]] parce qu'on l'avait mis dans sa liste à décharger.
@@ -76,11 +81,6 @@ le [CapableSystem] contient aussi différents sub systèmes :
 		- [ ] comme on a changé d'algo de RoomEngine, peut etre que ce bug n'existe plus. je peux imaginer qu'il arrive si le mob trigger une autre room [OnRoomEnter] juste avant de se faire unload
 			- [ ] dans ce cas là c'est simple suffit de faire un flag dans [Capable]  [_unloading]_ comme on en a déjà un pour [Room] (+2)
 
-
-- [ ] problème de [developement] edge case : comment on gère les entités qui sont loadées au début ? on devrait les spawn non ?
-	- > comme on fait maintenant oui ca devrait etre spawn (+1)
-		- > plus tard y'aura pas de pb vu qu'on "spawnera" le world à la création de celui-ci
-		- > et après le spawn bah en fait la data sera saved et donc loadée à chaque lancement de world
 
 
 ---

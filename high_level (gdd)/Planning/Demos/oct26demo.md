@@ -1,4 +1,4 @@
-#todo 
+#demo #done 
 
 c'est la démo du 3 octobre 2026 ! (aquarium ciné)
 

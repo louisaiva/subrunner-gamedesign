@@ -1,4 +1,4 @@
-#rework #toclean 
+#rework #deprecated
 
 - version actuelle : **1.5.0**
 

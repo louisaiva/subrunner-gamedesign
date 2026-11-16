@@ -8,38 +8,29 @@ ce todo est différent du [[todo_low_level]] parce qu'il sert à détailler les 
 
 - #### systemes ok tier
 	- [[InventorySystem]]
-	- [[CapableSystem]]
 	- [[CapacitySystem]]
-	- [[ChunkSystem]]
-
-
-- #### systemes en cours de rework/proto
-	- [[WorldBuilder]]
-	- [[DoorSystem]]
-	- [[LevelSystem]]
-	- [[WorldSystem]] 
 	- [[SaveSystem]]
-
-
-- #### systèmes à rework
-	- [[MotorSystem]]
-	- [[UI_Manager_Rework_2]]
-	- [[Item]] & [[Item_Rework_1]]
-	- [[Hacking]] & [[File]]
+	- [[DoorSystem]]
+	- [[WorldSystem]] 
+	- [[WorldBuilder]]
 	- [[InputSystem]]
-	- Capacities :
-		- [[AnimSystem]]
-		- [[BrainSystem]]
-
-
-- #### systèmes encore inexistants (en cours de design)
 	- [[Ecosystem]]
-		- **EnemyWaveSystem** meilleur nom ?
-	- [[WallSystem]]
-	- [[ExpSystem]]
+- #### systemes en cours de rework/proto
+	- [[CapableSystem]]
+	- [[ChunkSystem]]
+- #### systèmes à rework
 	- [[Cinematics]]
+	- [[AnimSystem]]
+	- [[Hacking]] & [[File]]
+	- [[MotorSystem]]
+	- [[LevelSystem]]
+	- [[Item]] 
+- #### systèmes encore inexistants (en cours de design)
+	- [[ExpSystem]]
 	- [[AudioSystem]]
 	- [TV_System] ? ou alors c une [[UI_Pool]] ?
+	- [[BrainSystem]]
+	- [[WallSystem]]
 
 
 
@@ -81,3 +72,9 @@ ce todo est différent du [[todo_low_level]] parce qu'il sert à détailler les 
 	- [Hacking]
 	- [Combat]
 	- etc en fait tous les systèmes plus petits de capacity en fait
+
+
+
+# DEPRECATED ???
+
+- [[Item_Rework_1]]
