@@ -40,7 +40,7 @@
 
 	- [ ] gérer les classes qui peuvent contenir à la fois des fields [KindData] & [InstanceData]
 		- [ ] les marquer avec les deux attributs comme ça les 2 contracts resolver les prennent en compte
-		- [ ] renseigner à la main ? ou faire une interface [HoldsData] 
+		- [x] faire une interface [[DataHolder]] qui sert de vérité pour les contracts.isDataClassRelative()
 
 	- [ ] réflechir comment doit fonctionner **Duplicate()**
 		- [ ]      **deep-copy** les instances based ?

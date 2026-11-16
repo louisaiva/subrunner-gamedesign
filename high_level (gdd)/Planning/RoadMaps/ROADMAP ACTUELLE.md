@@ -20,7 +20,7 @@
 
 - **Capables** :
 	- [ ] [[CapableSystem_Rework_3]]
-	- [ ] réécrire une pipeline de load de capable par **Task** sur le modèle déjà existant cf [[ChunkLoader]]
+	- [ ] 
 
 - **Chunks** : réécrire le loading/unloading des chunks en se basant sur les frontières de l'écran, ce qui va corriger beaucoup de bugs visuels et réduire drastiquement les frames drop
 	- mettre un gros collider idéalement [LineCollider2D] ? ou alors un énorme polygon collider qui épouse la forme du level afin de renforcer les murs pour pas que des items traversent
