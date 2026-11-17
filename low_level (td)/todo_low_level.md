@@ -118,6 +118,18 @@ contrairement au [[todo_high_level]], ce document a pour but de détailler le pl
 	- [ ] faire que les popups soient accessible manette
 		- [ ] créer un mini clavier gamepad
 
+	- [ ] rework le [[UI_Sofa]] :
+		- [ ] mettre des boutons, un pour save la partie, un pour regarder la télé (qui devient eteindre la télé une fois appuyé)
+		- [ ] lorsqu'on appuie sur la télé, ça allume la télé et donc ça stacke le **UI_TV** par dessus le canap.
+			- [x] pour empecher de slide à gauche à droite dans le UI_Sofa (et donc perdre les boutons quand la télé est eteinte), on doit simplement désactiver les UI_Slot de la pool UI_TV donc y'a pas d eproblème en fait ça se fait automatiquement
+
+	- [ ] rework le [[UI_TV]]:
+		- [ ] faire un écran de TV fullscreen avec que les bords de la télé et au milieu un shader qui applique un effet retro télé, avec peut etre le TV screen subrunner title au milieu ?
+		- [ ] ensuite si on va à droite ou à gauche on zappe les chaines de la télé
+			  --> **UI_PanelManager**
+		- [ ] comme ça on peut avoir une animation quand on arrive sur le canap et qu'on allume la télé où on voit nos coeurs se recharger, un texte qui écrit **world saved** en ligne de commandes cmd
+
+		- [ ] en même temps essayer de faire bien la size & le format
 
 
 
@@ -148,6 +160,8 @@ contrairement au [[todo_high_level]], ce document a pour but de détailler le pl
 		- [x] > ça navigue quand même vers l'autre ui mais ça annule le drop continu. si on relache et qu'on remaintient par contre ça relance
 		- [ ] [edge-case] encore un léger bug edge case au niveau du moving ui item, des fois dcp ça prevent le prochain drop release, ce qui annule l'effet du ui moving drop, peut etre voir ça après ?
 	- [ ] > [mid-term] reprendre la même logique que le changement de UI_Slottable qui cancel l'**endless drop**, mais avec le **endless navigate**, seulement pour certains slottables / UI_Pool ? genre sur l'écran titre on veut pouvoir confirmer qu'on veut aller dans les options de customization
+
+- [ ] 
 
 	- [ ] est-ce qu'on peut faire que le bg devient rouge quand on se fait hacker/on prend des dégats
 
