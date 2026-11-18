@@ -1,4 +1,4 @@
-
+	
 
 contrairement au [[todo_high_level]], ce document a pour but de détailler le plus possible les différentes étapes dans un futur proche et ou lointain. les briques détaillées peuvent être à la fois sous forme de **Reworks**, mais aussi des random bidules oklm. chaque brique doit être la plus petite possible comme ça ça a pas l'air super dur à faire mdr
 
@@ -114,9 +114,37 @@ contrairement au [[todo_high_level]], ce document a pour but de détailler le pl
 - ### UI rework
 	- [x] supprimer [[ItemManager]] et le remplacer par un nouveau script qui est mieux et surtout ENTIEREMENT VISUEL et sur le hud
 	- [x] faire un nouveau **HUD** avec les nouveaux sprites de barre de vie/xp, "hotbar" etc
-	- [ ] faire que le [[WorldSelector]] soit accessible manette
+	- [x] faire que le [[WorldSelector]] soit accessible manette
 	- [ ] faire que les popups soient accessible manette
 		- [ ] créer un mini clavier gamepad
+			- [ ] fix le clavier qwerty alors que c affiché azerty
+			- [ ] mettre les chiffres
+			- [ ] et des signes sous les chiffres
+			- [ ] mettre touche maj qui peut se verrouiller
+
+
+
+
+
+# A TRIER
+
+
+- [ ] fix divers bugs des [[july26demo]]/[[oct26demo]] : 
+	- [ ] [[2026_09_22]]
+	- [x] [[2026_09_28]]
+
+
+- [ ] level design ? objects ?
+	- [ ] > mettre des objets interactifs qui ouvre un [[UI_Pool]] en particulier par exemple un placard qui affiche l'inventaire (ou miroir) tuto + récompense le joueur pour l'exploration
+	- [x] faire un post it system quickly (ui_pool) notamment pour le qg avec une liste des courses :
+		- pastas (last packet) !! important
+		- 2 piles AAAAAAAA
+		- 16 Yo micro sd card
+
+
+- [ ] ui :
+	- [ ] mettre un bouton save and exit dans le [[UI_PauseMenu]] quand **dev_tools** est à 0, les deux boutons de d'hab sinon
+	- [x] UI hover pas assez visible
 
 	- [ ] rework le [[UI_Sofa]] :
 		- [ ] mettre des boutons, un pour save la partie, un pour regarder la télé (qui devient eteindre la télé une fois appuyé)
@@ -130,30 +158,9 @@ contrairement au [[todo_high_level]], ce document a pour but de détailler le pl
 		- [ ] comme ça on peut avoir une animation quand on arrive sur le canap et qu'on allume la télé où on voit nos coeurs se recharger, un texte qui écrit **world saved** en ligne de commandes cmd
 
 		- [ ] en même temps essayer de faire bien la size & le format
-
-
-
-
-
-# A TRIER
-
-
-- [ ] fix divers bugs des [[july26demo]]/[[oct26demo]] : 
-	- [ ] [[2026_09_22]]
-	- [x] [[2026_09_28]]
-
-- [ ] réflechir mouse dynamic orientation [[2026_05_03]]
-- [ ] level design ? objects ?
-	- [ ] > mettre des objets interactifs qui ouvre un [[UI_Pool]] en particulier par exemple un placard qui affiche l'inventaire (ou miroir) tuto + récompense le joueur pour l'exploration
-	- [x] faire un post it system quickly (ui_pool) notamment pour le qg avec une liste des courses :
-		- pastas (last packet) !! important
-		- 2 piles AAAAAAAA
-		- 16 Yo micro sd card
-
-
-- [ ] ui :
-	- [ ] mettre un bouton save and exit dans le [[UI_PauseMenu]] quand **dev_tools** est à 0, les deux boutons de d'hab sinon
-	- [ ] UI hover pas assez visible
+			- [ ] faire une classe [Screen] qui contient plusieurs methodes **static** qui facilitent la vie :
+				- [ ] connaitre la world position au milieu de l'écran
+				- [ ] connaitre la canvas position au milieu de l'écran
 		- [x] déjà réduire l'alpha global des slots normal & disabled
 		- [ ] quand on hover qqch, tous les autres UI_ItemStack perdent de l'alpha
 	- [x] faire que quand on maintient la touche pour basculer des items d'un slottable à l'autre ça s'arrete lorsque tous les items sont dans l'autre ui.
@@ -161,14 +168,13 @@ contrairement au [[todo_high_level]], ce document a pour but de détailler le pl
 		- [ ] [edge-case] encore un léger bug edge case au niveau du moving ui item, des fois dcp ça prevent le prochain drop release, ce qui annule l'effet du ui moving drop, peut etre voir ça après ?
 	- [ ] > [mid-term] reprendre la même logique que le changement de UI_Slottable qui cancel l'**endless drop**, mais avec le **endless navigate**, seulement pour certains slottables / UI_Pool ? genre sur l'écran titre on veut pouvoir confirmer qu'on veut aller dans les options de customization
 
-- [ ] 
-
 	- [ ] est-ce qu'on peut faire que le bg devient rouge quand on se fait hacker/on prend des dégats
 
 	- [ ] implement first computer UI to have a proper way to steal the door' key
 
 
-- ### File
+
+- [ ] ### File
 	- [ ] faire des [[File]] des [[Item]]
 	- [ ] corriger les derniers bar de [UI_ItemBar]	
 	- [x] faire des sprites de slots pour les [[File]]
@@ -178,6 +184,11 @@ contrairement au [[todo_high_level]], ce document a pour but de détailler le pl
 		- [ ] [[UI_HDD]]
 
 
+- [ ] **speed run techniques**
+	- [ ] dodge quand on passe à travers une porte nous donne un gain de vitesse
+	- [ ] sur un spawner aussi ?
+	- [ ] faire qu'il y ait une fenetre de gain de vitesse possible à chaque dodge au milieu du dodge
+		- [ ] et la porte détecte quand le joueur franchit précisément la porte, et si c dans la fenetre de temps, alors ça "prolonge" le dodge
 
 
 # DEPRECATED ???

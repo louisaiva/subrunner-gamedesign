@@ -23,6 +23,15 @@
 ---
 - ## **TODO**
 
+
+	- [ ] vérifier que les fichiers du terrain ([ChunkData], [RoomData], [LevelData], [ControllerData] aussi tant qu'à f, [WorldData]) ne soient pas sur la pipeline json d'instance ????
+		- [x] avantages/inconvénients de les garder dans la même pipeline ?
+			- [++] on peut faire des Kind de RoomData typiquement pour appliquer des skins ?
+			- [--] signifie qu'on doit aussi passer par la pipeline de load pour fusionner les kind data dans les bonnes room
+			- [+ ] permet plus généralement d'avoir une meilleure maitrise sur les world save vu qu'on peut modifier les valeurs des templates de kind sans devoir faire tout respawn
+		- [ ] ok ça semble une bonne idée de garder ça, mais dans un premier temps rester avec le pipeline de base
+		- [ ] [mid-term] intégrer les autres fichiers de data à la pipeline json instance/kind
+
 	- [ ] écrire [KindData] resolver & faire un test avec le [TemplateJsonConverter] data script
 		- [ ] check que ça récupère bien son bon type sans rien faire avec **TypeNameHandling = TypeNameHandling.Auto**
 			- [ ] faire le test simplement dans [TemplateJsonConverter] en mimiquant un premier load depuis un instance/kind json

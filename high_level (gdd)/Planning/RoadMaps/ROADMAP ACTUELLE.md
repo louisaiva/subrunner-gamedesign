@@ -7,7 +7,7 @@
 #### objectifs actuels :
 - **trouver du taf**
 - finaliser et peaufiner l'architecture de systèmes **Core** en réglant les différents problèmes, optimisations possibles présentes dans les dernières démos, et **revoir le système global d'animation 2D**
-- diversifier le [[gameplay d'attaque & esquive]]
+- diversifier le gameplay d'attaque & dodge : [[CombatDodgeSystem_Rework_1]]
 - ajouter du [[Hacking]]
 - avoir une première démo postable sur **Steam**
 
@@ -30,7 +30,7 @@
 ## [[AnimSystem_Rework_1]]
 ## .
 
-## [[gameplay d'attaque & esquive]]
+## [[CombatDodgeSystem_Rework_1]]
 ## .
 
 ## UI & Cinematics :
