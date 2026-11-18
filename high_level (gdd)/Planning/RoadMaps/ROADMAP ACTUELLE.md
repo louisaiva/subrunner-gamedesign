@@ -35,7 +35,7 @@
 
 ## UI & Cinematics :
 
-- changer les messages :
+- [ ] changer les messages :
 	- la bulle de text s'étend vers le bas
 	- **IL NE FAUT PAS QUE LE MOT QU4ON EST EN TRAIN DE LIRE BOUGE**
 	- quand on appuie sur A ça valide et fait monter le message, puis ça passe au message d'après
@@ -56,6 +56,15 @@
 			- -1
 			- pas fullscreen, on veut pouvoir placer les bulles de messages dedans
 		- quand la discussion est finie, ça s'arrête et ça redevient normal
+
+- [x] permettre d'avoir des "multi-slots", cad des slots qui ont plusieurs positions d'arrivée sur le slot. n'affecte pas la sortie du slot
+
+- [x] faire que les popups soient accessible manette
+	- [x] créer un mini clavier gamepad
+		- [ ] fix le clavier qwerty alors que c affiché azerty
+		- [x] mettre les chiffres
+		- [x] et des signes sous les chiffres
+		- [x] mettre touche maj qui peut se verrouiller
 
 
 ## .

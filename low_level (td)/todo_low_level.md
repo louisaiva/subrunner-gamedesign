@@ -115,13 +115,6 @@ contrairement au [[todo_high_level]], ce document a pour but de détailler le pl
 	- [x] supprimer [[ItemManager]] et le remplacer par un nouveau script qui est mieux et surtout ENTIEREMENT VISUEL et sur le hud
 	- [x] faire un nouveau **HUD** avec les nouveaux sprites de barre de vie/xp, "hotbar" etc
 	- [x] faire que le [[WorldSelector]] soit accessible manette
-	- [ ] faire que les popups soient accessible manette
-		- [ ] créer un mini clavier gamepad
-			- [ ] fix le clavier qwerty alors que c affiché azerty
-			- [ ] mettre les chiffres
-			- [ ] et des signes sous les chiffres
-			- [ ] mettre touche maj qui peut se verrouiller
-
 
 
 
