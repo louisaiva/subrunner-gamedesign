@@ -32,6 +32,9 @@
 		- [ ] ok ça semble une bonne idée de garder ça, mais dans un premier temps rester avec le pipeline de base
 		- [ ] [mid-term] intégrer les autres fichiers de data à la pipeline json instance/kind
 
+	- [ ] écrire un [HolderDataAnalyser] qui, à l'aide de réflection, récupère tous les types de holder data, et montre quelles variables sont [Runtime], [Instance] et [Kind]. et affiche le nombre de variables qui manquent encore un attribut
+
+
 	- [ ] écrire [KindData] resolver & faire un test avec le [TemplateJsonConverter] data script
 		- [ ] check que ça récupère bien son bon type sans rien faire avec **TypeNameHandling = TypeNameHandling.Auto**
 			- [ ] faire le test simplement dans [TemplateJsonConverter] en mimiquant un premier load depuis un instance/kind json

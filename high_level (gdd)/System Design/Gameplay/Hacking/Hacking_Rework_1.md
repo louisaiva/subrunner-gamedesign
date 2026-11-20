@@ -23,6 +23,8 @@
 			- [ ] UI_Explorer (affiche les disques et les fichiers des disques)
 			- [ ] UI_Networker (affiche le réseau, permet de jump d'un pc à l'autre)
 			- [ ] [mid-term] UI_TaskManager (cpu ? affiche programmes en cours sur le PC)
+		- [ ] transition quand on ouvre la fenetre ça agrandit l'outliner jusqu'à sa tailler/position finale, en cachant tout sur son passage ?
 
 	- [ ] remettre le laptop
+		- [ ] le Device est accessible comme le Weapon & les Shoes
 		- [ ] faire que ça se connecte automatiquement au [[UI_FilePool]] du [[UI_InventoryMenu]] pour afficher les files si on a un device

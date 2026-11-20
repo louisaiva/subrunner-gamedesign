@@ -107,7 +107,7 @@ contrairement au [[todo_high_level]], ce document a pour but de détailler le pl
 
 	- [x] items qui viennent d'etre drop ont pas encore de [GetRealRoom()] parce qu'ils viennent de passer de free à pas free donc on peut pas regrab direct malheuresement ://
 
-# [ ] 1.5.2x : UI inventory rework
+# [x] 1.5.2x : UI inventory rework
 
 - ### Inventory rework
 	- [x] [[Inventory_Rework_1]]
@@ -115,6 +115,16 @@ contrairement au [[todo_high_level]], ce document a pour but de détailler le pl
 	- [x] supprimer [[ItemManager]] et le remplacer par un nouveau script qui est mieux et surtout ENTIEREMENT VISUEL et sur le hud
 	- [x] faire un nouveau **HUD** avec les nouveaux sprites de barre de vie/xp, "hotbar" etc
 	- [x] faire que le [[WorldSelector]] soit accessible manette
+# [ ] 1.5.3x : Core Preparation
+
+- ### Finish COre design
+	- [ ] design [[CapableSystem_Rework_3]]
+	- [ ] design [[CapableSystem_Rework_4]]
+	- [ ] design [[ChunkSystem_Rework_3]]
+	- [ ] design [[AnimSystem_Rework_1]]
+
+- ### UI / QOL
+	- [ ] check input at awake of title screen. it gets stuck with mouse even tho it receives gamepad input ?
 
 
 

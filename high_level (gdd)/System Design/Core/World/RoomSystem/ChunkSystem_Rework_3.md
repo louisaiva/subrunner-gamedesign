@@ -17,6 +17,8 @@
 
 	- [ ] continuer à écrire ce rework.
 
+	- [ ] relire comment les chunks sont spawné 
+
 	- [ ] recuperer quels chunks sont actuellement affichés à l'écran en permanence
 		- [ ] agrandir légèrement la zone de chargement comme ça on a le temps de venir et c déjà chargé
 	- [ ] mettre en place des events quand un chunk apparait à l'écran ou disparait
