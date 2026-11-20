@@ -25,7 +25,23 @@ Il est composé en deux parties différentes, basée sur le même système backe
 # fonctionnement du système
 
 
+## 1. ui-based hacking
 
+## 2. in-game hacking
+
+Controls :
+
+- gamepad :
+	- [JOY-R] --> fait selectionner la hack-target
+	- puis [RT] --> lance le hack
+
+	- [RT] --> ouvre la pool de selection d'exploit [[UI_ExploitWheelPool]]
+	- puis [JOY-R] --> selectionne l'exploit
+
+- mouse :
+	- [RMB] --> hold + move --> selectionne la hack-target, lance le hack on mouse button release
+	- [CMB] (molette) --> hold + move --> ouvre la pool de selection, selectionne l'exploit en bougeant et valide en relachant le bouton molette
+	- [CMB] (molette) --> scroll --> scroll dans les exploits sans afficher la pool 
 
 
 

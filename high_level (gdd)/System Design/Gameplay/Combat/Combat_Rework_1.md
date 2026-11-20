@@ -20,6 +20,7 @@
 	- [ ] intégrer la souris au combat
 		- [ ] réflechir mouse dynamic orientation [[2026_05_03]]
 		- [ ] faire que la souris indique la direction d'attaque du perso (le perso se tourne dans la bonne direction juste avant de frapper)
+		- [ ] faire un ui affiché sur le hud avec la position de la souris
 	
 	- [ ] diversifier les ennemis :
 		- [ ] faire un ennemi à distance : petit drone qui lance des ptits missiles lents qui explosent
