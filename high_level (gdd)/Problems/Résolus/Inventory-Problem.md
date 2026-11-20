@@ -1,4 +1,4 @@
-#problem
+#problem #done 
 
 - # DESCRIPTION
 	- l'inventaire est pas intuitif, que ce soit le quick inventory avec les chests

@@ -20,12 +20,14 @@ composition de l'ui :
 	- network
 	- hdd
 
+pas sûr de ça :
+```
 - si les toggles sont activés alors ça affiche d'autres ui_window en fonction de l'element :
 	- [[UI_FilePool]] pour le hdd
 	- [[UI_CoresViewer]] pour le cpu
 	- [[UI_Network]] pour network
 - 
-
+```
 
 
 

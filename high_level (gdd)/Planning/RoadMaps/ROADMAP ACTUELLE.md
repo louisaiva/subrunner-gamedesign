@@ -7,8 +7,8 @@
 #### objectifs actuels :
 - **trouver du taf**
 - finaliser et peaufiner l'architecture de systèmes **Core** en réglant les différents problèmes, optimisations possibles présentes dans les dernières démos, et **revoir le système global d'animation 2D**
-- diversifier le gameplay d'attaque & dodge : [[CombatDodgeSystem_Rework_1]]
-- ajouter du [[Hacking]]
+- diversifier le gameplay d'attaque & dodge
+- réintégrer du hacking basique
 - avoir une première démo postable sur **Steam**
 
 ---
@@ -22,15 +22,19 @@
 	- [ ] [[CapableSystem_Rework_3]]
 	- [ ] [[CapableSystem_Rework_4]]
 
-- [ ] **Chunks** : réécrire le loading/unloading des chunks en se basant sur les frontières de l'écran, ce qui va corriger beaucoup de bugs visuels et réduire drastiquement les frames drop
-	- [ ] mettre un gros collider idéalement [LineCollider2D] ? ou alors un énorme polygon collider qui épouse la forme du level afin de renforcer les murs pour pas que des items traversent
+- [ ] **Chunks** : 
+	- [ ] [[ChunkSystem_Rework_3]]
+	- [ ] mettre un gros collider idéalement [LineCollider2D] ? ou alors un énorme polygon collider qui épouse la forme des [[Room]] afin de renforcer les murs pour pas que des capables traversent
 
-## .
+ - [ ] **Anims** : [[AnimSystem_Rework_1]]
 
-## [[AnimSystem_Rework_1]]
-## .
 
-## [[CombatDodgeSystem_Rework_1]]
+## Gameplay & QOL :
+
+- objectifs : diversifier le gameplay, améliorer l'experience de jeu
+
+ - [ ] **Combat** : [[Combat_Rework_1]]
+ - [ ] **Hacking** : [[Hacking_Rework_1]]
 ## .
 
 ## UI & Cinematics :
@@ -68,17 +72,6 @@
 
 
 ## .
-
-## Hacking :
-
-- objectif : réintégrer un premier système fonctionnel de hacking **ui-based**
-
-- [ ] pas de hack through gameplay
-- [ ] **faire que les Files sont des Items**, stockables sur un ordi serveur etc
-- [ ] remettre le laptop
-- [ ] faire un premier jet de [[UI_Laptop]]
-
-
 ## .
 ## lancement 1e démo steam :
 

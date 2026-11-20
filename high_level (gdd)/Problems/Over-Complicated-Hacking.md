@@ -20,7 +20,9 @@
 	
 		- ### avantages
 			- le joueur n'a plus besoin de se préoccuper d'installer des modules, ou même de transférer des files d'un module à l'autre, le joueur n'a plus qu'à se préoccuper des [[File]], ce qui est LE truc important du jeu => le but est de trouver des hacks et des clés, donc c'est parfait
-			- on peut drop des files par terre ! => quand une porte est bruteforced, la clé pop par terre et la porte s'ouvre
+			- [x] on peut drop des files par terre ! => quand une porte est bruteforced, la clé pop par terre et la porte s'ouvre
+				- > pas sur de ça.... [+1]
+				- > ouai jprefere qu'on puisse pas drop les files
 			
 	
 	- ## Créer des hack tutos

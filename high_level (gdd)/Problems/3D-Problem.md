@@ -6,7 +6,7 @@
 
 subrunner a été tout d'abord créé en tant que projet **unity 2D** dcp y'a plein de trucs chiants qui se posent genre les collisions RELOUES qui fait qu'on peut attaquer à travers un mur MDR ou genre les particules qui sont baisées bref plein de bugs qui sont magnifiquement répertoriés dans la liste suivante :
 
-- on peut interagir avec les coffres à travers les murs
+- [x] on peut interagir avec les coffres à travers les murs
 - attaque à travers les murs
 - attaque basé en raycast perpendiculaire à l'écran sans prendre en compte le rapport orthographique
 - lumières qui éclairent mal, ombres seulement au sol
